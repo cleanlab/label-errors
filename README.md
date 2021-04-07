@@ -19,7 +19,7 @@ The cleaned and corrected test sets for all ten ML benchmark test sets, along wi
 
 On arXiv: https://arxiv.org/pdf/2103.14749.pdf
 
-Preliminary versions of this work were accepted to NeurIPS 2020 (1 workshop) and ICLR 2021 (2 workshops).
+Preliminary versions of this work were accepted to [NeurIPS 2020 (1 workshop)](http://securedata.lol/camera_ready/28.pdf) and ICLR 2021 (2 workshops).
 
 ## Selected News Coverage
 
