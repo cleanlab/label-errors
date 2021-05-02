@@ -31,54 +31,63 @@ This work was invited as a [contributed talk](https://sites.google.com/connect.h
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>CIFAR-10/CIFAR-100</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>ImageNet</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>Caltech-256</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>QuickDraw</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>Amazon Reviews</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>IMDB</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>20 News</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 <details><summary><b>AudioSet</b></summary>
 <p>
 
 To be completed soon.
 
 </p>
+</details>
 
 ## Selected News Coverage
 
