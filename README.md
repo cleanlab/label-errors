@@ -91,12 +91,14 @@ To be completed soon.
 
 ## Selected News Coverage
 
+* [deeplearning.ai](https://www.deeplearning.ai/the-batch/issue-87/#h-news)
 * [The Register](https://www.theregister.com/2021/04/01/mit_ai_accuracy/)
-* [Technology Review](https://www.technologyreview.com/2021/04/01/1021619/ai-data-errors-warp-machine-learning-progress/)
 * [WIRED Magazine](https://www.wired.com/story/foundations-ai-riddled-errors/)
+* [Technology Review](https://www.technologyreview.com/2021/04/01/1021619/ai-data-errors-warp-machine-learning-progress/)
 * [Engadget](https://www.engadget.com/mit-datasets-ai-machine-learning-label-errors-040042574.html)
 * [MIT CSAIL News](https://www.csail.mit.edu/news/major-ml-datasets-have-tens-thousands-errors)
 * [VentureBeat](https://venturebeat.com/2021/03/28/mit-study-finds-systematic-labeling-errors-in-popular-ai-benchmark-datasets/)
+* [deepnews.ai](https://www.deepnews.ai/big-ais-made-with-the-help-of-bad-data/)
 * [Tech Xplore](https://techxplore.com/news/2021-03-major-machine-datasets-tens-thousands.html)
 * [News18](https://www.news18.com/news/tech/ai-is-getting-a-few-things-wrong-because-humans-may-have-incorrectly-labeled-a-bunch-of-images-3587147.html)
 * [Healthcare IT News](https://www.healthcareitnews.com/news/label-errors-abound-most-common-ai-test-sets)
