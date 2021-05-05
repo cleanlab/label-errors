@@ -118,5 +118,5 @@ if __name__ == '__main__':
                      "'/datasets/audioset/audioset_v1_embeddings/' "
                      "you should call this script like this:\npython "
                      "audioset_preprocessing.py --audioset-dir "
-                     "'/datasets/audioset/audioset_v1_embeddings/''")
+                     "'/datasets/audioset/audioset_v1_embeddings/'")
     main(audioset_dir=arg_parser.audioset_dir)
