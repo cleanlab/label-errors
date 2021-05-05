@@ -1,8 +1,12 @@
 # Label Errors in Benchmark ML Test Sets
 
-**Release of corrected test sets is delayed due to media coverage. We will release in the next few weeks. Thanks for your patience.**
+*Release of corrected test sets is delayed due to media coverage. We will release shortly. Thanks for your patience.*
 
 This repo provides cleaned and corrected test sets for ten of the most common ML benchmark test sets, along with the indices for all label errors at https://labelerrors.com.
+
+Datasets corrected include: ImageNet, MNIST, CIFAR-10, CIFAR-100, Caltech-256, QuickDraw, IMDB, Amazon Reviews, 20News, and AudioSet. Corrections are better than the datasets' given test labels, but they are **NOT** perfect! Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cgnorthcutt/label-errors/discussions/4)].**
+
+To find/clean the label errors in all ten datasets, we used [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cgnorthcutt/cleanlab) package here: https://github.com/cgnorthcutt/cleanlab
 
 ## Citation
 
@@ -24,9 +28,9 @@ View the paper on arXiv: https://arxiv.org/pdf/2103.14749.pdf
 We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-050) of this work at the [ICLR 2021 RobustML Workshop](https://sites.google.com/connect.hku.hk/robustml-2021/home). Preliminary versions of this work were published in the [NeurIPS 2020 Security and Dataset Curation Workshop](http://securedata.lol/camera_ready/28.pdf) and the [ICLR 2021 Weakly Supervised Learning Workshop](https://weasul.github.io/papers/27.pdf).
 
 
-## Corrected Test Sets and Label Errors for Each Dataset
+## How to Download, Prepare, and Index Ten of the Most Commonly Used Datasets in ML
 
-
+For each dataset, I've shared code (or step-by-step instructions) to obtain the train set and test set (if a separate test set exists). Click the drop-down for each dataset to see how to download, prepare, and index/access each example in the dataset uniquely.
 
 <details><summary><b>MNIST</b></summary>
 <p>
@@ -339,7 +343,7 @@ The indices of `test_data['data']` and `test_data['target']` should match the in
 
 ### How to obtain/prepare the dataset
 
-AudioSet provides an `eval` test set and pre-computed training features (128-length 8-bit quantized embeddings for every 1 second of audio, and each audio clip is 10 seconds, resulting in a 128x10 matrix representation). The original dataset embeddings are available [here](https://research.google.com/audioset/download.html), but they are formatted as tfrecords. For your convenience, we preprocessed and released a Numpy version of the AudioSet Dataset formatted using only numpy matrices and python lists. **You need to download the dataset here:**: https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset. 
+AudioSet provides an `eval` test set and pre-computed training features (128-length 8-bit quantized embeddings for every 1 second of audio, and each audio clip is 10 seconds, resulting in a 128x10 matrix representation). The original dataset embeddings are available [here](https://research.google.com/audioset/download.html), but they are formatted as tfrecords. For your convenience, we preprocessed and released a Numpy version of the AudioSet Dataset formatted using only numpy matrices and python lists. **Download the dataset here**: https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset. 
 
 Details about the [Numpy AudioSet dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) (how we processed the original AudioSet dataset and what files are contained in the dataset) are available in the release.
 
@@ -419,10 +423,24 @@ for idx in label_errors_idx:
     print('Pred/Guessed Labels:', predicted_labels[idx])
 ```
 
-
-
 </p>
 </details>
+
+
+
+Some of these datasets, like QuickDraw, do not have an explicit index, so I provide working code to simplify these cases.
+
+Specific examples covered in the drop-down ▶ datasets above ⬆️:
+* For **ImageNet**
+  - how to download the dataset and prepare it for training with PyTorch
+* For **QuickDraw**
+  - a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/dataset-scripts/quickdraw_example_index_the_dataset_files.py) that maps the global indices of label errors from https://labelerrors.com to specific rows of examples in each dataset file
+* For **Amazon Reviews**
+  - released a [pre-processed Amazon Reviews dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/amazon-reviews-dataset) that matches the index of the corrected test sets and label errors on https://labelerrors.com.
+* For **AudioSet**
+  - released an easy-to-use [Numpy version of the AudioSet Dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) with a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/dataset-scripts/audioset_example_how_to_index_data_and_labels.py) to index the dataset and view label errors / correct examples from a list of indices.
+
+
 
 ## Selected News Coverage
 
