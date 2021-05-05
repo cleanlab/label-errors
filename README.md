@@ -1,8 +1,8 @@
 # Label Errors in Benchmark ML Test Sets
 
-**Release of corrected test sets is delayed due to media coverage. We will release in 2 weeks. Thanks for your patience.**
+**Release of corrected test sets is delayed due to media coverage. We will release in the next few weeks. Thanks for your patience.**
 
-The cleaned and corrected test sets for all ten ML benchmark test sets, along with the indices for all label errors at https://labelerrors.com will be made available here as soon as possible.
+This repo provides cleaned and corrected test sets for ten of the most common ML benchmark test sets, along with the indices for all label errors at https://labelerrors.com.
 
 ## Citation
 
@@ -19,72 +19,407 @@ If you use this for your work, please cite this paper:
 }
 ```
 
-On arXiv: https://arxiv.org/pdf/2103.14749.pdf
+View the paper on arXiv: https://arxiv.org/pdf/2103.14749.pdf
 
-This work was invited as a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-2021/home) at ICLR 2021 RobustML Workshop. Preliminary versions of this work were accepted to [NeurIPS 2020 (1 workshop)](http://securedata.lol/camera_ready/28.pdf) and ICLR 2021 (2 workshops).
+We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-050) of this work at the [ICLR 2021 RobustML Workshop](https://sites.google.com/connect.hku.hk/robustml-2021/home). Preliminary versions of this work were published in the [NeurIPS 2020 Security and Dataset Curation Workshop](http://securedata.lol/camera_ready/28.pdf) and the [ICLR 2021 Weakly Supervised Learning Workshop](https://weasul.github.io/papers/27.pdf).
+
 
 ## Corrected Test Sets and Label Errors for Each Dataset
+
+
 
 <details><summary><b>MNIST</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+
+```python
+from torchvision import datasets
+data_dir = PATH_TO_STORE_THE_DATASET
+# Obtain the test set (what we correct in this repo)
+test_data = datasets.MNIST(data_dir, train=False, download=True).test_labels.numpy()
+test_labels = datasets.MNIST(data_dir, train=False, download=True).test_labels.numpy()
+# We don't provide corrected train sets, but if interested, here is how to obtain the train set.
+train_data = datasets.MNIST(data_dir, train=True, download=True).test_data.numpy()
+train_labels = datasets.MNIST(data_dir, train=True, download=True).test_data.numpy()
+```
+
+
 
 </p>
 </details>
-<details><summary><b>CIFAR-10/CIFAR-100</b></summary>
+<details><summary><b>CIFAR-10</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+```python
+import keras as keras
+from keras.datasets import cifar10
+# Obtain the test set (what we correct in this repo)
+_, (test_data, test_labels) = cifar10.load_data()
+# We don't provide corrected train sets, but if interested, here is how to obtain the train set.
+(train_data, train_labels), _ = cifar10.load_data()
+```
+
+</p>
+</details>
+<details><summary><b>CIFAR-100</b></summary>
+<p>
+
+### How to obtain/prepare the dataset
+
+```python
+import keras as keras
+from keras.datasets import cifar100
+# Obtain the test set (what we correct in this repo)
+_, (test_data, test_labels) = cifar100.load_data()
+# We don't provide corrected train sets, but if interested, here is how to obtain the train set.
+(train_data, train_labels), _ = cifar100.load_data()
+```
 
 </p>
 </details>
 <details><summary><b>ImageNet</b></summary>
 <p>
 
-To be completed soon.
+
+### How to obtain the dataset
+
+You can download the ImageNet validation set (what we correct in this repo), using this link:
+
+https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar
+
+Or from the terminal:
+
+```bash
+wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar
+```
+
+We do not correct the train set, but if the train set is obtained similarly, using this link:
+
+https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar
+
+If any of the above links stop working, go here: https://image-net.org/challenges/LSVRC/2012/2012-downloads.php
+Create an account, and download the datasets directly from the site. **Be sure to download the 2012 version** of the dataset!
+
+
+### How to prepare the dataset
+
+Source of these instructions (copied below): https://github.com/soumith/imagenet-multiGPU.torch#data-processing
+
+These instructions prepare the ImageNet dataset for the PyTorch dataloader using the convention: SubFolderName == ClassName.
+So, for example: if you have classes {cat,dog}, cat images go into the folder dataset/cat and dog images go into dataset/dog
+
+The training images for imagenet are already in appropriate subfolders (like n07579787, n07880968).
+**You need to get the validation groundtruth and move the validation images into appropriate subfolders.**
+To do this, download ILSVRC2012_img_train.tar ILSVRC2012_img_val.tar and use the following commands:
+```bash
+# extract train data -- SKIP THIS IF YOU WANT, WE ONLY CORRECT THE VALIDATION SET 
+mkdir train && mv ILSVRC2012_img_train.tar train/ && cd train
+tar -xvf ILSVRC2012_img_train.tar && rm -f ILSVRC2012_img_train.tar
+find . -name "*.tar" | while read NAME ; do mkdir -p "${NAME%.tar}"; tar -xvf "${NAME}" -C "${NAME%.tar}"; rm -f "${NAME}"; done
+# extract validation data -- (what we correct in this repo)
+cd ../ && mkdir val && mv ILSVRC2012_img_val.tar val/ && cd val && tar -xvf ILSVRC2012_img_val.tar
+wget -qO- https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh | bash
+```
+
+If your imagenet dataset is on HDD or a slow SSD, run this command to resize all the images such that the smaller dimension is 256 and the aspect ratio is intact.
+This helps with loading the data from disk faster.
+```bash
+find . -name "*.JPEG" | xargs -I {} convert {} -resize "256^>" {}
+```
+
 
 </p>
 </details>
 <details><summary><b>Caltech-256</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+You can download the Caltech-256 dataset using this link:
+
+http://www.vision.caltech.edu/Image_Datasets/Caltech256/256_ObjectCategories.tar
+
+To extract the images, via terminal:
+
+```bash
+tar -xvf 256_ObjectCategories.tar
+```
+
+There is no specified test set, so we correct the entire dataset.
 
 </p>
 </details>
 <details><summary><b>QuickDraw</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+We use the numpy bitmap representation of the Google QuickDraw dataset. Download it here:
+
+https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap?pli=1
+
+The dataset is also available on Kaggle, here: https://www.kaggle.com/drbeane/quickdraw-np
+
+Please download the dataset into a folder called `quickdraw/numpy_bitmap/`.
+
+## Example: Map global index of label errors to their local indices in the numpy bitmap files
+
+```python
+import os
+import numpy as np
+
+# !!!CHANGE THIS TO YOUR DIRECTORY WHERE YOU DOWNLOADED THE NUMPY BITMAPS
+QUICKDRAW_NUMPY_BITMAP_DIR = '/datasets/datasets/quickdraw/numpy_bitmap/'
+
+# !!!CHANGE THESE TO WHERE YOU CLONE https://github.com/cgnorthcutt/label-errors
+# Load predictions and indices of label errors
+pred = np.load('/datasets/cgn/pyx/quickdraw/pred__epochs_20.npy')
+le_idx = np.load('/datasets/cgn/pyx/quickdraw/label_errors_idx__epochs_20.npy')
+
+display_predicted_label = False  # Set to true to print the predicted label.
+
+def fetch_class_counts(numpy_bitmap_dir):
+    # Load class counts for QuickDraw dataset.
+    class_counts = []
+    for i, f in enumerate(sorted(os.listdir(numpy_bitmap_dir))):
+        loc = os.path.join(numpy_bitmap_dir, f)
+        with open(loc, 'rb') as rf:
+            line = rf.readline()
+            cnt = int(line.split(b'(')[1].split(b',')[0])
+            class_counts.append(cnt)
+    print('Total number of examples in QuickDraw npy files: {:,}'.format(
+        sum(class_counts)))
+    assert sum(class_counts) == 50426266
+    return class_counts
+
+# Get the number of examples in each class/file based on the numpy bitmap files.
+class_counts = fetch_class_counts(QUICKDRAW_NUMPY_BITMAP_DIR)
+# We'll use the cumulative sum of the class counts to map the 
+#    global index to index in each file.
+
+counts_cumsum = np.cumsum(class_counts)
+
+# Get the list of all class names sorted corresponding to their numerical label
+# make sure you sort the filenames using sorted!
+label2name = [z[:-4] for z in sorted(os.listdir(QUICKDRAW_NUMPY_BITMAP_DIR))]
+
+
+# Let's look at an example from the label errors site.
+# https://labelerrors.com/static/quickdraw/44601012.png
+
+
+# !!!CHANGE THIS TO THE ID OF ANY QUICKDRAW ERROR ON https://labelerrors.com
+# You can find the id by right-clicking the image, and copying the image url
+idx = 44601012
+# The true class of this image is 'angel', i.e., class 7
+# The given class of this image is 'triangle', i.e., class 324
+if idx >= counts_cumsum[-1]:
+    raise ValueError('index {} must be smaller than size of dataset {}.'.format(
+        idx, counts_cumsum[-1]))
+
+# !!!The next 5 lines of code are IMPORTANT.
+# Here's how you map the global index (idx) to the local index within each file.
+given_label = np.argmax(counts_cumsum > idx)
+if given_label > 0:
+    # local index = global index - the cumulative items in the previous classes
+    local_idx = idx - counts_cumsum[given_label - 1]
+else:
+    # Its class 0, in the first npy file, so the local index == global index
+    local_idx = idx
+
+# Check the given label matches the corresponding class name
+print('\nQuickdraw Given label: {} (label id: {})'.format(
+    label2name[given_label], given_label))
+if display_predicted_label:
+    print('Pred label: {} (label id: {})'.format(
+        label2name[pred[idx]], pred[idx]))
+
+# Visualize the example
+from matplotlib import pyplot as plt
+plt.imshow(
+    256 - np.load(QUICKDRAW_NUMPY_BITMAP_DIR + '{}.npy'.format(
+        label2name[given_label]),
+    )[local_idx].reshape(28, 28),
+    interpolation='nearest',
+    cmap='gray',
+)
+plt.show()
+print('^ should match https://labelerrors.com/static/quickdraw/44601012.png')
+```
+If this example does not work for you, please let us know [[here](https://github.com/cgnorthcutt/label-errors/issues)].
 
 </p>
 </details>
 <details><summary><b>Amazon Reviews</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+Download [[this pre-prepared release of the Amazon5core Reviews dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/amazon-reviews-dataset)].
+
+This dataset has been prepared for you already so that the indices of the label errors will match the dataset.
+
+### We performed the following preprocessing before training with this dataset:
+
+```bash
+# Preprocess the amazon 5 core data by running this
+cat amazon5core.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lower:]" > amazon5core.preprocessed.txt
+```
+
+### Examples finding label errors.
+
+Examples are available in the [[`cleanlab/examples/amazon_reviews_dataset`](https://github.com/cgnorthcutt/cleanlab/tree/master/examples/amazon_reviews_dataset)] module.
 
 </p>
 </details>
 <details><summary><b>IMDB</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+[Download](https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz) the dataset from: https://ai.stanford.edu/~amaas/data/sentiment/
+
+Extract `aclImdb_v1.tar.gz`, i.e. in your terminal, run: `tar -xzvf aclImdb_v1.tar.gz` 
+
+To prepare both the train and test sets:
+
+```python
+import os
+import numpy as np
+
+# !!!CHANGE THIS TO THE LOCATION WHERE YOU EXTRACTED THE IMDB DATASET
+data_dir = "/datasets/datasets/aclImdb/"
+
+# This stores the data as dict with keys ['train', 'test']
+text = {}
+# This stores the labels as a dict with keys ['train', 'test']
+labels = {}
+for dataset in ['train', 'test']:
+    text[dataset] = []
+    dataset_dir = data_dir + dataset + '/'
+    for i, fn in enumerate(os.listdir(dataset_dir + "neg/")):
+        with open(dataset_dir + "neg/" + fn, 'r') as rf:
+            text[dataset].append(rf.read())
+    labels[dataset] = np.zeros(i + 1)
+    for i, fn in enumerate(os.listdir(dataset_dir + "pos/")):
+        with open(dataset_dir + "pos/" + fn, 'r') as rf:
+            text[dataset].append(rf.read())
+    labels[dataset] = np.concatenate([labels[dataset], np.ones(i + 1)]).astype(int)
+```
+
+Now you should be able to access the test set labels via `labels['test']`. The indices should match the indices of the label errors we provide.
 
 </p>
 </details>
 <details><summary><b>20 News</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+```python
+from sklearn.datasets import fetch_20newsgroups
+train_data = fetch_20newsgroups(subset='train')
+test_data = fetch_20newsgroups(subset='test')
+```
+
+Both `train_data` and `test_data` are dicts with keys:
+
+`['data', 'filenames', 'target_names', 'target', 'DESCR']`
+
+The indices of `test_data['data']` and `test_data['target']` should match the indices of the label errors we provide.
 
 </p>
 </details>
 <details><summary><b>AudioSet</b></summary>
 <p>
 
-To be completed soon.
+### How to obtain/prepare the dataset
+
+AudioSet provides an `eval` test set and pre-computed training features (128-length 8-bit quantized embeddings for every 1 second of audio, and each audio clip is 10 seconds, resulting in a 128x10 matrix representation). The original dataset embeddings are available [here](https://research.google.com/audioset/download.html), but they are formatted as tfrecords. For your convenience, we preprocessed and released a Numpy version of the AudioSet Dataset formatted using only numpy matrices and python lists. **You need to download the dataset here:**: https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset. 
+
+Details about the [Numpy AudioSet dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) (how we processed the original AudioSet dataset and what files are contained in the dataset) are available in the release.
+
+Your AudioSet file structure should look like this *(**click the files you're missing to download them**)*:
+
+audioset/  
+│── audioset_v1_embeddings/ ---> *Download from https://research.google.com/audioset/download.html*  
+│   │── [balanced_train_segments.csv](http://storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/balanced_train_segments.csv)   
+│   │── bal_train  *(optional - tfrecords version of embeddings)*   
+│   │── eval  *(optional - tfrecords version of embeddings)*  
+│   │── [eval_segments.csv](http://storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/eval_segments.csv)  
+│   │── [unbalanced_train_segments.csv](http://storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/unbalanced_train_segments.csv)  
+│   '── unbal_train  *(optional - tfrecords version of embeddings)*  
+│── [class_labels_indices.csv](http://storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/class_labels_indices.csv)  
+│──  preprocessed/ ---> *Download here: https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset.*  
+│   │── bal_train_features.p  
+│   │── bal_train_labels.p  
+│   │── bal_train_video_ids.p  
+│   │── eval_features.p  
+│   │── eval_labels.p  
+│   │── eval_video_ids.p  
+│   │── unbal_train_features.p  
+│   │── unbal_train_labels.p  
+│   '── unbal_train_video_ids.p  
+
+## View label errors (map indices) into AudioSet Test set
+
+```python
+import numpy as np
+from sklearn.preprocessing import MultiLabelBinarizer
+import pandas as pd
+
+#!!! CHANGE THIS TO YOUR AUDIOSET MAIN DIRECTORY
+audioset_main_dir = "/datasets/datasets/audioset/"
+
+def row2url(d):
+    '''Converts a dict-like object to a youtube URL.'''
+    if type(d) == pd.DataFrame:
+        return "http://youtu.be/{vid}?start={s}&end={e}".format(
+            vid = d['# YTID'].iloc[0],
+            s = int(d['start_seconds'].iloc[0]),
+            e = int(d['end_seconds'].iloc[0]),
+        )
+    else:
+        return "http://youtu.be/{vid}?start={s}&end={e}".format(
+            vid = d['# YTID'],
+            s = int(d['start_seconds']),
+            e = int(d['end_seconds']),
+        )
+# Information about the given (potentially noisy) test labels.
+test_label_info = pd.read_csv(
+    audioset_main_dir + "audioset_v1_embeddings/eval_segments.csv", 
+    header=2, delimiter=", ", engine='python', )
+# Read in the labels that are now easily accessible from the pickle files.
+labels = np.load(audioset_main_dir + "preprocessed/eval_labels.p", allow_pickle=True)
+test_video_ids = np.load(audioset_main_dir + "preprocessed/eval_video_ids.p", allow_pickle=True)
+labels_one_hot = MultiLabelBinarizer().fit_transform(labels)
+# Get human-readable class name mapping
+# label_df = pd.read_csv("/media/ssd/datasets/datasets/audioset/class_labels_indices.csv")
+label_df = pd.read_csv(audioset_main_dir + "class_labels_indices.csv")
+label2mid = list(label_df["mid"].values)
+label2name = list(label_df["display_name"].values)
+num_unique_labels = len(set([zz for z in labels for zz in z]))
+# Convert list of labels for each test example to human-readable class names
+# lol = list of labels, because the AudioSet test set is multi-label
+y_test_lol = [[label2name[z] \
+                for z in np.arange(num_unique_labels)[p.astype(bool)]] \
+                for p in labels_one_hot]
+# Take a look at the first few label error indices/predictions we provide
+label_errors_idx = np.array([11536,  2744,  3324])
+predicted_labels = dict(zip(label_errors_idx, [['Wind instrument, woodwind instrument', 'Bagpipes'], ['Singing', 'Music', 'Folk music', 'Middle Eastern music'], ['Music']]))
+for idx in label_errors_idx:
+    row = test_label_info[test_label_info["# YTID"] == test_video_ids[0]]
+    print('\nIndex of test/eval example:', idx)
+    print('YouTube URL:', row2url(row))
+    print('Given Labels:', y_test_lol[idx])
+    print('Pred/Guessed Labels:', predicted_labels[idx])
+```
+
+
 
 </p>
 </details>
