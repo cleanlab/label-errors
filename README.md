@@ -434,11 +434,11 @@ Specific examples covered in the drop-down ▶ datasets above ⬆️:
 * For **ImageNet**
   - how to download the dataset and prepare it for training with PyTorch
 * For **QuickDraw**
-  - a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/dataset-scripts/quickdraw_example_index_the_dataset_files.py) that maps the global indices of label errors from https://labelerrors.com to specific rows of examples in each dataset file
+  - a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/examples/quickdraw_example_index_the_dataset_files.py) that maps the global indices of label errors from https://labelerrors.com to specific rows of examples in each dataset file
 * For **Amazon Reviews**
   - released a [pre-processed Amazon Reviews dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/amazon-reviews-dataset) that matches the index of the corrected test sets and label errors on https://labelerrors.com.
 * For **AudioSet**
-  - released an easy-to-use [Numpy version of the AudioSet Dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) with a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/dataset-scripts/audioset_example_how_to_index_data_and_labels.py) to index the dataset and view label errors / correct examples from a list of indices.
+  - released an easy-to-use [Numpy version of the AudioSet Dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) with a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/examples/audioset_example_how_to_index_data_and_labels.py) to index the dataset and view label errors / correct examples from a list of indices.
 
 
 
