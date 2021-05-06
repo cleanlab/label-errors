@@ -468,3 +468,5 @@ label-errors is distributed in the hope that it will be useful, but WITHOUT ANY 
 See `GNU General Public LICENSE <https://github.com/cgnorthcutt/label-errors/blob/master/LICENSE>`__ for details.
 
 THIS LICENSE APPLIES TO THIS VERSION AND ALL PREVIOUS VERSIONS OF label-errors.
+
+Any data uploaded (e.g., dataset labels), which has previously been published elsewhere, adheres to the original license from which the data originated.
