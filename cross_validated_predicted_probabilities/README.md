@@ -13,8 +13,8 @@ To combine the parts for ImageNet, you can run:
 ```python
 import numpy as np
 n_parts = 4
-base_fn = 'imagenet_val_set_pyx.part{}_of_{}.npy'.format(n_parts)
-parts = [np.load(base_fn.format(i + 1)) for i in range(n_parts)]
+fn = 'imagenet_val_set_pyx.part{}_of_{}.npy'
+parts = [np.load(fn.format(i + 1, n_parts)) for i in range(n_parts)]
 # Combine the parts using np.vstack like this 
 imagenet_pyx = np.vstack(parts)
 ```
