@@ -1,14 +1,15 @@
 # Cross Validated Predictions for each of the ten datasets
 
-Each file is a numpy array of length `num_test_examples`. In the case of AudioSet (a multi-label dataset), it is an array of lists.
+Each file is an `np.array(dtype=np.uint16)` of length `num_test_examples`. In the case of AudioSet (a multi-label dataset), it is an array of lists.
 
-The predictions for each dataset are computed like this:
+The predictions for each dataset (except AudioSet) are computed like this:
 ```python
 for f in os.listdir('path/to/label-errors/cross_validated_predicted_probabilities/):
     if 'pyx.npy' != f[-7:]:
         continue
     pyx = np.load(path + f)  # Load the predicted probabilities
     pred = pyx.argmax(axis=1)  # Take the argmax prediction per example across classes
+    pred = pred.astype(dtype=np.uint16)  # Quantization to reduce file size
     np.save(path+f.replace('pyx', 'pyx_argmax_predicted_labels'), pred)  # Save result
 ```
 
@@ -22,6 +23,8 @@ pre-train on the cleaned train set using a state-of-the-art model, and then fine
 using as many folds as you can afford (in terms of time/computation). 
 
 ## AudioSet (special case because its multi-label)
+
+The AudioSet predictions are relased as an `np.array<np.array(dtype=np.uint16)>`(a numpy array of numpy arrays) because AudioSet is multi-label.
 
 Because AudioSet is multi-label, we use the following procedure to find the predictions based on whether the softmax
 output, for each class, for each example, exceeds a threshold for that class. We select the thresholds that maximize
