@@ -62,6 +62,8 @@ for f in os.listdir(path):
 path = "/home/cgn/cgn/label-errors/original_test_labels/"
 # quantize the stored labels so they are smaller using uint16
 for f in os.listdir(path):
+    if '.npy' != f[-4:]:
+        continue
     print(f)
     s = np.load(path + f, allow_pickle=True)
     if type(s[0]) == np.ndarray:
