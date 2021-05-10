@@ -4,6 +4,37 @@
 # In[1]:
 
 
+# Copyright (c) 2021-2060 Curtis G. Northcutt
+# This file is part of cgnorthcutt/label-errors.
+#
+# cleanlab is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# cgnorthcutt/label-errors is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+
+# This agreement applies to this version and all previous versions of
+# cgnorthcutt/label-errors.
+
+"""
+This tutorial provides reproducible code to find the label errors for 8 of
+the 10 datasets, using only the pyx (predicted probs), pred (predicted labels),
+and test label files, all of which are included in cgnorthcutt/label-errors.
+
+In this tutorial, we exclude quickdraw because the pyx file is 33GB and might
+cause trouble on some machines. We also exclude caltech-256 because we used a
+low capacity model and its not reflective of recent performance.
+
+This tutorial demonstrates that our results are reproducible and shows how we
+find all label errors on labelerrors.com (prior to human validation on mTurk).
+"""
+
 import cleanlab
 import numpy as np
 import json
@@ -13,6 +44,7 @@ from urllib.request import urlopen
 # To view the image data from labelerrors.com, we need:
 from skimage import io
 from matplotlib import pyplot as plt
+
 # Remove axes since we're plotting images, not graphs
 rc = {"axes.spines.left" : False,
       "axes.spines.right" : False,
