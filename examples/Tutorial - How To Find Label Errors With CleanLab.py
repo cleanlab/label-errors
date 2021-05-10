@@ -154,7 +154,7 @@ for (dataset, modality) in datasets:
         label_error_indices = [z for z in label_error_indices                 if set(pred[z]).intersection(test_labels[z]) == set()]
         err_id = label_error_indices[1]
         youtube_id = AUDIOSET_INDEX_TO_YOUTUBE[err_id]
-        url = 'https://youtu.be/{}'.format(youtube_id)
+        url = youtube_id.replace('http', 'https')
     # Map label indices to class names
     if dataset == 'audioset_eval_set':  # multi-label    
         given_label = [ALL_CLASSES[dataset][z] for z in test_labels[err_id]]
