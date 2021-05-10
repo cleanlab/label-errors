@@ -28,6 +28,24 @@ View the paper on arXiv: https://arxiv.org/pdf/2103.14749.pdf
 We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-050) of this work at the [ICLR 2021 RobustML Workshop](https://sites.google.com/connect.hku.hk/robustml-2021/home). Preliminary versions of this work were published in the [NeurIPS 2020 Security and Dataset Curation Workshop](http://securedata.lol/camera_ready/28.pdf) and the [ICLR 2021 Weakly Supervised Learning Workshop](https://weasul.github.io/papers/27.pdf).
 
 
+## Contents
+
+In this repo, we provide the following for each of the ten datasets:
+* [label-errors/cross_validated_predicted_labels/](https://github.com/cgnorthcutt/label-errors/tree/main/cross_validated_predicted_labels)
+  - type: `np.array<np.float16>` of shape `num_examples x num_classes`
+* [label-errors/cross_validated_predicted_probabilities/](https://github.com/cgnorthcutt/label-errors/tree/main/cross_validated_predicted_probabilities)
+  - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
+* [label-errors/original_test_labels/](https://github.com/cgnorthcutt/label-errors/tree/main/original_test_labels)
+  - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
+* For a tutorial which uses these files to find label errors for each dataset, start [[here](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)].
+
+The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these three folders all **share the same index/order of examples** for each test set. We provide labels/probabilities for the entire dataset when the dataset does not have a pre-defined test set. To minimize file size, all labels are quantized and stored as `np.uint16` and all probabilities are quantized and stored as `np.float16`. Note this quantization can (very slightly) affect error identification (e.g. on CIFAR-10, quantization changes the number of label errors found by 1).
+
+## Step-by-step Tutorial: Find Label Errors in each Dataset
+
+Get started here: [`Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)
+
+
 ## How to Download, Prepare, and Index Ten of the Most Commonly Used Datasets in ML
 
 For each dataset, I've shared code (or step-by-step instructions) to obtain the train set and test set (if a separate test set exists). Click the drop-down for each dataset to see how to download, prepare, and index/access each example in the dataset uniquely.
