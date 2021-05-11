@@ -33,6 +33,9 @@ low capacity model and its not reflective of recent performance.
 
 This tutorial reproduces how we find the label errors on https://labelerrors.com
 (prior to human validation on mTurk).
+
+To more closely match the label errors on labelerrors.com and in the paper,
+set reproduce_labelerrors_dot_com = True
 """
 
 import cleanlab
@@ -89,6 +92,19 @@ with open("../resources/imagenet_val_set_index_to_filepath.json", 'r') as rf:
 # In[4]:
 
 
+# By default, the code below will use the most up-to-date theory and algorithms
+# of confident learning, implemented in the cleanlab package.
+# We recommend this for best results.
+# However, if you need to more closely match the label errors 
+# to match https://labelerrors.com, set `reproduce_labelerrors_dot_com = True`.
+# There may be discrepancies in counts due to improvements to cleanlab
+# since the work was published.
+reproduce_labelerrors_dot_com = False
+
+
+# In[5]:
+
+
 for (dataset, modality) in datasets:
     title = 'Dataset: ' + dataset.capitalize()
     print('='*len(title), title, '='*len(title), sep='\n')
@@ -105,18 +121,35 @@ for (dataset, modality) in datasets:
     pred = np.load('../cross_validated_predicted_labels/'
         '{}_pyx_argmax_predicted_labels.npy'.format(dataset), allow_pickle=True)
     # Get the test set labels
-    test_labels = np.load('../original_test_labels/'
+    labels = np.load('../original_test_labels/'
         '{}_original_labels.npy'.format(dataset), allow_pickle=True)
     
     # Find label error indices using cleanlab in one line of code.
     print('Finding label errors using cleanlab for {:,} examples and {} classes...'.format(*pyx.shape))
     label_error_indices = cleanlab.pruning.get_noise_indices(
-        s=test_labels, # np.asarray([z[0] for z in y_test]),
+        s=labels,
         psx=pyx,
-        prune_method='both',
+        # You can try prune_method='both' (C+NR in the confident learning paper)
+        # 'both' finds fewer errors, but can sometimes increase precision
+        prune_method='prune_by_noise_rate',
         multi_label=True if dataset == 'audioset_eval_set' else False,
         sorted_index_method='normalized_margin',
     )
+    # multi-class AudioSet is a special case (TODO: update in later release)
+    num_errors = len(label_error_indices) if 'audio' != modality else 307
+    print('Estimated number of errors:', num_errors)
+    
+    if reproduce_labelerrors_dot_com:
+        # This is how we found the original errors hosted on labelerrors.com
+        # in the "Pervasive Label Errors..." paper, Table 1, column 'CL guessed'
+        if modality == 'audio':  # Special case (multi-label) (TODO: update)
+            label_error_indices = label_error_indices[:num_errors]
+        else:
+            prob_label = np.array([pyx[i, l] for i, l in enumerate(labels)])
+            max_prob_not_label = np.array(
+                [max(np.delete(pyx[i], l, -1)) for i, l in enumerate(labels)])
+            normalized_margin = prob_label - max_prob_not_label
+            label_error_indices = np.argsort(normalized_margin)[:num_errors]
     
     # Grab a label error found with cleanlab
     err_id = label_error_indices[0]
@@ -151,16 +184,16 @@ for (dataset, modality) in datasets:
     elif modality == 'audio':  # dataset == 'audioset_eval_set'
         # Because AudioSet is multi-label, we only look at examples where the 
         # predictions have no overlap with the labels to avoid overcounting.
-        label_error_indices = [z for z in label_error_indices                 if set(pred[z]).intersection(test_labels[z]) == set()]
+        label_error_indices = [z for z in label_error_indices                 if set(pred[z]).intersection(labels[z]) == set()]
         err_id = label_error_indices[1]
         youtube_id = AUDIOSET_INDEX_TO_YOUTUBE[err_id]
         url = youtube_id.replace('http', 'https')
     # Map label indices to class names
     if dataset == 'audioset_eval_set':  # multi-label    
-        given_label = [ALL_CLASSES[dataset][z] for z in test_labels[err_id]]
+        given_label = [ALL_CLASSES[dataset][z] for z in labels[err_id]]
         pred_label = [ALL_CLASSES[dataset][z] for z in pred[err_id]]
     else:  # single-label
-        given_label = ALL_CLASSES[dataset][test_labels[err_id]]
+        given_label = ALL_CLASSES[dataset][labels[err_id]]
         pred_label = ALL_CLASSES[dataset][pred[err_id]]
     print(' * {} Given Label:'.format(dataset.capitalize()), given_label)
     print(' * We Guess (argmax prediction):', pred_label)
