@@ -312,25 +312,32 @@ To prepare both the train and test sets:
 ```python
 import os
 import numpy as np
+import json
 
 # !!!CHANGE THIS TO THE LOCATION WHERE YOU EXTRACTED THE IMDB DATASET
-data_dir = "/datasets/datasets/aclImdb/"
+data_dir = "/datasets/datasets/imdb/"
 
-# This stores the data as dict with keys ['train', 'test']
+# This stores the order we walk through the files in the dataset
+walk_order = {}
+# We don't deal with train set indices, so any order is fine for the train set.
+walk_order['train'] = [d + z for d in ["neg/", "pos/"] \
+                       for z in os.listdir(data_dir + 'train/' + d)]
+# Test set walk order needs to match our order to map errors correctly.
+with open("../resources/imdb_test_set_index_to_filename.json", 'r') as rf:
+    walk_order['test'] = json.load(rf)
+
+# This text dict stores the text data with keys ['train', 'test']
 text = {}
-# This stores the labels as a dict with keys ['train', 'test']
-labels = {}
+# Read in text data for IMDB
 for dataset in ['train', 'test']:
     text[dataset] = []
     dataset_dir = data_dir + dataset + '/'
-    for i, fn in enumerate(os.listdir(dataset_dir + "neg/")):
-        with open(dataset_dir + "neg/" + fn, 'r') as rf:
+    for i, fn in enumerate(walk_order[dataset]):
+        with open(dataset_dir + fn, 'r') as rf:
             text[dataset].append(rf.read())
-    labels[dataset] = np.zeros(i + 1)
-    for i, fn in enumerate(os.listdir(dataset_dir + "pos/")):
-        with open(dataset_dir + "pos/" + fn, 'r') as rf:
-            text[dataset].append(rf.read())
-    labels[dataset] = np.concatenate([labels[dataset], np.ones(i + 1)]).astype(int)
+
+# The given labels for both train and test set are the same.
+labels = np.concatenate([np.zeros(12500), np.ones(12500)]).astype(int)
 ```
 
 Now you should be able to access the test set labels via `labels['test']`. The indices should match the indices of the label errors we provide.
