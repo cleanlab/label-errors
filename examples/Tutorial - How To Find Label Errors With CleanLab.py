@@ -23,13 +23,18 @@
 # cgnorthcutt/label-errors.
 
 """
-This tutorial provides reproducible code to find the label errors for 8 of
-the 10 datasets, using the pyx (predicted probs), pred (predicted labels),
-and test label files, available in cgnorthcutt/label-errors.
+This tutorial provides reproducible code to find the label errors for datasets:
+MNIST, CIFAR-10, CIFAR-100, ImageNet, Caltech-256, Amazon Reviews, IMDB,
+20News, and AudioSet. These datasets comprise 9 of the 10 datasets on
+https://labelerrors.com .
 
-The quickdraw dataset is excluded because the pyx file is 33GB and might
-cause trouble on some machines. We also exclude caltech-256 because we used a
-low capacity model and its not reflective of recent performance.
+Label errors are found using the pyx (predicted probs), pred (predicted labels),
+and test label files, provided in this repo: (cgnorthcutt/label-errors)
+
+The QuickDraw dataset is excluded because the pyx file is 33GB and might
+cause trouble on some machines. To find label errors in the QuickDraw dataset,
+you can download the pyx file here:
+https://github.com/cgnorthcutt/label-errors/releases/tag/quickdraw-pyx-v1
 
 This tutorial reproduces how we find the label errors on https://labelerrors.com
 (prior to human validation on mTurk).
@@ -64,12 +69,13 @@ plt.rcParams.update(rc)
 
 
 datasets = [
-    ('imagenet_val_set', 'image'),
     ('mnist_test_set', 'image'),
     ('cifar10_test_set', 'image'),
     ('cifar100_test_set', 'image'),
-    ('imdb_test_set', 'text'),
+    ('caltech256', 'image'),
+    ('imagenet_val_set', 'image'),
     ('20news_test_set', 'text'),
+    ('imdb_test_set', 'text'),
     ('amazon', 'text'),
     ('audioset_eval_set', 'audio'),
 ]
@@ -85,11 +91,61 @@ with open("../resources/imdb_test_set_index_to_filename.json", 'r') as rf:
     IMDB_INDEX_TO_FILENAME = json.load(rf)
 with open("../resources/imagenet_val_set_index_to_filepath.json", 'r') as rf:
     IMAGENET_INDEX_TO_FILEPATH = json.load(rf)
+with open("/home/cgn/cgn/labsix/label-errors/caltech256/caltech256_index_to_filename.json", "r") as rf:
+    CALTECH256_INDEX_TO_FILENAME = json.load(rf)    
+
+
+# In[4]:
+
+
+def get_label_error_indices_to_match_labelerrors_com():
+    """This method will reproduce the label errors found on labelerrors.com and
+    match (within a few percentage) the counts of label errors in Table 1 in the
+    label errors paper: https://arxiv.org/abs/2103.14749
+    
+    While reproducibility is nice, some of these methods have been improved, and
+    if you are not reproducing the results in the paper, we recommend using the
+    latest version of `cleanlab.pruning.get_noise_indices()`
+
+    Variations in method is due to the fact that this research was
+    conducted over the span of years. All methods use variations of
+    confident learning."""
+
+    if dataset == 'imagenet_val_set':
+        cj = cleanlab.latent_estimation.compute_confident_joint(
+            s=labels, psx=pyx, calibrate=False, )
+        num_errors = cj.sum() - cj.diagonal().sum()
+    elif dataset == 'mnist_test_set':
+        cj = cleanlab.latent_estimation.compute_confident_joint(
+            s=labels, psx=pyx, calibrate=False, )
+        label_errors_bool = cleanlab.pruning.get_noise_indices(
+            s=labels, psx=pyx, confident_joint=cj, prune_method='prune_by_class',
+        )
+        num_errors = sum(label_errors_bool)
+    elif dataset != 'audioset_eval_set':  # Audioset is special case: it is multi-label
+        cj = cleanlab.latent_estimation.compute_confident_joint(
+            s=labels, psx=pyx, calibrate=False, )
+        num_errors = cleanlab.latent_estimation.num_label_errors(
+            labels=labels, psx=pyx, confident_joint=cj, )
+    
+    if dataset == 'audioset_eval_set':  # Special case (multi-label) (TODO: update)
+        label_error_indices = cleanlab.pruning.get_noise_indices(
+            s=labels, psx=pyx, multi_label=True,
+            sorted_index_method='self_confidence', )
+        label_error_indices = label_error_indices[:307]
+    else:
+        prob_label = np.array([pyx[i, l] for i, l in enumerate(labels)])
+        max_prob_not_label = np.array(
+            [max(np.delete(pyx[i], l, -1)) for i, l in enumerate(labels)])
+        normalized_margin = prob_label - max_prob_not_label
+        label_error_indices = np.argsort(normalized_margin)[:num_errors]
+
+    return label_error_indices
 
 
 # # Find label errors in each dataset
 
-# In[4]:
+# In[5]:
 
 
 # By default, the code below will use the most up-to-date theory and algorithms
@@ -99,10 +155,13 @@ with open("../resources/imagenet_val_set_index_to_filepath.json", 'r') as rf:
 # to match https://labelerrors.com, set `reproduce_labelerrors_dot_com = True`.
 # There may be discrepancies in counts due to improvements to cleanlab
 # since the work was published.
-reproduce_labelerrors_dot_com = False
+
+# Set to False for best/most-recent results (this approach also runs faster)
+# Set to True to match the label errors on https://labelerrors.com
+reproduce_labelerrors_website = False  
 
 
-# In[5]:
+# In[6]:
 
 
 for (dataset, modality) in datasets:
@@ -124,34 +183,27 @@ for (dataset, modality) in datasets:
     labels = np.load('../original_test_labels/'
         '{}_original_labels.npy'.format(dataset), allow_pickle=True)
     
-    # Find label error indices using cleanlab in one line of code.
-    print('Finding label errors using cleanlab for {:,} examples and {} classes...'.format(*pyx.shape))
-    label_error_indices = cleanlab.pruning.get_noise_indices(
-        s=labels,
-        psx=pyx,
-        # You can try prune_method='both' (C+NR in the confident learning paper)
-        # 'both' finds fewer errors, but can sometimes increase precision
-        prune_method='prune_by_noise_rate',
-        multi_label=True if dataset == 'audioset_eval_set' else False,
-        sorted_index_method='normalized_margin',
-    )
-    # multi-class AudioSet is a special case (TODO: update in later release)
-    num_errors = len(label_error_indices) if 'audio' != modality else 307
-    print('Estimated number of errors:', num_errors)
+    if reproduce_labelerrors_website:
+        label_error_indices = get_label_error_indices_to_match_labelerrors_com()
+    else:
+        # Find label error indices using cleanlab in one line of code. 
+        # This will use the most recent version of cleanlab with best results.
+        print('Finding label errors using cleanlab for {:,} '
+              'examples and {} classes...'.format(*pyx.shape))
+        label_error_indices = cleanlab.pruning.get_noise_indices(
+            s=labels,
+            psx=pyx,
+            # Try prune_method='both' (C+NR in the confident learning paper)
+            # 'both' finds fewer errors, but can sometimes increase precision
+            prune_method='prune_by_noise_rate',
+            multi_label=True if dataset == 'audioset_eval_set' else False,
+            sorted_index_method='self_confidence',
+        )
+    num_errors = len(label_error_indices)
+    print('Estimated number of errors in {}:'.format(dataset), num_errors)
     
-    if reproduce_labelerrors_dot_com:
-        # This is how we found the original errors hosted on labelerrors.com
-        # in the "Pervasive Label Errors..." paper, Table 1, column 'CL guessed'
-        if modality == 'audio':  # Special case (multi-label) (TODO: update)
-            label_error_indices = label_error_indices[:num_errors]
-        else:
-            prob_label = np.array([pyx[i, l] for i, l in enumerate(labels)])
-            max_prob_not_label = np.array(
-                [max(np.delete(pyx[i], l, -1)) for i, l in enumerate(labels)])
-            normalized_margin = prob_label - max_prob_not_label
-            label_error_indices = np.argsort(normalized_margin)[:num_errors]
-    
-    # Grab a label error found with cleanlab
+    # Print an example
+    # Grab the first label error found with cleanlab
     err_id = label_error_indices[0]
     
     # Custom code to visualize each label error from each dataset
@@ -160,6 +212,9 @@ for (dataset, modality) in datasets:
     if modality == 'image':
         if dataset == 'imagenet_val_set':
             image_path = IMAGENET_INDEX_TO_FILEPATH[err_id]
+            url = url_base.replace(str(err_id), image_path)
+        elif dataset == 'caltech256':
+            image_path = CALTECH256_INDEX_TO_FILENAME[err_id]
             url = url_base.replace(str(err_id), image_path)
         else:
             url = url_base + ".png"
@@ -198,4 +253,10 @@ for (dataset, modality) in datasets:
     print(' * {} Given Label:'.format(dataset.capitalize()), given_label)
     print(' * We Guess (argmax prediction):', pred_label)
     print(' * Label Error Found: {}\n'.format(url))
+
+
+# In[ ]:
+
+
+
 
