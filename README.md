@@ -1,12 +1,10 @@
 # Label Errors in Benchmark ML Test Sets
 
-*Release of corrected test sets is delayed due to media coverage. We will release shortly. Thanks for your patience.*
+This repo provides the tools to clean and correct the test sets for ten of the most common ML benchmark test sets, including ImageNet, MNIST, CIFAR-10, CIFAR-100, Caltech-256, QuickDraw, IMDB, Amazon Reviews, 20News, and AudioSet. Label errors for each dataset are released at https://labelerrors.com. **Reproduce the label errors yourself in each dataset via [`cgnorthcutt/label-errors/examples/Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb).**
 
-This repo provides cleaned and corrected test sets for ten of the most common ML benchmark test sets, along with the indices for all label errors at https://labelerrors.com.
+Datasets corrected include: . Corrections are better than the datasets' given test labels, but they are **NOT** perfect! Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cgnorthcutt/label-errors/discussions/4)].**
 
-Datasets corrected include: ImageNet, MNIST, CIFAR-10, CIFAR-100, Caltech-256, QuickDraw, IMDB, Amazon Reviews, 20News, and AudioSet. Corrections are better than the datasets' given test labels, but they are **NOT** perfect! Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cgnorthcutt/label-errors/discussions/4)].**
-
-To find/clean the label errors in all ten datasets, we used [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cgnorthcutt/cleanlab) package here: https://github.com/cgnorthcutt/cleanlab
+We used [confident learning](https://l7.curtisnorthcutt.com/confident-learning) to find the errors via the open-source [cleanlab](https://github.com/cgnorthcutt/cleanlab) package.
 
 ## Citation
 
