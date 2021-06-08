@@ -1,0 +1,3852 @@
+[
+  {
+    "id": 20,
+    "url": "https://labelerrors.com/static/cifar10/20.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 52,
+    "url": "https://labelerrors.com/static/cifar10/52.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 57,
+    "url": "https://labelerrors.com/static/cifar10/57.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 58,
+    "url": "https://labelerrors.com/static/cifar10/58.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 61,
+    "url": "https://labelerrors.com/static/cifar10/61.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 158,
+    "url": "https://labelerrors.com/static/cifar10/158.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 164,
+    "url": "https://labelerrors.com/static/cifar10/164.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 165,
+    "url": "https://labelerrors.com/static/cifar10/165.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 3,
+      "both": 0
+    }
+  },
+  {
+    "id": 201,
+    "url": "https://labelerrors.com/static/cifar10/201.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 247,
+    "url": "https://labelerrors.com/static/cifar10/247.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 370,
+    "url": "https://labelerrors.com/static/cifar10/370.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 384,
+    "url": "https://labelerrors.com/static/cifar10/384.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 422,
+    "url": "https://labelerrors.com/static/cifar10/422.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 518,
+    "url": "https://labelerrors.com/static/cifar10/518.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 531,
+    "url": "https://labelerrors.com/static/cifar10/531.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 672,
+    "url": "https://labelerrors.com/static/cifar10/672.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 680,
+    "url": "https://labelerrors.com/static/cifar10/680.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 683,
+    "url": "https://labelerrors.com/static/cifar10/683.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 710,
+    "url": "https://labelerrors.com/static/cifar10/710.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 739,
+    "url": "https://labelerrors.com/static/cifar10/739.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 770,
+    "url": "https://labelerrors.com/static/cifar10/770.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 776,
+    "url": "https://labelerrors.com/static/cifar10/776.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 792,
+    "url": "https://labelerrors.com/static/cifar10/792.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 811,
+    "url": "https://labelerrors.com/static/cifar10/811.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 882,
+    "url": "https://labelerrors.com/static/cifar10/882.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 888,
+    "url": "https://labelerrors.com/static/cifar10/888.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 914,
+    "url": "https://labelerrors.com/static/cifar10/914.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 916,
+    "url": "https://labelerrors.com/static/cifar10/916.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 956,
+    "url": "https://labelerrors.com/static/cifar10/956.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1150,
+    "url": "https://labelerrors.com/static/cifar10/1150.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1163,
+    "url": "https://labelerrors.com/static/cifar10/1163.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1227,
+    "url": "https://labelerrors.com/static/cifar10/1227.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 1,
+      "guessed": 4,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1230,
+    "url": "https://labelerrors.com/static/cifar10/1230.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1236,
+    "url": "https://labelerrors.com/static/cifar10/1236.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1248,
+    "url": "https://labelerrors.com/static/cifar10/1248.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1300,
+    "url": "https://labelerrors.com/static/cifar10/1300.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 1303,
+    "url": "https://labelerrors.com/static/cifar10/1303.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1321,
+    "url": "https://labelerrors.com/static/cifar10/1321.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 1325,
+    "url": "https://labelerrors.com/static/cifar10/1325.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 1429,
+    "url": "https://labelerrors.com/static/cifar10/1429.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1495,
+    "url": "https://labelerrors.com/static/cifar10/1495.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1501,
+    "url": "https://labelerrors.com/static/cifar10/1501.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1552,
+    "url": "https://labelerrors.com/static/cifar10/1552.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1684,
+    "url": "https://labelerrors.com/static/cifar10/1684.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 1685,
+    "url": "https://labelerrors.com/static/cifar10/1685.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1718,
+    "url": "https://labelerrors.com/static/cifar10/1718.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1723,
+    "url": "https://labelerrors.com/static/cifar10/1723.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 1731,
+    "url": "https://labelerrors.com/static/cifar10/1731.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1739,
+    "url": "https://labelerrors.com/static/cifar10/1739.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1757,
+    "url": "https://labelerrors.com/static/cifar10/1757.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1759,
+    "url": "https://labelerrors.com/static/cifar10/1759.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1796,
+    "url": "https://labelerrors.com/static/cifar10/1796.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 1871,
+    "url": "https://labelerrors.com/static/cifar10/1871.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1884,
+    "url": "https://labelerrors.com/static/cifar10/1884.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1934,
+    "url": "https://labelerrors.com/static/cifar10/1934.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1935,
+    "url": "https://labelerrors.com/static/cifar10/1935.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1938,
+    "url": "https://labelerrors.com/static/cifar10/1938.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1939,
+    "url": "https://labelerrors.com/static/cifar10/1939.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1969,
+    "url": "https://labelerrors.com/static/cifar10/1969.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 1,
+      "guessed": 0,
+      "neither": 4,
+      "both": 0
+    }
+  },
+  {
+    "id": 2010,
+    "url": "https://labelerrors.com/static/cifar10/2010.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 2034,
+    "url": "https://labelerrors.com/static/cifar10/2034.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2036,
+    "url": "https://labelerrors.com/static/cifar10/2036.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2061,
+    "url": "https://labelerrors.com/static/cifar10/2061.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2101,
+    "url": "https://labelerrors.com/static/cifar10/2101.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2128,
+    "url": "https://labelerrors.com/static/cifar10/2128.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2142,
+    "url": "https://labelerrors.com/static/cifar10/2142.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2165,
+    "url": "https://labelerrors.com/static/cifar10/2165.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2176,
+    "url": "https://labelerrors.com/static/cifar10/2176.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2186,
+    "url": "https://labelerrors.com/static/cifar10/2186.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2232,
+    "url": "https://labelerrors.com/static/cifar10/2232.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2271,
+    "url": "https://labelerrors.com/static/cifar10/2271.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2293,
+    "url": "https://labelerrors.com/static/cifar10/2293.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2299,
+    "url": "https://labelerrors.com/static/cifar10/2299.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2331,
+    "url": "https://labelerrors.com/static/cifar10/2331.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2355,
+    "url": "https://labelerrors.com/static/cifar10/2355.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2386,
+    "url": "https://labelerrors.com/static/cifar10/2386.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 2405,
+    "url": "https://labelerrors.com/static/cifar10/2405.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 0,
+      "guessed": 5,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2453,
+    "url": "https://labelerrors.com/static/cifar10/2453.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2473,
+    "url": "https://labelerrors.com/static/cifar10/2473.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2494,
+    "url": "https://labelerrors.com/static/cifar10/2494.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2495,
+    "url": "https://labelerrors.com/static/cifar10/2495.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2521,
+    "url": "https://labelerrors.com/static/cifar10/2521.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2530,
+    "url": "https://labelerrors.com/static/cifar10/2530.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2532,
+    "url": "https://labelerrors.com/static/cifar10/2532.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 0,
+      "guessed": 1,
+      "neither": 4,
+      "both": 0
+    }
+  },
+  {
+    "id": 2542,
+    "url": "https://labelerrors.com/static/cifar10/2542.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2592,
+    "url": "https://labelerrors.com/static/cifar10/2592.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2599,
+    "url": "https://labelerrors.com/static/cifar10/2599.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2650,
+    "url": "https://labelerrors.com/static/cifar10/2650.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2754,
+    "url": "https://labelerrors.com/static/cifar10/2754.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2804,
+    "url": "https://labelerrors.com/static/cifar10/2804.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 0,
+      "guessed": 4,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2810,
+    "url": "https://labelerrors.com/static/cifar10/2810.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2840,
+    "url": "https://labelerrors.com/static/cifar10/2840.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2895,
+    "url": "https://labelerrors.com/static/cifar10/2895.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2912,
+    "url": "https://labelerrors.com/static/cifar10/2912.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 2940,
+    "url": "https://labelerrors.com/static/cifar10/2940.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2948,
+    "url": "https://labelerrors.com/static/cifar10/2948.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3036,
+    "url": "https://labelerrors.com/static/cifar10/3036.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3059,
+    "url": "https://labelerrors.com/static/cifar10/3059.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3084,
+    "url": "https://labelerrors.com/static/cifar10/3084.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3113,
+    "url": "https://labelerrors.com/static/cifar10/3113.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 3160,
+    "url": "https://labelerrors.com/static/cifar10/3160.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3164,
+    "url": "https://labelerrors.com/static/cifar10/3164.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3168,
+    "url": "https://labelerrors.com/static/cifar10/3168.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3183,
+    "url": "https://labelerrors.com/static/cifar10/3183.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 3192,
+    "url": "https://labelerrors.com/static/cifar10/3192.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 3218,
+    "url": "https://labelerrors.com/static/cifar10/3218.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 3236,
+    "url": "https://labelerrors.com/static/cifar10/3236.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3443,
+    "url": "https://labelerrors.com/static/cifar10/3443.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3450,
+    "url": "https://labelerrors.com/static/cifar10/3450.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3490,
+    "url": "https://labelerrors.com/static/cifar10/3490.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 3524,
+    "url": "https://labelerrors.com/static/cifar10/3524.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3574,
+    "url": "https://labelerrors.com/static/cifar10/3574.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3582,
+    "url": "https://labelerrors.com/static/cifar10/3582.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3594,
+    "url": "https://labelerrors.com/static/cifar10/3594.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 3600,
+    "url": "https://labelerrors.com/static/cifar10/3600.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3615,
+    "url": "https://labelerrors.com/static/cifar10/3615.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3631,
+    "url": "https://labelerrors.com/static/cifar10/3631.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 3645,
+    "url": "https://labelerrors.com/static/cifar10/3645.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3658,
+    "url": "https://labelerrors.com/static/cifar10/3658.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3669,
+    "url": "https://labelerrors.com/static/cifar10/3669.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3680,
+    "url": "https://labelerrors.com/static/cifar10/3680.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3753,
+    "url": "https://labelerrors.com/static/cifar10/3753.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 3755,
+    "url": "https://labelerrors.com/static/cifar10/3755.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3789,
+    "url": "https://labelerrors.com/static/cifar10/3789.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 3799,
+    "url": "https://labelerrors.com/static/cifar10/3799.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 3821,
+    "url": "https://labelerrors.com/static/cifar10/3821.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3828,
+    "url": "https://labelerrors.com/static/cifar10/3828.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 3867,
+    "url": "https://labelerrors.com/static/cifar10/3867.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3953,
+    "url": "https://labelerrors.com/static/cifar10/3953.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3957,
+    "url": "https://labelerrors.com/static/cifar10/3957.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3977,
+    "url": "https://labelerrors.com/static/cifar10/3977.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 4023,
+    "url": "https://labelerrors.com/static/cifar10/4023.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4055,
+    "url": "https://labelerrors.com/static/cifar10/4055.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 4077,
+    "url": "https://labelerrors.com/static/cifar10/4077.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4140,
+    "url": "https://labelerrors.com/static/cifar10/4140.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 4152,
+    "url": "https://labelerrors.com/static/cifar10/4152.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4169,
+    "url": "https://labelerrors.com/static/cifar10/4169.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4198,
+    "url": "https://labelerrors.com/static/cifar10/4198.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4302,
+    "url": "https://labelerrors.com/static/cifar10/4302.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4315,
+    "url": "https://labelerrors.com/static/cifar10/4315.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4442,
+    "url": "https://labelerrors.com/static/cifar10/4442.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4470,
+    "url": "https://labelerrors.com/static/cifar10/4470.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4476,
+    "url": "https://labelerrors.com/static/cifar10/4476.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4485,
+    "url": "https://labelerrors.com/static/cifar10/4485.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4527,
+    "url": "https://labelerrors.com/static/cifar10/4527.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4528,
+    "url": "https://labelerrors.com/static/cifar10/4528.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 4614,
+    "url": "https://labelerrors.com/static/cifar10/4614.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 4643,
+    "url": "https://labelerrors.com/static/cifar10/4643.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 4686,
+    "url": "https://labelerrors.com/static/cifar10/4686.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4749,
+    "url": "https://labelerrors.com/static/cifar10/4749.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4750,
+    "url": "https://labelerrors.com/static/cifar10/4750.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4754,
+    "url": "https://labelerrors.com/static/cifar10/4754.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 4794,
+    "url": "https://labelerrors.com/static/cifar10/4794.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4861,
+    "url": "https://labelerrors.com/static/cifar10/4861.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4910,
+    "url": "https://labelerrors.com/static/cifar10/4910.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 1,
+      "both": 2
+    }
+  },
+  {
+    "id": 4931,
+    "url": "https://labelerrors.com/static/cifar10/4931.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4942,
+    "url": "https://labelerrors.com/static/cifar10/4942.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4964,
+    "url": "https://labelerrors.com/static/cifar10/4964.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4965,
+    "url": "https://labelerrors.com/static/cifar10/4965.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5085,
+    "url": "https://labelerrors.com/static/cifar10/5085.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5151,
+    "url": "https://labelerrors.com/static/cifar10/5151.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 5166,
+    "url": "https://labelerrors.com/static/cifar10/5166.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 5191,
+    "url": "https://labelerrors.com/static/cifar10/5191.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 1,
+      "guessed": 4,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5205,
+    "url": "https://labelerrors.com/static/cifar10/5205.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5211,
+    "url": "https://labelerrors.com/static/cifar10/5211.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 5218,
+    "url": "https://labelerrors.com/static/cifar10/5218.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5229,
+    "url": "https://labelerrors.com/static/cifar10/5229.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 5352,
+    "url": "https://labelerrors.com/static/cifar10/5352.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5388,
+    "url": "https://labelerrors.com/static/cifar10/5388.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5416,
+    "url": "https://labelerrors.com/static/cifar10/5416.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5468,
+    "url": "https://labelerrors.com/static/cifar10/5468.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 5548,
+    "url": "https://labelerrors.com/static/cifar10/5548.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5570,
+    "url": "https://labelerrors.com/static/cifar10/5570.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5632,
+    "url": "https://labelerrors.com/static/cifar10/5632.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5642,
+    "url": "https://labelerrors.com/static/cifar10/5642.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5690,
+    "url": "https://labelerrors.com/static/cifar10/5690.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 5809,
+    "url": "https://labelerrors.com/static/cifar10/5809.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 5835,
+    "url": "https://labelerrors.com/static/cifar10/5835.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 5860,
+    "url": "https://labelerrors.com/static/cifar10/5860.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5881,
+    "url": "https://labelerrors.com/static/cifar10/5881.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5882,
+    "url": "https://labelerrors.com/static/cifar10/5882.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 5908,
+    "url": "https://labelerrors.com/static/cifar10/5908.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5930,
+    "url": "https://labelerrors.com/static/cifar10/5930.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 5960,
+    "url": "https://labelerrors.com/static/cifar10/5960.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6008,
+    "url": "https://labelerrors.com/static/cifar10/6008.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6016,
+    "url": "https://labelerrors.com/static/cifar10/6016.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 6064,
+    "url": "https://labelerrors.com/static/cifar10/6064.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6083,
+    "url": "https://labelerrors.com/static/cifar10/6083.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6151,
+    "url": "https://labelerrors.com/static/cifar10/6151.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6180,
+    "url": "https://labelerrors.com/static/cifar10/6180.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6299,
+    "url": "https://labelerrors.com/static/cifar10/6299.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6419,
+    "url": "https://labelerrors.com/static/cifar10/6419.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 6513,
+    "url": "https://labelerrors.com/static/cifar10/6513.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6522,
+    "url": "https://labelerrors.com/static/cifar10/6522.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 6559,
+    "url": "https://labelerrors.com/static/cifar10/6559.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6637,
+    "url": "https://labelerrors.com/static/cifar10/6637.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6669,
+    "url": "https://labelerrors.com/static/cifar10/6669.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 6732,
+    "url": "https://labelerrors.com/static/cifar10/6732.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6753,
+    "url": "https://labelerrors.com/static/cifar10/6753.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6774,
+    "url": "https://labelerrors.com/static/cifar10/6774.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 6786,
+    "url": "https://labelerrors.com/static/cifar10/6786.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6792,
+    "url": "https://labelerrors.com/static/cifar10/6792.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 0,
+      "guessed": 1,
+      "neither": 4,
+      "both": 0
+    }
+  },
+  {
+    "id": 6853,
+    "url": "https://labelerrors.com/static/cifar10/6853.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 6869,
+    "url": "https://labelerrors.com/static/cifar10/6869.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 6877,
+    "url": "https://labelerrors.com/static/cifar10/6877.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 0,
+      "guessed": 5,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6962,
+    "url": "https://labelerrors.com/static/cifar10/6962.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 6966,
+    "url": "https://labelerrors.com/static/cifar10/6966.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6980,
+    "url": "https://labelerrors.com/static/cifar10/6980.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 6993,
+    "url": "https://labelerrors.com/static/cifar10/6993.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7000,
+    "url": "https://labelerrors.com/static/cifar10/7000.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 7005,
+    "url": "https://labelerrors.com/static/cifar10/7005.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7040,
+    "url": "https://labelerrors.com/static/cifar10/7040.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7059,
+    "url": "https://labelerrors.com/static/cifar10/7059.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7112,
+    "url": "https://labelerrors.com/static/cifar10/7112.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 7150,
+    "url": "https://labelerrors.com/static/cifar10/7150.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7274,
+    "url": "https://labelerrors.com/static/cifar10/7274.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7280,
+    "url": "https://labelerrors.com/static/cifar10/7280.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7311,
+    "url": "https://labelerrors.com/static/cifar10/7311.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7384,
+    "url": "https://labelerrors.com/static/cifar10/7384.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7400,
+    "url": "https://labelerrors.com/static/cifar10/7400.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7491,
+    "url": "https://labelerrors.com/static/cifar10/7491.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7644,
+    "url": "https://labelerrors.com/static/cifar10/7644.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 7657,
+    "url": "https://labelerrors.com/static/cifar10/7657.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 1,
+      "guessed": 4,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7685,
+    "url": "https://labelerrors.com/static/cifar10/7685.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7839,
+    "url": "https://labelerrors.com/static/cifar10/7839.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 7846,
+    "url": "https://labelerrors.com/static/cifar10/7846.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7887,
+    "url": "https://labelerrors.com/static/cifar10/7887.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7893,
+    "url": "https://labelerrors.com/static/cifar10/7893.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7906,
+    "url": "https://labelerrors.com/static/cifar10/7906.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7967,
+    "url": "https://labelerrors.com/static/cifar10/7967.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8014,
+    "url": "https://labelerrors.com/static/cifar10/8014.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8058,
+    "url": "https://labelerrors.com/static/cifar10/8058.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 0,
+      "guessed": 5,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8128,
+    "url": "https://labelerrors.com/static/cifar10/8128.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8222,
+    "url": "https://labelerrors.com/static/cifar10/8222.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 8236,
+    "url": "https://labelerrors.com/static/cifar10/8236.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8269,
+    "url": "https://labelerrors.com/static/cifar10/8269.png",
+    "given_original_label": 8,
+    "given_original_label_name": "ship",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8276,
+    "url": "https://labelerrors.com/static/cifar10/8276.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 8295,
+    "url": "https://labelerrors.com/static/cifar10/8295.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 8296,
+    "url": "https://labelerrors.com/static/cifar10/8296.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 8385,
+    "url": "https://labelerrors.com/static/cifar10/8385.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8451,
+    "url": "https://labelerrors.com/static/cifar10/8451.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 8457,
+    "url": "https://labelerrors.com/static/cifar10/8457.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8521,
+    "url": "https://labelerrors.com/static/cifar10/8521.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 8577,
+    "url": "https://labelerrors.com/static/cifar10/8577.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8580,
+    "url": "https://labelerrors.com/static/cifar10/8580.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 8598,
+    "url": "https://labelerrors.com/static/cifar10/8598.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8620,
+    "url": "https://labelerrors.com/static/cifar10/8620.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 8735,
+    "url": "https://labelerrors.com/static/cifar10/8735.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8743,
+    "url": "https://labelerrors.com/static/cifar10/8743.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8932,
+    "url": "https://labelerrors.com/static/cifar10/8932.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 8943,
+    "url": "https://labelerrors.com/static/cifar10/8943.png",
+    "given_original_label": 7,
+    "given_original_label_name": "horse",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "deer",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9039,
+    "url": "https://labelerrors.com/static/cifar10/9039.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9082,
+    "url": "https://labelerrors.com/static/cifar10/9082.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 8,
+    "our_guessed_label_name": "ship",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9128,
+    "url": "https://labelerrors.com/static/cifar10/9128.png",
+    "given_original_label": 4,
+    "given_original_label_name": "deer",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9225,
+    "url": "https://labelerrors.com/static/cifar10/9225.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9227,
+    "url": "https://labelerrors.com/static/cifar10/9227.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9260,
+    "url": "https://labelerrors.com/static/cifar10/9260.png",
+    "given_original_label": 5,
+    "given_original_label_name": "dog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9292,
+    "url": "https://labelerrors.com/static/cifar10/9292.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9352,
+    "url": "https://labelerrors.com/static/cifar10/9352.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "truck",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 9403,
+    "url": "https://labelerrors.com/static/cifar10/9403.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9415,
+    "url": "https://labelerrors.com/static/cifar10/9415.png",
+    "given_original_label": 0,
+    "given_original_label_name": "airplane",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "bird",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9467,
+    "url": "https://labelerrors.com/static/cifar10/9467.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "horse",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 9518,
+    "url": "https://labelerrors.com/static/cifar10/9518.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9573,
+    "url": "https://labelerrors.com/static/cifar10/9573.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9609,
+    "url": "https://labelerrors.com/static/cifar10/9609.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9643,
+    "url": "https://labelerrors.com/static/cifar10/9643.png",
+    "given_original_label": 9,
+    "given_original_label_name": "truck",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 9665,
+    "url": "https://labelerrors.com/static/cifar10/9665.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 4,
+      "guessed": 1,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9678,
+    "url": "https://labelerrors.com/static/cifar10/9678.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9704,
+    "url": "https://labelerrors.com/static/cifar10/9704.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 9730,
+    "url": "https://labelerrors.com/static/cifar10/9730.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "cat",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9786,
+    "url": "https://labelerrors.com/static/cifar10/9786.png",
+    "given_original_label": 6,
+    "given_original_label_name": "frog",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "automobile",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9793,
+    "url": "https://labelerrors.com/static/cifar10/9793.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 9794,
+    "url": "https://labelerrors.com/static/cifar10/9794.png",
+    "given_original_label": 1,
+    "given_original_label_name": "automobile",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "airplane",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 9819,
+    "url": "https://labelerrors.com/static/cifar10/9819.png",
+    "given_original_label": 3,
+    "given_original_label_name": "cat",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "dog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 9982,
+    "url": "https://labelerrors.com/static/cifar10/9982.png",
+    "given_original_label": 2,
+    "given_original_label_name": "bird",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "frog",
+    "mturk": {
+      "given": 5,
+      "guessed": 0,
+      "neither": 0,
+      "both": 0
+    }
+  }
+]

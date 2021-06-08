@@ -1,0 +1,1304 @@
+[
+  {
+    "id": 38,
+    "url": "https://labelerrors.com/static/20news/38.txt",
+    "given_original_label": 6,
+    "given_original_label_name": "misc.forsale",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "comp.sys.mac.hardware",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 139,
+    "url": "https://labelerrors.com/static/20news/139.txt",
+    "given_original_label": 12,
+    "given_original_label_name": "sci.electronics",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 194,
+    "url": "https://labelerrors.com/static/20news/194.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 279,
+    "url": "https://labelerrors.com/static/20news/279.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 0,
+      "guessed": 4,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 456,
+    "url": "https://labelerrors.com/static/20news/456.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 1,
+      "guessed": 0,
+      "neither": 2,
+      "both": 2
+    }
+  },
+  {
+    "id": 495,
+    "url": "https://labelerrors.com/static/20news/495.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 593,
+    "url": "https://labelerrors.com/static/20news/593.txt",
+    "given_original_label": 11,
+    "given_original_label_name": "sci.crypt",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 705,
+    "url": "https://labelerrors.com/static/20news/705.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 819,
+    "url": "https://labelerrors.com/static/20news/819.txt",
+    "given_original_label": 2,
+    "given_original_label_name": "comp.os.ms-windows.misc",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 1,
+      "guessed": 4,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 853,
+    "url": "https://labelerrors.com/static/20news/853.txt",
+    "given_original_label": 1,
+    "given_original_label_name": "comp.graphics",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 978,
+    "url": "https://labelerrors.com/static/20news/978.txt",
+    "given_original_label": 11,
+    "given_original_label_name": "sci.crypt",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "comp.windows.x",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1094,
+    "url": "https://labelerrors.com/static/20news/1094.txt",
+    "given_original_label": 16,
+    "given_original_label_name": "talk.politics.guns",
+    "our_guessed_label": 18,
+    "our_guessed_label_name": "talk.politics.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1115,
+    "url": "https://labelerrors.com/static/20news/1115.txt",
+    "given_original_label": 13,
+    "given_original_label_name": "sci.med",
+    "our_guessed_label": 18,
+    "our_guessed_label_name": "talk.politics.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 1,
+      "both": 2
+    }
+  },
+  {
+    "id": 1313,
+    "url": "https://labelerrors.com/static/20news/1313.txt",
+    "given_original_label": 7,
+    "given_original_label_name": "rec.autos",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 1601,
+    "url": "https://labelerrors.com/static/20news/1601.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 1606,
+    "url": "https://labelerrors.com/static/20news/1606.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 1,
+      "guessed": 4,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 1649,
+    "url": "https://labelerrors.com/static/20news/1649.txt",
+    "given_original_label": 14,
+    "given_original_label_name": "sci.space",
+    "our_guessed_label": 13,
+    "our_guessed_label_name": "sci.med",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1845,
+    "url": "https://labelerrors.com/static/20news/1845.txt",
+    "given_original_label": 16,
+    "given_original_label_name": "talk.politics.guns",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 1870,
+    "url": "https://labelerrors.com/static/20news/1870.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1900,
+    "url": "https://labelerrors.com/static/20news/1900.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 1970,
+    "url": "https://labelerrors.com/static/20news/1970.txt",
+    "given_original_label": 2,
+    "given_original_label_name": "comp.os.ms-windows.misc",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 0,
+      "guessed": 2,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 2015,
+    "url": "https://labelerrors.com/static/20news/2015.txt",
+    "given_original_label": 2,
+    "given_original_label_name": "comp.os.ms-windows.misc",
+    "our_guessed_label": 5,
+    "our_guessed_label_name": "comp.windows.x",
+    "mturk": {
+      "given": 0,
+      "guessed": 4,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2035,
+    "url": "https://labelerrors.com/static/20news/2035.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2194,
+    "url": "https://labelerrors.com/static/20news/2194.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 16,
+    "our_guessed_label_name": "talk.politics.guns",
+    "mturk": {
+      "given": 0,
+      "guessed": 2,
+      "neither": 1,
+      "both": 2
+    }
+  },
+  {
+    "id": 2213,
+    "url": "https://labelerrors.com/static/20news/2213.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 2240,
+    "url": "https://labelerrors.com/static/20news/2240.txt",
+    "given_original_label": 12,
+    "given_original_label_name": "sci.electronics",
+    "our_guessed_label": 14,
+    "our_guessed_label_name": "sci.space",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 2295,
+    "url": "https://labelerrors.com/static/20news/2295.txt",
+    "given_original_label": 1,
+    "given_original_label_name": "comp.graphics",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 2323,
+    "url": "https://labelerrors.com/static/20news/2323.txt",
+    "given_original_label": 1,
+    "given_original_label_name": "comp.graphics",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 0,
+      "guessed": 1,
+      "neither": 2,
+      "both": 2
+    }
+  },
+  {
+    "id": 2361,
+    "url": "https://labelerrors.com/static/20news/2361.txt",
+    "given_original_label": 8,
+    "given_original_label_name": "rec.motorcycles",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "rec.autos",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2426,
+    "url": "https://labelerrors.com/static/20news/2426.txt",
+    "given_original_label": 7,
+    "given_original_label_name": "rec.autos",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 0,
+      "guessed": 2,
+      "neither": 1,
+      "both": 2
+    }
+  },
+  {
+    "id": 2576,
+    "url": "https://labelerrors.com/static/20news/2576.txt",
+    "given_original_label": 14,
+    "given_original_label_name": "sci.space",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 2741,
+    "url": "https://labelerrors.com/static/20news/2741.txt",
+    "given_original_label": 15,
+    "given_original_label_name": "soc.religion.christian",
+    "our_guessed_label": 14,
+    "our_guessed_label_name": "sci.space",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 2755,
+    "url": "https://labelerrors.com/static/20news/2755.txt",
+    "given_original_label": 2,
+    "given_original_label_name": "comp.os.ms-windows.misc",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 1,
+      "both": 2
+    }
+  },
+  {
+    "id": 2869,
+    "url": "https://labelerrors.com/static/20news/2869.txt",
+    "given_original_label": 12,
+    "given_original_label_name": "sci.electronics",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 2978,
+    "url": "https://labelerrors.com/static/20news/2978.txt",
+    "given_original_label": 16,
+    "given_original_label_name": "talk.politics.guns",
+    "our_guessed_label": 11,
+    "our_guessed_label_name": "sci.crypt",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3005,
+    "url": "https://labelerrors.com/static/20news/3005.txt",
+    "given_original_label": 12,
+    "given_original_label_name": "sci.electronics",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3039,
+    "url": "https://labelerrors.com/static/20news/3039.txt",
+    "given_original_label": 2,
+    "given_original_label_name": "comp.os.ms-windows.misc",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 3100,
+    "url": "https://labelerrors.com/static/20news/3100.txt",
+    "given_original_label": 12,
+    "given_original_label_name": "sci.electronics",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "comp.sys.mac.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 3227,
+    "url": "https://labelerrors.com/static/20news/3227.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3327,
+    "url": "https://labelerrors.com/static/20news/3327.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 3376,
+    "url": "https://labelerrors.com/static/20news/3376.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3385,
+    "url": "https://labelerrors.com/static/20news/3385.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 3417,
+    "url": "https://labelerrors.com/static/20news/3417.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3622,
+    "url": "https://labelerrors.com/static/20news/3622.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "comp.sys.mac.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 3751,
+    "url": "https://labelerrors.com/static/20news/3751.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 15,
+    "our_guessed_label_name": "soc.religion.christian",
+    "mturk": {
+      "given": 0,
+      "guessed": 4,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 3759,
+    "url": "https://labelerrors.com/static/20news/3759.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 15,
+    "our_guessed_label_name": "soc.religion.christian",
+    "mturk": {
+      "given": 1,
+      "guessed": 0,
+      "neither": 1,
+      "both": 3
+    }
+  },
+  {
+    "id": 3875,
+    "url": "https://labelerrors.com/static/20news/3875.txt",
+    "given_original_label": 2,
+    "given_original_label_name": "comp.os.ms-windows.misc",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 3887,
+    "url": "https://labelerrors.com/static/20news/3887.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4002,
+    "url": "https://labelerrors.com/static/20news/4002.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 4016,
+    "url": "https://labelerrors.com/static/20news/4016.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 4041,
+    "url": "https://labelerrors.com/static/20news/4041.txt",
+    "given_original_label": 14,
+    "given_original_label_name": "sci.space",
+    "our_guessed_label": 4,
+    "our_guessed_label_name": "comp.sys.mac.hardware",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 4071,
+    "url": "https://labelerrors.com/static/20news/4071.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 3,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4254,
+    "url": "https://labelerrors.com/static/20news/4254.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 16,
+    "our_guessed_label_name": "talk.politics.guns",
+    "mturk": {
+      "given": 4,
+      "guessed": 0,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4291,
+    "url": "https://labelerrors.com/static/20news/4291.txt",
+    "given_original_label": 4,
+    "given_original_label_name": "comp.sys.mac.hardware",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4292,
+    "url": "https://labelerrors.com/static/20news/4292.txt",
+    "given_original_label": 6,
+    "given_original_label_name": "misc.forsale",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "rec.autos",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 4302,
+    "url": "https://labelerrors.com/static/20news/4302.txt",
+    "given_original_label": 6,
+    "given_original_label_name": "misc.forsale",
+    "our_guessed_label": 7,
+    "our_guessed_label_name": "rec.autos",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 4596,
+    "url": "https://labelerrors.com/static/20news/4596.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 4648,
+    "url": "https://labelerrors.com/static/20news/4648.txt",
+    "given_original_label": 6,
+    "given_original_label_name": "misc.forsale",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 0,
+      "guessed": 4,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 4668,
+    "url": "https://labelerrors.com/static/20news/4668.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 3,
+      "guessed": 2,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 4875,
+    "url": "https://labelerrors.com/static/20news/4875.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 4954,
+    "url": "https://labelerrors.com/static/20news/4954.txt",
+    "given_original_label": 4,
+    "given_original_label_name": "comp.sys.mac.hardware",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 5105,
+    "url": "https://labelerrors.com/static/20news/5105.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 16,
+    "our_guessed_label_name": "talk.politics.guns",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5106,
+    "url": "https://labelerrors.com/static/20news/5106.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 17,
+    "our_guessed_label_name": "talk.politics.mideast",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 1,
+      "both": 0
+    }
+  },
+  {
+    "id": 5121,
+    "url": "https://labelerrors.com/static/20news/5121.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 0,
+      "guessed": 1,
+      "neither": 3,
+      "both": 1
+    }
+  },
+  {
+    "id": 5336,
+    "url": "https://labelerrors.com/static/20news/5336.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 0,
+      "guessed": 1,
+      "neither": 1,
+      "both": 3
+    }
+  },
+  {
+    "id": 5424,
+    "url": "https://labelerrors.com/static/20news/5424.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 0,
+      "guessed": 4,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5534,
+    "url": "https://labelerrors.com/static/20news/5534.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 11,
+    "our_guessed_label_name": "sci.crypt",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 5549,
+    "url": "https://labelerrors.com/static/20news/5549.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 1,
+      "both": 1
+    }
+  },
+  {
+    "id": 5553,
+    "url": "https://labelerrors.com/static/20news/5553.txt",
+    "given_original_label": 4,
+    "given_original_label_name": "comp.sys.mac.hardware",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 1,
+      "guessed": 0,
+      "neither": 3,
+      "both": 1
+    }
+  },
+  {
+    "id": 5653,
+    "url": "https://labelerrors.com/static/20news/5653.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5688,
+    "url": "https://labelerrors.com/static/20news/5688.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 14,
+    "our_guessed_label_name": "sci.space",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 3,
+      "both": 0
+    }
+  },
+  {
+    "id": 5693,
+    "url": "https://labelerrors.com/static/20news/5693.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 5814,
+    "url": "https://labelerrors.com/static/20news/5814.txt",
+    "given_original_label": 10,
+    "given_original_label_name": "rec.sport.hockey",
+    "our_guessed_label": 9,
+    "our_guessed_label_name": "rec.sport.baseball",
+    "mturk": {
+      "given": 0,
+      "guessed": 2,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 5947,
+    "url": "https://labelerrors.com/static/20news/5947.txt",
+    "given_original_label": 15,
+    "given_original_label_name": "soc.religion.christian",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 2,
+      "guessed": 2,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 5988,
+    "url": "https://labelerrors.com/static/20news/5988.txt",
+    "given_original_label": 11,
+    "given_original_label_name": "sci.crypt",
+    "our_guessed_label": 16,
+    "our_guessed_label_name": "talk.politics.guns",
+    "mturk": {
+      "given": 0,
+      "guessed": 0,
+      "neither": 4,
+      "both": 1
+    }
+  },
+  {
+    "id": 6053,
+    "url": "https://labelerrors.com/static/20news/6053.txt",
+    "given_original_label": 7,
+    "given_original_label_name": "rec.autos",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 2,
+      "guessed": 1,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 6130,
+    "url": "https://labelerrors.com/static/20news/6130.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 0,
+      "guessed": 1,
+      "neither": 3,
+      "both": 1
+    }
+  },
+  {
+    "id": 6136,
+    "url": "https://labelerrors.com/static/20news/6136.txt",
+    "given_original_label": 5,
+    "given_original_label_name": "comp.windows.x",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 6301,
+    "url": "https://labelerrors.com/static/20news/6301.txt",
+    "given_original_label": 7,
+    "given_original_label_name": "rec.autos",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 3,
+      "guessed": 1,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6330,
+    "url": "https://labelerrors.com/static/20news/6330.txt",
+    "given_original_label": 12,
+    "given_original_label_name": "sci.electronics",
+    "our_guessed_label": 3,
+    "our_guessed_label_name": "comp.sys.ibm.pc.hardware",
+    "mturk": {
+      "given": 1,
+      "guessed": 0,
+      "neither": 1,
+      "both": 3
+    }
+  },
+  {
+    "id": 6451,
+    "url": "https://labelerrors.com/static/20news/6451.txt",
+    "given_original_label": 15,
+    "given_original_label_name": "soc.religion.christian",
+    "our_guessed_label": 14,
+    "our_guessed_label_name": "sci.space",
+    "mturk": {
+      "given": 2,
+      "guessed": 0,
+      "neither": 1,
+      "both": 2
+    }
+  },
+  {
+    "id": 6505,
+    "url": "https://labelerrors.com/static/20news/6505.txt",
+    "given_original_label": 4,
+    "given_original_label_name": "comp.sys.mac.hardware",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 1,
+      "guessed": 3,
+      "neither": 0,
+      "both": 1
+    }
+  },
+  {
+    "id": 6567,
+    "url": "https://labelerrors.com/static/20news/6567.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 6569,
+    "url": "https://labelerrors.com/static/20news/6569.txt",
+    "given_original_label": 13,
+    "given_original_label_name": "sci.med",
+    "our_guessed_label": 14,
+    "our_guessed_label_name": "sci.space",
+    "mturk": {
+      "given": 3,
+      "guessed": 0,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 6595,
+    "url": "https://labelerrors.com/static/20news/6595.txt",
+    "given_original_label": 0,
+    "given_original_label_name": "alt.atheism",
+    "our_guessed_label": 19,
+    "our_guessed_label_name": "talk.religion.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 6845,
+    "url": "https://labelerrors.com/static/20news/6845.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 6887,
+    "url": "https://labelerrors.com/static/20news/6887.txt",
+    "given_original_label": 6,
+    "given_original_label_name": "misc.forsale",
+    "our_guessed_label": 1,
+    "our_guessed_label_name": "comp.graphics",
+    "mturk": {
+      "given": 0,
+      "guessed": 2,
+      "neither": 0,
+      "both": 3
+    }
+  },
+  {
+    "id": 6907,
+    "url": "https://labelerrors.com/static/20news/6907.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 0,
+    "our_guessed_label_name": "alt.atheism",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 2,
+      "both": 0
+    }
+  },
+  {
+    "id": 7104,
+    "url": "https://labelerrors.com/static/20news/7104.txt",
+    "given_original_label": 4,
+    "given_original_label_name": "comp.sys.mac.hardware",
+    "our_guessed_label": 6,
+    "our_guessed_label_name": "misc.forsale",
+    "mturk": {
+      "given": 1,
+      "guessed": 2,
+      "neither": 0,
+      "both": 2
+    }
+  },
+  {
+    "id": 7162,
+    "url": "https://labelerrors.com/static/20news/7162.txt",
+    "given_original_label": 19,
+    "given_original_label_name": "talk.religion.misc",
+    "our_guessed_label": 14,
+    "our_guessed_label_name": "sci.space",
+    "mturk": {
+      "given": 0,
+      "guessed": 5,
+      "neither": 0,
+      "both": 0
+    }
+  },
+  {
+    "id": 7225,
+    "url": "https://labelerrors.com/static/20news/7225.txt",
+    "given_original_label": 3,
+    "given_original_label_name": "comp.sys.ibm.pc.hardware",
+    "our_guessed_label": 2,
+    "our_guessed_label_name": "comp.os.ms-windows.misc",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 7508,
+    "url": "https://labelerrors.com/static/20news/7508.txt",
+    "given_original_label": 6,
+    "given_original_label_name": "misc.forsale",
+    "our_guessed_label": 12,
+    "our_guessed_label_name": "sci.electronics",
+    "mturk": {
+      "given": 1,
+      "guessed": 1,
+      "neither": 2,
+      "both": 1
+    }
+  },
+  {
+    "id": 7515,
+    "url": "https://labelerrors.com/static/20news/7515.txt",
+    "given_original_label": 18,
+    "given_original_label_name": "talk.politics.misc",
+    "our_guessed_label": 16,
+    "our_guessed_label_name": "talk.politics.guns",
+    "mturk": {
+      "given": 0,
+      "guessed": 3,
+      "neither": 0,
+      "both": 2
+    }
+  }
+]

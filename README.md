@@ -35,6 +35,8 @@ In this repo, we provide the following for each of the ten datasets:
   - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
 * [label-errors/original_test_labels/](https://github.com/cgnorthcutt/label-errors/tree/main/original_test_labels)
   - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
+* [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk)
+  - type: JSON (varying schemas)
 * For a tutorial which uses these files to find label errors for each dataset, start [[here](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)].
 
 The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these three folders all **share the same index/order of examples** for each test set. We provide labels/probabilities for the entire dataset when the dataset does not have a pre-defined test set. To minimize file size, all labels are quantized and stored as `np.uint16` and all probabilities are quantized and stored as `np.float16`. Note this quantization can (very slightly) affect error identification (e.g. on CIFAR-10, quantization changes the number of label errors found by 1).

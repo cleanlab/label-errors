@@ -1,0 +1,5530 @@
+[
+  {
+    "id": 2,
+    "url": "http://youtu.be/lL5jq1TDiXQ?start=30&end=40",
+    "given_original_labels": [
+      "Children shouting",
+      "Cheering",
+      "Crowd",
+      "Sound effect"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Applause"
+    ],
+    "mturk": {
+      "Cheering": 4,
+      "Speech": 1,
+      "Children shouting": 0,
+      "Sound effect": 1,
+      "Crowd": 3,
+      "Applause": 3
+    }
+  },
+  {
+    "id": 55,
+    "url": "http://youtu.be/Of8y_rXXeSw?start=30&end=40",
+    "given_original_labels": [
+      "Boat Water vehicle",
+      "Rowboat canoe kayak"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Children playing"
+    ],
+    "mturk": {
+      "Rowboat canoe kayak": 2,
+      "Boat Water vehicle": 3,
+      "Children playing": 2,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 200,
+    "url": "http://youtu.be/HhxWv_Sn1OI?start=30&end=40",
+    "given_original_labels": [
+      "Keyboard (musical)",
+      "Piano",
+      "Electric piano",
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Musical instrument",
+      "Plucked string instrument",
+      "Guitar",
+      "Steelpan"
+    ],
+    "mturk": {
+      "Electric piano": 0,
+      "Electronic organ": 0,
+      "Organ": 0,
+      "Piano": 2,
+      "Keyboard (musical)": 1,
+      "Music": 0,
+      "Musical instrument": 2,
+      "Guitar": 0,
+      "Steelpan": 1,
+      "Plucked string instrument": 0
+    }
+  },
+  {
+    "id": 211,
+    "url": "http://youtu.be/WdLzlvv5SR0?start=40&end=50",
+    "given_original_labels": [
+      "Hum",
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Hum": 0,
+      "Throbbing": 2,
+      "Music": 4
+    }
+  },
+  {
+    "id": 226,
+    "url": "http://youtu.be/GVDZ6LxBCQo?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 4,
+      "Speech": 2,
+      "Snake": 1
+    }
+  },
+  {
+    "id": 323,
+    "url": "http://youtu.be/sVKr4J0PicA?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Jingle bell": 3
+    }
+  },
+  {
+    "id": 343,
+    "url": "http://youtu.be/fbJxpi7W9ds?start=130&end=140",
+    "given_original_labels": [
+      "Accordion"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Percussion",
+      "Drum",
+      "Tabla",
+      "Folk music",
+      "Middle Eastern music",
+      "Carnatic music",
+      "Music of Bollywood"
+    ],
+    "mturk": {
+      "Accordion": 3,
+      "Tabla": 0,
+      "Percussion": 1,
+      "Middle Eastern music": 0,
+      "Carnatic music": 0,
+      "Folk music": 0,
+      "Music": 1,
+      "Music of Bollywood": 0,
+      "Drum": 1
+    }
+  },
+  {
+    "id": 349,
+    "url": "http://youtu.be/NNVX7W4hQmA?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Goose"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Fowl": 4,
+      "Goose": 2,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 350,
+    "url": "http://youtu.be/NN7dCwbDDJ0?start=30&end=40",
+    "given_original_labels": [
+      "Keyboard (musical)",
+      "Piano",
+      "Electric piano"
+    ],
+    "our_guessed_labels": [
+      "Female singing",
+      "Synthetic singing",
+      "Music"
+    ],
+    "mturk": {
+      "Electric piano": 3,
+      "Female singing": 4,
+      "Piano": 3,
+      "Keyboard (musical)": 2,
+      "Music": 3,
+      "Synthetic singing": 1
+    }
+  },
+  {
+    "id": 369,
+    "url": "http://youtu.be/7d_XQ3czVy4?start=480&end=490",
+    "given_original_labels": [
+      "Jackhammer"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Jackhammer": 4,
+      "Music": 1,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 377,
+    "url": "http://youtu.be/GI1YUTNZxMM?start=21&end=31",
+    "given_original_labels": [
+      "Frog",
+      "Croak"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Croak": 1,
+      "Music": 5,
+      "Frog": 2
+    }
+  },
+  {
+    "id": 562,
+    "url": "http://youtu.be/DGBtx9IyqcU?start=410&end=420",
+    "given_original_labels": [
+      "Clarinet"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Clarinet": 3,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 650,
+    "url": "http://youtu.be/17L2VkXtcQ0?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Chicken rooster",
+      "Crowing cock-a-doodle-doo",
+      "Bird",
+      "Bird vocalization bird call bird song"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Quack",
+      "Music"
+    ],
+    "mturk": {
+      "Fowl": 1,
+      "Crowing cock-a-doodle-doo": 5,
+      "Speech": 0,
+      "Bird vocalization bird call bird song": 1,
+      "Quack": 0,
+      "Music": 2,
+      "Bird": 1,
+      "Chicken rooster": 1
+    }
+  },
+  {
+    "id": 710,
+    "url": "http://youtu.be/mxJJB7Y__Ao?start=30&end=40",
+    "given_original_labels": [
+      "Hair dryer"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Pop music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Pop music": 3,
+      "Hair dryer": 4
+    }
+  },
+  {
+    "id": 717,
+    "url": "http://youtu.be/AcYJvz2tqkA?start=50&end=60",
+    "given_original_labels": [
+      "Pizzicato",
+      "Harp"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Musical instrument",
+      "Plucked string instrument",
+      "Guitar",
+      "Banjo",
+      "Ukulele",
+      "Country",
+      "Bluegrass"
+    ],
+    "mturk": {
+      "Banjo": 1,
+      "Ukulele": 1,
+      "Bluegrass": 1,
+      "Music": 4,
+      "Musical instrument": 4,
+      "Plucked string instrument": 4,
+      "Guitar": 2,
+      "Harp": 2,
+      "Pizzicato": 2,
+      "Country": 2,
+      "Singing": 5
+    }
+  },
+  {
+    "id": 918,
+    "url": "http://youtu.be/bQFHHuZuTFc?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chopping (food)": 5,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 930,
+    "url": "http://youtu.be/IbWFVwrW9qw?start=170&end=180",
+    "given_original_labels": [
+      "Squeak"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Squeak": 3,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 1113,
+    "url": "http://youtu.be/GT627WBr9rA?start=23&end=33",
+    "given_original_labels": [
+      "Slap smack"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Slap smack": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 1141,
+    "url": "http://youtu.be/LJ5dIeTKCqA?start=80&end=90",
+    "given_original_labels": [
+      "Car alarm"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Animal"
+    ],
+    "mturk": {
+      "Animal": 3,
+      "Speech": 4,
+      "Car alarm": 1
+    }
+  },
+  {
+    "id": 1211,
+    "url": "http://youtu.be/kGY7Lw_u8yA?start=20&end=30",
+    "given_original_labels": [
+      "Fusillade"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music",
+      "Chopping (food)"
+    ],
+    "mturk": {
+      "Speech": 4,
+      "Music": 1,
+      "Chopping (food)": 0,
+      "Fusillade": 3
+    }
+  },
+  {
+    "id": 1305,
+    "url": "http://youtu.be/2GS_c8w9k9E?start=14&end=24",
+    "given_original_labels": [
+      "Chop"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chop": 5,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 1424,
+    "url": "http://youtu.be/Pz8w3ZDCD3w?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Turkey",
+      "Gobble",
+      "Bird",
+      "Bird vocalization bird call bird song"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Fowl": 0,
+      "Speech": 2,
+      "Bird vocalization bird call bird song": 0,
+      "Gobble": 0,
+      "Bird": 3,
+      "Turkey": 0
+    }
+  },
+  {
+    "id": 1462,
+    "url": "http://youtu.be/zW0fewAkCms?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Chopping (food)": 5,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 1465,
+    "url": "http://youtu.be/aaWs--ahZUg?start=10&end=20",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Electronic organ": 4,
+      "Organ": 2
+    }
+  },
+  {
+    "id": 1560,
+    "url": "http://youtu.be/SZxRY6TlC18?start=30&end=40",
+    "given_original_labels": [
+      "Hum",
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Hum": 2,
+      "Throbbing": 2,
+      "Music": 1,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 1561,
+    "url": "http://youtu.be/SZdw5GjwVD0?start=30&end=40",
+    "given_original_labels": [
+      "Mantra"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Mantra": 4,
+      "Music": 1
+    }
+  },
+  {
+    "id": 1588,
+    "url": "http://youtu.be/5QQI2xc1VXY?start=7&end=17",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 0,
+      "Hiss": 3,
+      "Speech": 5,
+      "Snake": 2
+    }
+  },
+  {
+    "id": 1608,
+    "url": "http://youtu.be/x8LwVi2LrO4?start=80&end=90",
+    "given_original_labels": [
+      "Smash crash"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Techno",
+      "Drum and bass"
+    ],
+    "mturk": {
+      "Drum and bass": 2,
+      "Music": 3,
+      "Smash crash": 4,
+      "Techno": 2
+    }
+  },
+  {
+    "id": 1613,
+    "url": "http://youtu.be/LCJblaUkkfc?start=170&end=180",
+    "given_original_labels": [
+      "Plucked string instrument",
+      "Blues"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Blues": 1,
+      "Music": 5,
+      "Plucked string instrument": 2
+    }
+  },
+  {
+    "id": 1630,
+    "url": "http://youtu.be/2pYtX-Stpys?start=30&end=40",
+    "given_original_labels": [
+      "Tools",
+      "Hammer"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Angry music",
+      "Throbbing"
+    ],
+    "mturk": {
+      "Throbbing": 2,
+      "Tools": 4,
+      "Music": 1,
+      "Angry music": 2,
+      "Hammer": 3
+    }
+  },
+  {
+    "id": 1708,
+    "url": "http://youtu.be/joVUa4PjmhU?start=200&end=210",
+    "given_original_labels": [
+      "Steelpan"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Drum and bass"
+    ],
+    "mturk": {
+      "Drum and bass": 2,
+      "Music": 1,
+      "Steelpan": 0
+    }
+  },
+  {
+    "id": 1747,
+    "url": "http://youtu.be/0kqQNBR09Rc?start=90&end=100",
+    "given_original_labels": [
+      "Skidding"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Skidding": 2
+    }
+  },
+  {
+    "id": 1771,
+    "url": "http://youtu.be/RW7x9AC7PZI?start=30&end=40",
+    "given_original_labels": [
+      "Keyboard (musical)",
+      "Piano",
+      "Electric piano"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Electric piano": 1,
+      "Music": 4,
+      "Piano": 1,
+      "Keyboard (musical)": 1
+    }
+  },
+  {
+    "id": 1785,
+    "url": "http://youtu.be/udwuFO7D3v4?start=50&end=60",
+    "given_original_labels": [
+      "Jazz",
+      "Blues"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Rock music",
+      "Psychedelic rock"
+    ],
+    "mturk": {
+      "Blues": 2,
+      "Psychedelic rock": 1,
+      "Music": 1,
+      "Rock music": 3,
+      "Jazz": 1
+    }
+  },
+  {
+    "id": 1795,
+    "url": "http://youtu.be/wm3eNSHIyu0?start=30&end=40",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Progressive rock"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Electronic organ": 3,
+      "Organ": 2,
+      "Progressive rock": 1
+    }
+  },
+  {
+    "id": 1796,
+    "url": "http://youtu.be/1eHDeRxypFE?start=120&end=130",
+    "given_original_labels": [
+      "Whip"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Whip": 3,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 1817,
+    "url": "http://youtu.be/ULD5JzxcRB8?start=30&end=40",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Shofar"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Swing music",
+      "Ska"
+    ],
+    "mturk": {
+      "Ska": 1,
+      "Swing music": 1,
+      "Music": 2,
+      "Wind instrument woodwind instrument": 1,
+      "Shofar": 2
+    }
+  },
+  {
+    "id": 1977,
+    "url": "http://youtu.be/kUIG2LX3zqY?start=40&end=50",
+    "given_original_labels": [
+      "Cowbell",
+      "Percussion"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Percussion": 0,
+      "Speech": 2,
+      "Cowbell": 2
+    }
+  },
+  {
+    "id": 1982,
+    "url": "http://youtu.be/oPlat3jrels?start=120&end=130",
+    "given_original_labels": [
+      "Brass instrument",
+      "Trumpet",
+      "Trombone"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Music of Latin America",
+      "Salsa music"
+    ],
+    "mturk": {
+      "Music of Latin America": 1,
+      "Music": 1,
+      "Trombone": 1,
+      "Salsa music": 3,
+      "Trumpet": 1,
+      "Brass instrument": 1
+    }
+  },
+  {
+    "id": 2204,
+    "url": "http://youtu.be/z7QdfsabSCo?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Goose",
+      "Honk"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Conversation"
+    ],
+    "mturk": {
+      "Fowl": 0,
+      "Honk": 3,
+      "Speech": 3,
+      "Conversation": 1,
+      "Goose": 3
+    }
+  },
+  {
+    "id": 2333,
+    "url": "http://youtu.be/9P6-DKN1XLA?start=320&end=330",
+    "given_original_labels": [
+      "Emergency vehicle",
+      "Ambulance (siren)",
+      "Siren"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Siren": 1,
+      "Ambulance (siren)": 5,
+      "Emergency vehicle": 2,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 2349,
+    "url": "http://youtu.be/V6MjZrdgiPI?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 3,
+      "Speech": 4,
+      "Snake": 3
+    }
+  },
+  {
+    "id": 2350,
+    "url": "http://youtu.be/V6Gc-n2vydc?start=110&end=120",
+    "given_original_labels": [
+      "Opera"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Opera": 0,
+      "Singing": 5
+    }
+  },
+  {
+    "id": 2401,
+    "url": "http://youtu.be/ZxcnloCzxq4?start=80&end=90",
+    "given_original_labels": [
+      "Beatboxing",
+      "Vocal music"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Dubstep",
+      "Drum and bass"
+    ],
+    "mturk": {
+      "Beatboxing": 1,
+      "Drum and bass": 0,
+      "Music": 2,
+      "Dubstep": 1,
+      "Vocal music": 4
+    }
+  },
+  {
+    "id": 2523,
+    "url": "http://youtu.be/1KiFXylkPpg?start=10&end=20",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Theme music",
+      "Video game music"
+    ],
+    "mturk": {
+      "Electronic organ": 2,
+      "Organ": 1,
+      "Video game music": 0,
+      "Music": 2,
+      "Theme music": 2
+    }
+  },
+  {
+    "id": 2581,
+    "url": "http://youtu.be/aRXH3wsZTjk?start=0&end=10",
+    "given_original_labels": [
+      "Slap smack"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Slap smack": 4,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 2605,
+    "url": "http://youtu.be/ce6gtnd6qDc?start=440&end=450",
+    "given_original_labels": [
+      "Percussion",
+      "Drum",
+      "Tabla"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Middle Eastern music"
+    ],
+    "mturk": {
+      "Tabla": 3,
+      "Percussion": 1,
+      "Middle Eastern music": 4,
+      "Music": 2,
+      "Drum": 2,
+      "Singing": 3
+    }
+  },
+  {
+    "id": 2615,
+    "url": "http://youtu.be/Bs2KqqI9F_k?start=30&end=40",
+    "given_original_labels": [
+      "Emergency vehicle",
+      "Fire engine fire truck (siren)"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Fire engine fire truck (siren)": 1,
+      "Emergency vehicle": 2,
+      "Music": 3
+    }
+  },
+  {
+    "id": 2619,
+    "url": "http://youtu.be/Bs0tiKuvDbY?start=180&end=190",
+    "given_original_labels": [
+      "Mechanisms",
+      "Pulleys"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Insect"
+    ],
+    "mturk": {
+      "Pulleys": 4,
+      "Mechanisms": 3,
+      "Insect": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 2744,
+    "url": "http://youtu.be/k2bD1uvb7g4?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Folk music",
+      "Middle Eastern music"
+    ],
+    "mturk": {
+      "Middle Eastern music": 2,
+      "Folk music": 0,
+      "Music": 3,
+      "Hiss": 0,
+      "Snake": 0,
+      "Singing": 5
+    }
+  },
+  {
+    "id": 2796,
+    "url": "http://youtu.be/4tT0QpiWrhY?start=150&end=160",
+    "given_original_labels": [
+      "Keyboard (musical)",
+      "Harpsichord"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Speech": 4,
+      "Harpsichord": 2,
+      "Music": 4,
+      "Keyboard (musical)": 3
+    }
+  },
+  {
+    "id": 2807,
+    "url": "http://youtu.be/Dkfcal9MGPs?start=400&end=410",
+    "given_original_labels": [
+      "Squawk"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Squawk": 2,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 2848,
+    "url": "http://youtu.be/K3Q8Gi6oPIg?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Chicken rooster",
+      "Cluck",
+      "Crowing cock-a-doodle-doo"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Fowl": 0,
+      "Crowing cock-a-doodle-doo": 0,
+      "Cluck": 2,
+      "Speech": 3,
+      "Chicken rooster": 1
+    }
+  },
+  {
+    "id": 2987,
+    "url": "http://youtu.be/5EontevWcfQ?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Chicken rooster",
+      "Cluck"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Techno",
+      "Electronica",
+      "Trance music",
+      "Dance music"
+    ],
+    "mturk": {
+      "Dance music": 1,
+      "Music": 2,
+      "Electronica": 1,
+      "Chicken rooster": 2,
+      "Cluck": 1,
+      "Trance music": 2,
+      "Techno": 1,
+      "Fowl": 1
+    }
+  },
+  {
+    "id": 3082,
+    "url": "http://youtu.be/bYl3GtGFky8?start=210&end=220",
+    "given_original_labels": [
+      "Jingle (music)"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Soul music",
+      "Independent music",
+      "Happy music"
+    ],
+    "mturk": {
+      "Jingle (music)": 0,
+      "Happy music": 2,
+      "Soul music": 2,
+      "Music": 4,
+      "Independent music": 0
+    }
+  },
+  {
+    "id": 3219,
+    "url": "http://youtu.be/SXvinNxNPiE?start=80&end=90",
+    "given_original_labels": [
+      "Organ",
+      "Hammond organ"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Hammond organ": 1,
+      "Organ": 1,
+      "Singing": 5
+    }
+  },
+  {
+    "id": 3242,
+    "url": "http://youtu.be/YdXQJS3Yv0Y?start=30&end=40",
+    "given_original_labels": [
+      "Whip"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Whip": 2,
+      "Music": 5
+    }
+  },
+  {
+    "id": 3309,
+    "url": "http://youtu.be/EFdgfTqdF3Y?start=30&end=40",
+    "given_original_labels": [
+      "Laughter",
+      "Baby laughter",
+      "Chuckle chortle"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chuckle chortle": 1,
+      "Speech": 0,
+      "Baby laughter": 2,
+      "Laughter": 4
+    }
+  },
+  {
+    "id": 3324,
+    "url": "http://youtu.be/_PZZCdKz9lU?start=30&end=40",
+    "given_original_labels": [
+      "Frog",
+      "Croak"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Croak": 2,
+      "Music": 4,
+      "Frog": 2
+    }
+  },
+  {
+    "id": 3353,
+    "url": "http://youtu.be/LYqVH6Z8ppw?start=30&end=40",
+    "given_original_labels": [
+      "Car passing by"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Car passing by": 3,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 3391,
+    "url": "http://youtu.be/Ae0QeevwkdY?start=140&end=150",
+    "given_original_labels": [
+      "Percussion",
+      "Drum",
+      "Wood block"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Music of Africa"
+    ],
+    "mturk": {
+      "Percussion": 2,
+      "Music of Africa": 2,
+      "Wood block": 2,
+      "Drum": 3,
+      "Music": 2
+    }
+  },
+  {
+    "id": 3416,
+    "url": "http://youtu.be/10hGfv89L3g?start=30&end=40",
+    "given_original_labels": [
+      "Car passing by"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Car passing by": 4,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 3477,
+    "url": "http://youtu.be/PRlARAE-7xQ?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chopping (food)": 5,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 3542,
+    "url": "http://youtu.be/3P0TaRKQPbE?start=400&end=410",
+    "given_original_labels": [
+      "Clarinet"
+    ],
+    "our_guessed_labels": [
+      "Brass instrument",
+      "French horn",
+      "Trumpet",
+      "Trombone"
+    ],
+    "mturk": {
+      "Clarinet": 2,
+      "Trombone": 0,
+      "French horn": 3,
+      "Trumpet": 2,
+      "Brass instrument": 2
+    }
+  },
+  {
+    "id": 3589,
+    "url": "http://youtu.be/JcqeR7BgSUQ?start=10&end=20",
+    "given_original_labels": [
+      "Explosion"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Speech": 4,
+      "Explosion": 3
+    }
+  },
+  {
+    "id": 3594,
+    "url": "http://youtu.be/CMWlF3ZGPZg?start=360&end=370",
+    "given_original_labels": [
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Trance music",
+      "Video game music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Trance music": 0,
+      "Throbbing": 1,
+      "Video game music": 2
+    }
+  },
+  {
+    "id": 3600,
+    "url": "http://youtu.be/CMCtge02AnU?start=260&end=270",
+    "given_original_labels": [
+      "Organ",
+      "Hammond organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Steelpan"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Hammond organ": 5,
+      "Steelpan": 1,
+      "Organ": 3
+    }
+  },
+  {
+    "id": 3774,
+    "url": "http://youtu.be/gjlo4evwjlE?start=30&end=40",
+    "given_original_labels": [
+      "Air horn truck horn"
+    ],
+    "our_guessed_labels": [
+      "Siren",
+      "Civil defense siren"
+    ],
+    "mturk": {
+      "Siren": 2,
+      "Civil defense siren": 4,
+      "Air horn truck horn": 0
+    }
+  },
+  {
+    "id": 3804,
+    "url": "http://youtu.be/RthneIOXhz0?start=120&end=130",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Jingle bell": 2
+    }
+  },
+  {
+    "id": 3866,
+    "url": "http://youtu.be/3XC4QOoRjB4?start=240&end=250",
+    "given_original_labels": [
+      "Cymbal",
+      "Hi-hat"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Video game music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Cymbal": 3,
+      "Hi-hat": 2,
+      "Video game music": 1
+    }
+  },
+  {
+    "id": 3869,
+    "url": "http://youtu.be/3X9dtfeV1mQ?start=40&end=50",
+    "given_original_labels": [
+      "Brass instrument",
+      "Saxophone"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Saxophone": 2,
+      "Music": 2,
+      "Brass instrument": 5
+    }
+  },
+  {
+    "id": 3925,
+    "url": "http://youtu.be/-0RWZT-miFs?start=420&end=430",
+    "given_original_labels": [
+      "Car",
+      "Keys jangling"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Car": 4,
+      "Keys jangling": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 3993,
+    "url": "http://youtu.be/j3bxMnXLQBk?start=30&end=40",
+    "given_original_labels": [
+      "Percussion",
+      "Wood block"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Reggae",
+      "Funk"
+    ],
+    "mturk": {
+      "Percussion": 2,
+      "Wood block": 0,
+      "Reggae": 0,
+      "Funk": 2,
+      "Music": 5
+    }
+  },
+  {
+    "id": 4195,
+    "url": "http://youtu.be/FJsoHDjo71A?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Chopping (food)": 5,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 4490,
+    "url": "http://youtu.be/jxO8stXVN2g?start=280&end=290",
+    "given_original_labels": [
+      "Yell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Yell": 3
+    }
+  },
+  {
+    "id": 4544,
+    "url": "http://youtu.be/PjcsR35h-dM?start=30&end=40",
+    "given_original_labels": [
+      "Tubular bells"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Tubular bells": 4
+    }
+  },
+  {
+    "id": 4570,
+    "url": "http://youtu.be/Q93n3dvaaTI?start=130&end=140",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Orchestra": 1
+    }
+  },
+  {
+    "id": 4583,
+    "url": "http://youtu.be/VFAygt3lGQY?start=340&end=350",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Harmonica"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Harmonica": 3,
+      "Wind instrument woodwind instrument": 1
+    }
+  },
+  {
+    "id": 4639,
+    "url": "http://youtu.be/0ZY0GW7KYNA?start=250&end=260",
+    "given_original_labels": [
+      "Whoosh swoosh swish"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music",
+      "Dubstep",
+      "Electronic dance music"
+    ],
+    "mturk": {
+      "Electronic dance music": 4,
+      "Speech": 0,
+      "Music": 3,
+      "Whoosh swoosh swish": 3,
+      "Dubstep": 3
+    }
+  },
+  {
+    "id": 4660,
+    "url": "http://youtu.be/FHaWu2rcP94?start=80&end=90",
+    "given_original_labels": [
+      "Insect",
+      "Fly housefly",
+      "Bee wasp etc."
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Bee wasp etc.": 3,
+      "Insect": 2,
+      "Speech": 3,
+      "Fly housefly": 2
+    }
+  },
+  {
+    "id": 4664,
+    "url": "http://youtu.be/8vCSY9OKzZA?start=40&end=50",
+    "given_original_labels": [
+      "Classical music",
+      "Song"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Classical music": 5,
+      "Song": 2
+    }
+  },
+  {
+    "id": 4670,
+    "url": "http://youtu.be/lrVmBqSTYS0?start=30&end=40",
+    "given_original_labels": [
+      "Chewing mastication"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Speech": 3,
+      "Chewing mastication": 2
+    }
+  },
+  {
+    "id": 4721,
+    "url": "http://youtu.be/p32OC97aNqc?start=30&end=40",
+    "given_original_labels": [
+      "Baby laughter",
+      "Chuckle chortle"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chuckle chortle": 4,
+      "Speech": 0,
+      "Baby laughter": 3
+    }
+  },
+  {
+    "id": 4782,
+    "url": "http://youtu.be/7S2quCoO880?start=30&end=40",
+    "given_original_labels": [
+      "Raindrop"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Raindrop": 3
+    }
+  },
+  {
+    "id": 4970,
+    "url": "http://youtu.be/rmzDww6glq8?start=200&end=210",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Rock music",
+      "Psychedelic rock"
+    ],
+    "mturk": {
+      "Electronic organ": 0,
+      "Psychedelic rock": 0,
+      "Organ": 0,
+      "Music": 4,
+      "Rock music": 1
+    }
+  },
+  {
+    "id": 5082,
+    "url": "http://youtu.be/H2mtpjGO6PY?start=210&end=220",
+    "given_original_labels": [
+      "Percussion",
+      "Drum",
+      "Tabla"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Tabla": 2,
+      "Music": 4,
+      "Percussion": 2,
+      "Drum": 3
+    }
+  },
+  {
+    "id": 5113,
+    "url": "http://youtu.be/2YW7WBtqzzQ?start=0&end=10",
+    "given_original_labels": [
+      "Burping eructation"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Speech": 2,
+      "Burping eructation": 4
+    }
+  },
+  {
+    "id": 5354,
+    "url": "http://youtu.be/0tuZjXfDy-Y?start=330&end=340",
+    "given_original_labels": [
+      "Scratch"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Scary music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Scratch": 2,
+      "Scary music": 2
+    }
+  },
+  {
+    "id": 5467,
+    "url": "http://youtu.be/Glc73vb8z5I?start=180&end=190",
+    "given_original_labels": [
+      "Sine wave"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Sine wave": 2
+    }
+  },
+  {
+    "id": 5519,
+    "url": "http://youtu.be/9XFgzi6H3Eo?start=70&end=80",
+    "given_original_labels": [
+      "Car alarm"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Speech": 5,
+      "Car alarm": 4
+    }
+  },
+  {
+    "id": 5524,
+    "url": "http://youtu.be/1X0VCv-S2H8?start=50&end=60",
+    "given_original_labels": [
+      "Smash crash"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Smash crash": 3,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 5604,
+    "url": "http://youtu.be/3v93yDHV-KY?start=140&end=150",
+    "given_original_labels": [
+      "Scissors"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Water",
+      "Sanding"
+    ],
+    "mturk": {
+      "Water": 1,
+      "Scissors": 3,
+      "Speech": 4,
+      "Sanding": 1
+    }
+  },
+  {
+    "id": 5641,
+    "url": "http://youtu.be/BX4o_mGWmfA?start=160&end=170",
+    "given_original_labels": [
+      "Crying sobbing"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Crying sobbing": 4,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 5735,
+    "url": "http://youtu.be/p85AU2zP9Go?start=0&end=10",
+    "given_original_labels": [
+      "Scratch"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Scratch": 4
+    }
+  },
+  {
+    "id": 5762,
+    "url": "http://youtu.be/LnaumWwuSGY?start=70&end=80",
+    "given_original_labels": [
+      "Hum",
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Hum": 2,
+      "Throbbing": 1,
+      "Music": 2
+    }
+  },
+  {
+    "id": 5775,
+    "url": "http://youtu.be/P2l0lbn5TVg?start=210&end=220",
+    "given_original_labels": [
+      "Foghorn"
+    ],
+    "our_guessed_labels": [
+      "Brass instrument",
+      "French horn",
+      "Trombone"
+    ],
+    "mturk": {
+      "Foghorn": 1,
+      "French horn": 3,
+      "Brass instrument": 1,
+      "Trombone": 0
+    }
+  },
+  {
+    "id": 5800,
+    "url": "http://youtu.be/reAsBqZsfyo?start=110&end=120",
+    "given_original_labels": [
+      "Brass instrument",
+      "Saxophone"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Speech": 3,
+      "Saxophone": 2,
+      "Music": 4,
+      "Brass instrument": 2
+    }
+  },
+  {
+    "id": 5880,
+    "url": "http://youtu.be/ZJOblt2XUJI?start=4&end=14",
+    "given_original_labels": [
+      "Insect",
+      "Mosquito",
+      "Fly housefly"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Speech": 4,
+      "Mosquito": 5,
+      "Music": 4,
+      "Insect": 4,
+      "Fly housefly": 3
+    }
+  },
+  {
+    "id": 5894,
+    "url": "http://youtu.be/ESKallQizu8?start=19&end=29",
+    "given_original_labels": [
+      "Mallet percussion",
+      "Marimba xylophone",
+      "Glockenspiel"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Mallet percussion": 1,
+      "Music": 3,
+      "Glockenspiel": 2,
+      "Marimba xylophone": 2
+    }
+  },
+  {
+    "id": 5918,
+    "url": "http://youtu.be/cfi_mCKjbyw?start=40&end=50",
+    "given_original_labels": [
+      "Giggle",
+      "Belly laugh"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Giggle": 0,
+      "Belly laugh": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 5924,
+    "url": "http://youtu.be/HWjQnxlvwa0?start=430&end=440",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Machine gun"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Radio"
+    ],
+    "mturk": {
+      "Gunshot gunfire": 5,
+      "Radio": 3,
+      "Speech": 3,
+      "Machine gun": 3
+    }
+  },
+  {
+    "id": 5936,
+    "url": "http://youtu.be/CDiY9LmGX50?start=20&end=30",
+    "given_original_labels": [
+      "Conversation"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Speech": 3,
+      "Conversation": 5
+    }
+  },
+  {
+    "id": 6046,
+    "url": "http://youtu.be/AWynHWLA31g?start=25&end=35",
+    "given_original_labels": [
+      "Smash crash"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Smash crash": 1
+    }
+  },
+  {
+    "id": 6054,
+    "url": "http://youtu.be/XykxA0glDfo?start=30&end=40",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Artillery fire"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Gunshot gunfire": 1,
+      "Artillery fire": 4,
+      "Music": 0,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 6129,
+    "url": "http://youtu.be/R6EbA_Is4gc?start=520&end=530",
+    "given_original_labels": [
+      "Percussion",
+      "Drum",
+      "Tabla"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Tabla": 0,
+      "Percussion": 0,
+      "Drum": 2,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 6172,
+    "url": "http://youtu.be/fzhJ-Fmt-Po?start=7&end=17",
+    "given_original_labels": [
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Speech": 3,
+      "Snake": 3
+    }
+  },
+  {
+    "id": 6179,
+    "url": "http://youtu.be/X4p9RSShJcA?start=140&end=150",
+    "given_original_labels": [
+      "Yodeling"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Yodeling": 1,
+      "Music": 4
+    }
+  },
+  {
+    "id": 6201,
+    "url": "http://youtu.be/0R6KIVvlyfQ?start=30&end=40",
+    "given_original_labels": [
+      "Hum",
+      "Mains hum"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hum": 1,
+      "Speech": 5,
+      "Mains hum": 2
+    }
+  },
+  {
+    "id": 6322,
+    "url": "http://youtu.be/WsqTkkUzH5w?start=30&end=40",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Harmonica"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Country",
+      "Bluegrass"
+    ],
+    "mturk": {
+      "Bluegrass": 2,
+      "Music": 1,
+      "Harmonica": 2,
+      "Wind instrument woodwind instrument": 1,
+      "Country": 1
+    }
+  },
+  {
+    "id": 6329,
+    "url": "http://youtu.be/jejadhR_m9w?start=30&end=40",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ",
+      "Hammond organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Rock music",
+      "Heavy metal",
+      "Progressive rock",
+      "Rock and roll",
+      "Psychedelic rock"
+    ],
+    "mturk": {
+      "Electronic organ": 3,
+      "Organ": 3,
+      "Hammond organ": 2,
+      "Heavy metal": 1,
+      "Progressive rock": 3,
+      "Music": 3,
+      "Rock and roll": 2,
+      "Psychedelic rock": 0,
+      "Rock music": 2
+    }
+  },
+  {
+    "id": 6344,
+    "url": "http://youtu.be/-h5ZGw9Ci5c?start=450&end=460",
+    "given_original_labels": [
+      "Percussion",
+      "Drum kit",
+      "Drum",
+      "Rimshot",
+      "Drum roll",
+      "Bass drum"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Percussion": 0,
+      "Drum kit": 1,
+      "Rimshot": 1,
+      "Drum roll": 1,
+      "Music": 4,
+      "Drum": 1,
+      "Bass drum": 0
+    }
+  },
+  {
+    "id": 6424,
+    "url": "http://youtu.be/HsU2f5vBuLA?start=30&end=40",
+    "given_original_labels": [
+      "Toothbrush"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Water",
+      "Water tap faucet",
+      "Sink (filling or washing)",
+      "Bathtub (filling or washing)",
+      "Toilet flush",
+      "Fill (with liquid)",
+      "Pump (liquid)"
+    ],
+    "mturk": {
+      "Speech": 2,
+      "Bathtub (filling or washing)": 2,
+      "Toothbrush": 1,
+      "Water": 1,
+      "Water tap faucet": 1,
+      "Sink (filling or washing)": 1,
+      "Pump (liquid)": 1,
+      "Toilet flush": 2,
+      "Fill (with liquid)": 1
+    }
+  },
+  {
+    "id": 6443,
+    "url": "http://youtu.be/tGv_L09pf6E?start=30&end=40",
+    "given_original_labels": [
+      "Music",
+      "Background music",
+      "Sad music"
+    ],
+    "our_guessed_labels": [
+      "Keyboard (musical)",
+      "Piano",
+      "Organ",
+      "Electronic organ",
+      "Hammond organ"
+    ],
+    "mturk": {
+      "Electronic organ": 1,
+      "Organ": 2,
+      "Hammond organ": 2,
+      "Piano": 0,
+      "Keyboard (musical)": 1,
+      "Music": 2,
+      "Sad music": 1,
+      "Background music": 1
+    }
+  },
+  {
+    "id": 6466,
+    "url": "http://youtu.be/hiHOqMOJTH4?start=30&end=40",
+    "given_original_labels": [
+      "Tuning fork"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Tuning fork": 1,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 6479,
+    "url": "http://youtu.be/Iow392Lib1Q?start=0&end=10",
+    "given_original_labels": [
+      "Hum",
+      "Mains hum"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Hum": 1,
+      "Music": 4,
+      "Mains hum": 1
+    }
+  },
+  {
+    "id": 6498,
+    "url": "http://youtu.be/VUosI4YQook?start=30&end=40",
+    "given_original_labels": [
+      "Boat Water vehicle",
+      "Rowboat canoe kayak"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Rowboat canoe kayak": 0,
+      "Boat Water vehicle": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 6543,
+    "url": "http://youtu.be/4XqMpn0WIKk?start=540&end=550",
+    "given_original_labels": [
+      "Keyboard (musical)",
+      "Piano",
+      "Electric piano"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music",
+      "Guitar"
+    ],
+    "mturk": {
+      "Electric piano": 2,
+      "Speech": 4,
+      "Piano": 2,
+      "Keyboard (musical)": 3,
+      "Music": 3,
+      "Guitar": 1
+    }
+  },
+  {
+    "id": 6578,
+    "url": "http://youtu.be/aHKqFDRglTM?start=10&end=20",
+    "given_original_labels": [
+      "Alarm clock"
+    ],
+    "our_guessed_labels": [
+      "Tubular bells",
+      "Bell",
+      "Church bell",
+      "Change ringing (campanology)"
+    ],
+    "mturk": {
+      "Bell": 2,
+      "Church bell": 1,
+      "Tubular bells": 1,
+      "Change ringing (campanology)": 1,
+      "Alarm clock": 2
+    }
+  },
+  {
+    "id": 6749,
+    "url": "http://youtu.be/VGI213Q9Yao?start=300&end=310",
+    "given_original_labels": [
+      "Gasp"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Gasp": 4,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 6795,
+    "url": "http://youtu.be/VkYB3Fw4bLw?start=30&end=40",
+    "given_original_labels": [
+      "Frog",
+      "Croak"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Ambient music",
+      "New-age music"
+    ],
+    "mturk": {
+      "Croak": 1,
+      "New-age music": 1,
+      "Music": 4,
+      "Ambient music": 2,
+      "Frog": 0
+    }
+  },
+  {
+    "id": 6833,
+    "url": "http://youtu.be/XqLk8ErfbuA?start=180&end=190",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Christian music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Christian music": 1,
+      "Jingle bell": 1
+    }
+  },
+  {
+    "id": 6969,
+    "url": "http://youtu.be/cOjVqdRQnLA?start=120&end=130",
+    "given_original_labels": [
+      "Swing music"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Swing music": 4,
+      "Music": 3,
+      "Speech": 0
+    }
+  },
+  {
+    "id": 7034,
+    "url": "http://youtu.be/BWD6kurQFNg?start=30&end=40",
+    "given_original_labels": [
+      "Accordion"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Jingle bell"
+    ],
+    "mturk": {
+      "Accordion": 2,
+      "Music": 4,
+      "Jingle bell": 2
+    }
+  },
+  {
+    "id": 7115,
+    "url": "http://youtu.be/d5qR0aff0Kk?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Turkey",
+      "Gobble",
+      "Bird",
+      "Bird vocalization bird call bird song"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Fowl": 2,
+      "Speech": 5,
+      "Bird vocalization bird call bird song": 3,
+      "Gobble": 2,
+      "Bird": 3,
+      "Turkey": 3
+    }
+  },
+  {
+    "id": 7163,
+    "url": "http://youtu.be/PNoTKVe2_LY?start=30&end=40",
+    "given_original_labels": [
+      "Brass instrument",
+      "Trumpet"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Pop music",
+      "Dance music"
+    ],
+    "mturk": {
+      "Dance music": 2,
+      "Pop music": 3,
+      "Music": 2,
+      "Trumpet": 1,
+      "Brass instrument": 0
+    }
+  },
+  {
+    "id": 7200,
+    "url": "http://youtu.be/HMF7YxjVg6w?start=30&end=40",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Electronic organ": 4,
+      "Organ": 2
+    }
+  },
+  {
+    "id": 7249,
+    "url": "http://youtu.be/eDpSgNVnisw?start=30&end=40",
+    "given_original_labels": [
+      "Jingle tinkle"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Jingle tinkle": 3
+    }
+  },
+  {
+    "id": 7321,
+    "url": "http://youtu.be/ALtDtYnWFuo?start=30&end=40",
+    "given_original_labels": [
+      "Pizzicato",
+      "Cello",
+      "Double bass"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Bluegrass"
+    ],
+    "mturk": {
+      "Cello": 1,
+      "Double bass": 2,
+      "Bluegrass": 2,
+      "Pizzicato": 1,
+      "Music": 4
+    }
+  },
+  {
+    "id": 7364,
+    "url": "http://youtu.be/9dU2y2b_LBg?start=380&end=390",
+    "given_original_labels": [
+      "Insect",
+      "Fly housefly",
+      "Bee wasp etc."
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Bee wasp etc.": 1,
+      "Insect": 2,
+      "Speech": 5,
+      "Fly housefly": 2
+    }
+  },
+  {
+    "id": 7417,
+    "url": "http://youtu.be/Tp0Tu17KHPY?start=280&end=290",
+    "given_original_labels": [
+      "Thunk"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Thunk": 4,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 7423,
+    "url": "http://youtu.be/QlqLLZQLNiA?start=0&end=10",
+    "given_original_labels": [
+      "Cowbell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Cowbell": 4
+    }
+  },
+  {
+    "id": 7654,
+    "url": "http://youtu.be/F96fzYqm1u4?start=70&end=80",
+    "given_original_labels": [
+      "Electric shaver electric razor"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Electric shaver electric razor": 4,
+      "Music": 2,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 7805,
+    "url": "http://youtu.be/DF0AL3gaNLQ?start=30&end=40",
+    "given_original_labels": [
+      "Rain",
+      "Raindrop"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Rain": 2,
+      "Raindrop": 2,
+      "Music": 1
+    }
+  },
+  {
+    "id": 7972,
+    "url": "http://youtu.be/S0MxbuMydGM?start=30&end=40",
+    "given_original_labels": [
+      "Car alarm"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Car alarm": 2
+    }
+  },
+  {
+    "id": 8074,
+    "url": "http://youtu.be/Sl_K9kFGjz4?start=20&end=30",
+    "given_original_labels": [
+      "Heart sounds heartbeat",
+      "Hum",
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Dubstep"
+    ],
+    "mturk": {
+      "Throbbing": 1,
+      "Heart sounds heartbeat": 1,
+      "Hum": 2,
+      "Music": 3,
+      "Dubstep": 2
+    }
+  },
+  {
+    "id": 8077,
+    "url": "http://youtu.be/-fPdOa99Iwg?start=30&end=40",
+    "given_original_labels": [
+      "Baby laughter",
+      "Snicker"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Speech": 0,
+      "Baby laughter": 4,
+      "Snicker": 1
+    }
+  },
+  {
+    "id": 8117,
+    "url": "http://youtu.be/OG1V3atGe28?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 2,
+      "Speech": 4,
+      "Snake": 3
+    }
+  },
+  {
+    "id": 8125,
+    "url": "http://youtu.be/maBXfdwLhCc?start=120&end=130",
+    "given_original_labels": [
+      "Static"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Drum machine",
+      "Techno",
+      "Dubstep",
+      "Drum and bass"
+    ],
+    "mturk": {
+      "Static": 1,
+      "Drum machine": 2,
+      "Drum and bass": 1,
+      "Music": 3,
+      "Dubstep": 3,
+      "Techno": 3
+    }
+  },
+  {
+    "id": 8126,
+    "url": "http://youtu.be/zzD_oVgzKMc?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Chopping (food)": 5,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 8139,
+    "url": "http://youtu.be/FLZIephTUuo?start=20&end=30",
+    "given_original_labels": [
+      "Ding"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Ding": 3
+    }
+  },
+  {
+    "id": 8309,
+    "url": "http://youtu.be/HQz9wJ2XpqE?start=170&end=180",
+    "given_original_labels": [
+      "Wedding music"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Vocal music"
+    ],
+    "mturk": {
+      "Wedding music": 3,
+      "Music": 3,
+      "Singing": 4,
+      "Vocal music": 2
+    }
+  },
+  {
+    "id": 8389,
+    "url": "http://youtu.be/txbdunEMM5w?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Goose",
+      "Honk"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Fowl": 1,
+      "Honk": 5,
+      "Speech": 4,
+      "Goose": 4,
+      "Music": 1
+    }
+  },
+  {
+    "id": 8491,
+    "url": "http://youtu.be/4KMtOk_sIB8?start=100&end=110",
+    "given_original_labels": [
+      "Buzz"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "House music",
+      "Techno",
+      "Dubstep",
+      "Electronica",
+      "Electronic dance music",
+      "Dance music"
+    ],
+    "mturk": {
+      "Dance music": 1,
+      "Music": 1,
+      "Electronica": 2,
+      "Dubstep": 1,
+      "Techno": 2,
+      "House music": 0,
+      "Buzz": 0,
+      "Electronic dance music": 3
+    }
+  },
+  {
+    "id": 8493,
+    "url": "http://youtu.be/4KEmXh9FmmI?start=30&end=40",
+    "given_original_labels": [
+      "Wind",
+      "Wind noise (microphone)",
+      "Boat Water vehicle",
+      "Rowboat canoe kayak"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Rowboat canoe kayak": 2,
+      "Wind": 0,
+      "Music": 2,
+      "Boat Water vehicle": 3,
+      "Wind noise (microphone)": 0
+    }
+  },
+  {
+    "id": 8521,
+    "url": "http://youtu.be/EDVJNo2EAmA?start=30&end=40",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Orchestra": 2
+    }
+  },
+  {
+    "id": 8558,
+    "url": "http://youtu.be/73Pa6FtmnWk?start=90&end=100",
+    "given_original_labels": [
+      "Rustle"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Vehicle"
+    ],
+    "mturk": {
+      "Rustle": 1,
+      "Vehicle": 3,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 8591,
+    "url": "http://youtu.be/xx1RccwlF5g?start=380&end=390",
+    "given_original_labels": [
+      "Music",
+      "Musical instrument",
+      "Plucked string instrument",
+      "Guitar",
+      "Bass guitar",
+      "Foghorn"
+    ],
+    "our_guessed_labels": [
+      "Keyboard (musical)",
+      "Organ",
+      "Hammond organ"
+    ],
+    "mturk": {
+      "Hammond organ": 0,
+      "Organ": 0,
+      "Keyboard (musical)": 1,
+      "Bass guitar": 2,
+      "Foghorn": 0,
+      "Musical instrument": 1,
+      "Music": 0,
+      "Guitar": 2,
+      "Plucked string instrument": 1
+    }
+  },
+  {
+    "id": 8602,
+    "url": "http://youtu.be/9iGGypoLYpE?start=30&end=40",
+    "given_original_labels": [
+      "Wood",
+      "Splinter"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Pulleys",
+      "Filing (rasp)",
+      "Sanding",
+      "Rub",
+      "Inside small room"
+    ],
+    "mturk": {
+      "Filing (rasp)": 0,
+      "Speech": 2,
+      "Wood": 2,
+      "Splinter": 1,
+      "Rub": 0,
+      "Inside small room": 0,
+      "Pulleys": 0,
+      "Sanding": 0
+    }
+  },
+  {
+    "id": 8718,
+    "url": "http://youtu.be/XQ8qpdW-OrE?start=310&end=320",
+    "given_original_labels": [
+      "Trance music",
+      "Fusillade"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Trance music": 3,
+      "Fusillade": 3
+    }
+  },
+  {
+    "id": 8852,
+    "url": "http://youtu.be/GA2nJFtom1k?start=170&end=180",
+    "given_original_labels": [
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Throbbing": 2,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 8930,
+    "url": "http://youtu.be/jin4FoKXn1o?start=180&end=190",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Brass instrument",
+      "French horn",
+      "Trumpet",
+      "Trombone"
+    ],
+    "mturk": {
+      "Orchestra": 3,
+      "Trombone": 3,
+      "French horn": 1,
+      "Trumpet": 3,
+      "Brass instrument": 2
+    }
+  },
+  {
+    "id": 8951,
+    "url": "http://youtu.be/kxkk4w2yzbk?start=30&end=40",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Soul music",
+      "Swing music",
+      "Funk"
+    ],
+    "mturk": {
+      "Electronic organ": 3,
+      "Organ": 5,
+      "Soul music": 1,
+      "Swing music": 1,
+      "Music": 2,
+      "Funk": 1
+    }
+  },
+  {
+    "id": 9006,
+    "url": "http://youtu.be/sb9-EqCs9GU?start=30&end=40",
+    "given_original_labels": [
+      "Whip"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Whip": 4,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 9045,
+    "url": "http://youtu.be/EfK1zlC7rKs?start=10&end=20",
+    "given_original_labels": [
+      "Ding"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Music for children",
+      "Jingle (music)"
+    ],
+    "mturk": {
+      "Music for children": 1,
+      "Music": 1,
+      "Jingle (music)": 0,
+      "Ding": 4
+    }
+  },
+  {
+    "id": 9078,
+    "url": "http://youtu.be/7h4P7aVNY4s?start=260&end=270",
+    "given_original_labels": [
+      "Brass instrument",
+      "Trombone"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Trombone": 0,
+      "Speech": 5,
+      "Brass instrument": 1
+    }
+  },
+  {
+    "id": 9085,
+    "url": "http://youtu.be/VlgOLOoctm0?start=30&end=40",
+    "given_original_labels": [
+      "Music",
+      "Background music",
+      "Lullaby"
+    ],
+    "our_guessed_labels": [
+      "Pizzicato",
+      "Harp"
+    ],
+    "mturk": {
+      "Harp": 3,
+      "Pizzicato": 2,
+      "Music": 5,
+      "Background music": 1,
+      "Lullaby": 2
+    }
+  },
+  {
+    "id": 9112,
+    "url": "http://youtu.be/QLjDhY74Uik?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Folk music",
+      "Music of Bollywood"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Music of Bollywood": 1,
+      "Folk music": 1,
+      "Jingle bell": 2
+    }
+  },
+  {
+    "id": 9170,
+    "url": "http://youtu.be/sN2kIfzYZ9o?start=380&end=390",
+    "given_original_labels": [
+      "Sawing",
+      "Rub"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Rub": 0,
+      "Sawing": 4,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 9177,
+    "url": "http://youtu.be/ulH44jvZ9cM?start=10&end=20",
+    "given_original_labels": [
+      "Shout",
+      "Music"
+    ],
+    "our_guessed_labels": [
+      "Wind instrument woodwind instrument",
+      "Bagpipes"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Bagpipes": 4,
+      "Wind instrument woodwind instrument": 1,
+      "Shout": 2
+    }
+  },
+  {
+    "id": 9204,
+    "url": "http://youtu.be/SYEmTschjRg?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Turkey",
+      "Gobble"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Fowl": 3,
+      "Speech": 3,
+      "Gobble": 1,
+      "Turkey": 1,
+      "Music": 2
+    }
+  },
+  {
+    "id": 9278,
+    "url": "http://youtu.be/uhLJ20AVkUU?start=30&end=40",
+    "given_original_labels": [
+      "Ska"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Music for children",
+      "Jingle (music)"
+    ],
+    "mturk": {
+      "Music for children": 2,
+      "Music": 5,
+      "Jingle (music)": 3,
+      "Ska": 1
+    }
+  },
+  {
+    "id": 9281,
+    "url": "http://youtu.be/kR4UTeYw44o?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chopping (food)": 4,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 9361,
+    "url": "http://youtu.be/yd0a-Qfjvf8?start=30&end=40",
+    "given_original_labels": [
+      "Percussion",
+      "Drum kit",
+      "Drum",
+      "Snare drum",
+      "Rimshot",
+      "Drum roll",
+      "Bass drum"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Dubstep",
+      "Zing"
+    ],
+    "mturk": {
+      "Percussion": 1,
+      "Drum kit": 2,
+      "Rimshot": 0,
+      "Drum roll": 0,
+      "Music": 4,
+      "Snare drum": 2,
+      "Bass drum": 2,
+      "Dubstep": 3,
+      "Zing": 2,
+      "Drum": 1
+    }
+  },
+  {
+    "id": 9852,
+    "url": "http://youtu.be/sr4cGMPLcoA?start=20&end=30",
+    "given_original_labels": [
+      "Water",
+      "Water tap faucet",
+      "Bathtub (filling or washing)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Water": 2,
+      "Water tap faucet": 0,
+      "Speech": 4,
+      "Bathtub (filling or washing)": 2
+    }
+  },
+  {
+    "id": 9867,
+    "url": "http://youtu.be/Oc28_oxzqek?start=30&end=40",
+    "given_original_labels": [
+      "Chop"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Chop": 4,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 10002,
+    "url": "http://youtu.be/_W0goL0IzmE?start=22&end=32",
+    "given_original_labels": [
+      "Whip"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Whip": 5,
+      "Music": 3,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 10182,
+    "url": "http://youtu.be/FgzVC4jxtxg?start=100&end=110",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Clarinet"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Musical instrument",
+      "Guitar"
+    ],
+    "mturk": {
+      "Clarinet": 3,
+      "Guitar": 1,
+      "Music": 1,
+      "Musical instrument": 3,
+      "Wind instrument woodwind instrument": 1
+    }
+  },
+  {
+    "id": 10231,
+    "url": "http://youtu.be/FWLkyzlJBP8?start=170&end=180",
+    "given_original_labels": [
+      "Church bell"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Church bell": 3,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 10255,
+    "url": "http://youtu.be/x08TBhoCjQg?start=260&end=270",
+    "given_original_labels": [
+      "Blender"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Blender": 3,
+      "Music": 3,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 10283,
+    "url": "http://youtu.be/oiEVwxN5J0k?start=160&end=170",
+    "given_original_labels": [
+      "Hum",
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Hum": 2,
+      "Throbbing": 4,
+      "Music": 4
+    }
+  },
+  {
+    "id": 10419,
+    "url": "http://youtu.be/jvhpyuC8eeo?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Chopping (food)": 5,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 10636,
+    "url": "http://youtu.be/D_u9WaQg4rU?start=110&end=120",
+    "given_original_labels": [
+      "Rattle"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Electronic dance music",
+      "Dance music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Rattle": 4,
+      "Electronic dance music": 3,
+      "Dance music": 4
+    }
+  },
+  {
+    "id": 10638,
+    "url": "http://youtu.be/ML0ceeKKABk?start=260&end=270",
+    "given_original_labels": [
+      "Mains hum"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Techno",
+      "Dubstep",
+      "Drum and bass",
+      "Electronic dance music",
+      "Trance music"
+    ],
+    "mturk": {
+      "Mains hum": 2,
+      "Electronic dance music": 2,
+      "Drum and bass": 2,
+      "Music": 3,
+      "Trance music": 1,
+      "Dubstep": 3,
+      "Techno": 2
+    }
+  },
+  {
+    "id": 10729,
+    "url": "http://youtu.be/55VWTVSNyLk?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Chopping (food)": 5
+    }
+  },
+  {
+    "id": 10733,
+    "url": "http://youtu.be/55VafmDNbjE?start=30&end=40",
+    "given_original_labels": [
+      "Waterfall"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Waterfall": 5,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 10787,
+    "url": "http://youtu.be/ki0uOxfYUpw?start=30&end=40",
+    "given_original_labels": [
+      "Ringtone"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Ringtone": 2
+    }
+  },
+  {
+    "id": 10838,
+    "url": "http://youtu.be/VCERs0v1OoI?start=40&end=50",
+    "given_original_labels": [
+      "Tuning fork"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Tuning fork": 4,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 10983,
+    "url": "http://youtu.be/hQyI4uLmrig?start=50&end=60",
+    "given_original_labels": [
+      "Timpani"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Timpani": 3,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 10989,
+    "url": "http://youtu.be/gklbB7TYoK4?start=30&end=40",
+    "given_original_labels": [
+      "Baby laughter",
+      "Chuckle chortle"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chuckle chortle": 4,
+      "Speech": 0,
+      "Baby laughter": 3
+    }
+  },
+  {
+    "id": 11021,
+    "url": "http://youtu.be/-Q_UXiwWR_c?start=30&end=40",
+    "given_original_labels": [
+      "Car passing by"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Car passing by": 4,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 11048,
+    "url": "http://youtu.be/gRIeE_3wyRA?start=10&end=20",
+    "given_original_labels": [
+      "Tuning fork"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Tuning fork": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 11359,
+    "url": "http://youtu.be/eozwlCm0QIo?start=30&end=40",
+    "given_original_labels": [
+      "Bird",
+      "Bird vocalization bird call bird song",
+      "Chirp tweet",
+      "Owl",
+      "Hoot"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Bird vocalization bird call bird song": 2,
+      "Hoot": 3,
+      "Owl": 2,
+      "Music": 3,
+      "Bird": 1,
+      "Chirp tweet": 1
+    }
+  },
+  {
+    "id": 11369,
+    "url": "http://youtu.be/K1dvHvl0RGo?start=30&end=40",
+    "given_original_labels": [
+      "Hair dryer"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hair dryer": 4,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 11372,
+    "url": "http://youtu.be/K1DHGdAOBH8?start=150&end=160",
+    "given_original_labels": [
+      "Clarinet"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music",
+      "Musical instrument",
+      "Plucked string instrument",
+      "Guitar",
+      "Electric guitar",
+      "Tapping (guitar technique)",
+      "Distortion"
+    ],
+    "mturk": {
+      "Speech": 2,
+      "Tapping (guitar technique)": 1,
+      "Music": 2,
+      "Musical instrument": 2,
+      "Guitar": 0,
+      "Distortion": 0,
+      "Clarinet": 4,
+      "Plucked string instrument": 1,
+      "Electric guitar": 1
+    }
+  },
+  {
+    "id": 11436,
+    "url": "http://youtu.be/INQWH7mOGeQ?start=30&end=40",
+    "given_original_labels": [
+      "Insect",
+      "Cricket"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Insect": 1,
+      "Cricket": 1,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 11484,
+    "url": "http://youtu.be/oAWKdPn3EWE?start=480&end=490",
+    "given_original_labels": [
+      "Coin (dropping)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Coin (dropping)": 5,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 11536,
+    "url": "http://youtu.be/-suGlxVxdCM?start=30&end=40",
+    "given_original_labels": [
+      "Speech",
+      "Music",
+      "Traditional music"
+    ],
+    "our_guessed_labels": [
+      "Wind instrument woodwind instrument",
+      "Bagpipes"
+    ],
+    "mturk": {
+      "Speech": 0,
+      "Traditional music": 2,
+      "Music": 2,
+      "Bagpipes": 5,
+      "Wind instrument woodwind instrument": 2
+    }
+  },
+  {
+    "id": 11546,
+    "url": "http://youtu.be/Tqnv3P3DB2E?start=20&end=30",
+    "given_original_labels": [
+      "Child speech kid speaking",
+      "Horse"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music",
+      "Music for children"
+    ],
+    "mturk": {
+      "Music for children": 3,
+      "Speech": 3,
+      "Horse": 3,
+      "Music": 3,
+      "Child speech kid speaking": 5
+    }
+  },
+  {
+    "id": 11574,
+    "url": "http://youtu.be/5IdERD81ySU?start=110&end=120",
+    "given_original_labels": [
+      "Harmonic"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music"
+    ],
+    "mturk": {
+      "Harmonic": 0,
+      "Music": 3,
+      "Singing": 1
+    }
+  },
+  {
+    "id": 11661,
+    "url": "http://youtu.be/0fsntL6RKww?start=30&end=40",
+    "given_original_labels": [
+      "Hammer"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Hammer": 5
+    }
+  },
+  {
+    "id": 11782,
+    "url": "http://youtu.be/CdhlMCwrd-Y?start=30&end=40",
+    "given_original_labels": [
+      "Coin (dropping)"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Dubstep"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Coin (dropping)": 4,
+      "Dubstep": 2
+    }
+  },
+  {
+    "id": 11882,
+    "url": "http://youtu.be/X5apU1N5k2w?start=250&end=260",
+    "given_original_labels": [
+      "Ding",
+      "Jingle tinkle"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Ding": 1,
+      "Speech": 1,
+      "Jingle tinkle": 1
+    }
+  },
+  {
+    "id": 11891,
+    "url": "http://youtu.be/OCmhQkXDcZA?start=60&end=70",
+    "given_original_labels": [
+      "Yell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Yell": 2
+    }
+  },
+  {
+    "id": 11928,
+    "url": "http://youtu.be/ZiojkSDIjTs?start=310&end=320",
+    "given_original_labels": [
+      "Whistling"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Whistling": 4
+    }
+  },
+  {
+    "id": 11946,
+    "url": "http://youtu.be/7skzapW_Jy4?start=24&end=34",
+    "given_original_labels": [
+      "Whip"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Whip": 5,
+      "Music": 2
+    }
+  },
+  {
+    "id": 12016,
+    "url": "http://youtu.be/HAKTtmFemxQ?start=120&end=130",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Cap gun"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Cap gun": 1,
+      "Gunshot gunfire": 5,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 12034,
+    "url": "http://youtu.be/8tnY9KIxKBo?start=140&end=150",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Brass instrument",
+      "French horn",
+      "Trumpet",
+      "Trombone"
+    ],
+    "mturk": {
+      "Orchestra": 0,
+      "Trombone": 2,
+      "French horn": 0,
+      "Trumpet": 2,
+      "Brass instrument": 2
+    }
+  },
+  {
+    "id": 12176,
+    "url": "http://youtu.be/6pBZfY3xGUg?start=130&end=140",
+    "given_original_labels": [
+      "Steelpan"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music",
+      "Basketball bounce"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Basketball bounce": 0,
+      "Steelpan": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 12235,
+    "url": "http://youtu.be/o-xlfN7kkOA?start=30&end=40",
+    "given_original_labels": [
+      "Ukulele",
+      "Background music",
+      "Happy music",
+      "Exciting music"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Grunge",
+      "Rock and roll",
+      "Psychedelic rock",
+      "Ska",
+      "Independent music"
+    ],
+    "mturk": {
+      "Ukulele": 0,
+      "Happy music": 2,
+      "Music": 2,
+      "Rock and roll": 3,
+      "Grunge": 1,
+      "Background music": 1,
+      "Independent music": 1,
+      "Psychedelic rock": 2,
+      "Ska": 2,
+      "Exciting music": 1
+    }
+  },
+  {
+    "id": 12256,
+    "url": "http://youtu.be/Bqy0tD6mCPs?start=270&end=280",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Piano",
+      "Bowed string instrument",
+      "String section",
+      "Violin fiddle",
+      "Cello",
+      "Double bass"
+    ],
+    "mturk": {
+      "Violin fiddle": 1,
+      "Cello": 1,
+      "Double bass": 1,
+      "Orchestra": 0,
+      "Piano": 3,
+      "Bowed string instrument": 1,
+      "String section": 2
+    }
+  },
+  {
+    "id": 12376,
+    "url": "http://youtu.be/YCk9F0Uq3BE?start=70&end=80",
+    "given_original_labels": [
+      "Screaming"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Screaming": 4,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 12522,
+    "url": "http://youtu.be/098xwjCQmHc?start=210&end=220",
+    "given_original_labels": [
+      "Swing music"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Swing music": 2,
+      "Music": 4
+    }
+  },
+  {
+    "id": 12614,
+    "url": "http://youtu.be/Jh1XJR68wZM?start=280&end=290",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Bagpipes"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Tambourine",
+      "Rattle (instrument)",
+      "Steelpan",
+      "Music of Latin America",
+      "Salsa music"
+    ],
+    "mturk": {
+      "Tambourine": 3,
+      "Music of Latin America": 3,
+      "Music": 5,
+      "Wind instrument woodwind instrument": 1,
+      "Rattle (instrument)": 2,
+      "Bagpipes": 2,
+      "Steelpan": 1,
+      "Salsa music": 2
+    }
+  },
+  {
+    "id": 12694,
+    "url": "http://youtu.be/zJxSxS0LL2k?start=64&end=74",
+    "given_original_labels": [
+      "Disco"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Dubstep",
+      "Drum and bass",
+      "Electronic dance music"
+    ],
+    "mturk": {
+      "Electronic dance music": 1,
+      "Drum and bass": 1,
+      "Disco": 2,
+      "Music": 3,
+      "Dubstep": 0
+    }
+  },
+  {
+    "id": 12715,
+    "url": "http://youtu.be/BDQmfo2SnyU?start=32&end=42",
+    "given_original_labels": [
+      "Jet engine",
+      "Engine"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Jet engine": 4,
+      "Music": 2,
+      "Engine": 2,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 12732,
+    "url": "http://youtu.be/YjNQ5TGRChs?start=30&end=40",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Artillery fire"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Gunshot gunfire": 1,
+      "Artillery fire": 5,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 12813,
+    "url": "http://youtu.be/1aigfM5Tmqk?start=20&end=30",
+    "given_original_labels": [
+      "Yodeling"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Yodeling": 3,
+      "Music": 4,
+      "Speech": 0
+    }
+  },
+  {
+    "id": 12952,
+    "url": "http://youtu.be/m1POHo65A7o?start=30&end=40",
+    "given_original_labels": [
+      "Zither",
+      "Pizzicato"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Steelpan",
+      "Music of Latin America",
+      "Salsa music"
+    ],
+    "mturk": {
+      "Music of Latin America": 2,
+      "Pizzicato": 2,
+      "Zither": 1,
+      "Music": 3,
+      "Steelpan": 2,
+      "Salsa music": 3
+    }
+  },
+  {
+    "id": 13006,
+    "url": "http://youtu.be/2_9WJSzV6fw?start=30&end=40",
+    "given_original_labels": [
+      "Raindrop"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Raindrop": 2,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 13040,
+    "url": "http://youtu.be/8w3puLkLWco?start=260&end=270",
+    "given_original_labels": [
+      "Accordion"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Folk music",
+      "Middle Eastern music",
+      "Music of Bollywood"
+    ],
+    "mturk": {
+      "Accordion": 1,
+      "Music of Bollywood": 2,
+      "Middle Eastern music": 0,
+      "Folk music": 0,
+      "Music": 2,
+      "Singing": 1
+    }
+  },
+  {
+    "id": 13084,
+    "url": "http://youtu.be/GjqHhBTAO0U?start=30&end=40",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Electronic organ": 3,
+      "Organ": 2
+    }
+  },
+  {
+    "id": 13097,
+    "url": "http://youtu.be/TIdbwDDZ2Aw?start=180&end=190",
+    "given_original_labels": [
+      "String section"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Sitar",
+      "Music of Asia",
+      "Music of Bollywood"
+    ],
+    "mturk": {
+      "Music of Bollywood": 4,
+      "Sitar": 1,
+      "Music": 1,
+      "Music of Asia": 0,
+      "String section": 0,
+      "Singing": 2
+    }
+  },
+  {
+    "id": 13123,
+    "url": "http://youtu.be/gQXJt2cE-8c?start=70&end=80",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Rock music",
+      "Punk rock",
+      "Rock and roll",
+      "Roll"
+    ],
+    "mturk": {
+      "Rock music": 3,
+      "Orchestra": 2,
+      "Roll": 1,
+      "Punk rock": 0,
+      "Music": 4,
+      "Rock and roll": 4,
+      "Singing": 4
+    }
+  },
+  {
+    "id": 13239,
+    "url": "http://youtu.be/VxYQ_7maGQg?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Turkey",
+      "Gobble"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Fowl": 0,
+      "Gobble": 5,
+      "Turkey": 1,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 13385,
+    "url": "http://youtu.be/ePMvgRGm73U?start=210&end=220",
+    "given_original_labels": [
+      "Bowed string instrument",
+      "Double bass"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Percussion",
+      "Drum kit",
+      "Drum",
+      "Snare drum",
+      "Rimshot",
+      "Drum roll",
+      "Bass drum",
+      "Cymbal",
+      "Hi-hat"
+    ],
+    "mturk": {
+      "Percussion": 2,
+      "Double bass": 0,
+      "Drum kit": 1,
+      "Rimshot": 0,
+      "Drum roll": 0,
+      "Music": 3,
+      "Cymbal": 0,
+      "Snare drum": 1,
+      "Bass drum": 1,
+      "Hi-hat": 1,
+      "Bowed string instrument": 1,
+      "Drum": 0
+    }
+  },
+  {
+    "id": 13493,
+    "url": "http://youtu.be/1YFa9CpH7Kc?start=180&end=190",
+    "given_original_labels": [
+      "Livestock farm animals working animals",
+      "Cattle bovinae",
+      "Moo",
+      "Cowbell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Cattle bovinae": 2,
+      "Livestock farm animals working animals": 1,
+      "Cowbell": 5,
+      "Moo": 3
+    }
+  },
+  {
+    "id": 13508,
+    "url": "http://youtu.be/11q7KkNkLFg?start=60&end=70",
+    "given_original_labels": [
+      "Tubular bells"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Tubular bells": 3,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 13646,
+    "url": "http://youtu.be/ZfefBKqsvC0?start=70&end=80",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Orchestra": 3
+    }
+  },
+  {
+    "id": 13655,
+    "url": "http://youtu.be/uL-lfYCuzEQ?start=60&end=70",
+    "given_original_labels": [
+      "Purr"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Purr": 5,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 13769,
+    "url": "http://youtu.be/97plxBxUju4?start=10&end=20",
+    "given_original_labels": [
+      "Clarinet"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Percussion",
+      "Drum"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Percussion": 3,
+      "Clarinet": 5,
+      "Drum": 3
+    }
+  },
+  {
+    "id": 13790,
+    "url": "http://youtu.be/YnlkfAB5ko8?start=30&end=40",
+    "given_original_labels": [
+      "Heart sounds heartbeat",
+      "Hum",
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Yell",
+      "Music"
+    ],
+    "mturk": {
+      "Throbbing": 2,
+      "Heart sounds heartbeat": 3,
+      "Yell": 3,
+      "Hum": 0,
+      "Music": 4
+    }
+  },
+  {
+    "id": 13834,
+    "url": "http://youtu.be/Qg1cZrYtlOc?start=160&end=170",
+    "given_original_labels": [
+      "Telephone dialing DTMF"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Speech": 2,
+      "Telephone dialing DTMF": 4
+    }
+  },
+  {
+    "id": 13850,
+    "url": "http://youtu.be/qW3E3OFUego?start=40&end=50",
+    "given_original_labels": [
+      "Percussion",
+      "Drum",
+      "Tabla"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Music of Bollywood"
+    ],
+    "mturk": {
+      "Tabla": 3,
+      "Music of Bollywood": 5,
+      "Percussion": 3,
+      "Music": 4,
+      "Drum": 1
+    }
+  },
+  {
+    "id": 13987,
+    "url": "http://youtu.be/-PyXfNxnHKs?start=110&end=120",
+    "given_original_labels": [
+      "Dishes pots and pans",
+      "Cutlery silverware"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Female speech woman speaking"
+    ],
+    "mturk": {
+      "Dishes pots and pans": 2,
+      "Female speech woman speaking": 4,
+      "Speech": 3,
+      "Cutlery silverware": 3
+    }
+  },
+  {
+    "id": 14036,
+    "url": "http://youtu.be/KSxTxynXiBs?start=30&end=40",
+    "given_original_labels": [
+      "Ding",
+      "Jingle tinkle"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Jingle (music)"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Jingle (music)": 2,
+      "Ding": 4,
+      "Jingle tinkle": 0
+    }
+  },
+  {
+    "id": 14074,
+    "url": "http://youtu.be/fcCm8ywBv-k?start=30&end=40",
+    "given_original_labels": [
+      "Mechanisms",
+      "Creak"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Mechanisms": 2,
+      "Creak": 1
+    }
+  },
+  {
+    "id": 14193,
+    "url": "http://youtu.be/CnFP7yp1Zrg?start=290&end=300",
+    "given_original_labels": [
+      "Chatter"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Laughter",
+      "Chuckle chortle"
+    ],
+    "mturk": {
+      "Chuckle chortle": 0,
+      "Chatter": 1,
+      "Speech": 3,
+      "Laughter": 3
+    }
+  },
+  {
+    "id": 14222,
+    "url": "http://youtu.be/v0Px_HOquN0?start=30&end=40",
+    "given_original_labels": [
+      "Zither",
+      "Pizzicato"
+    ],
+    "our_guessed_labels": [
+      "Keyboard (musical)",
+      "Harpsichord"
+    ],
+    "mturk": {
+      "Zither": 2,
+      "Harpsichord": 3,
+      "Pizzicato": 3,
+      "Keyboard (musical)": 1
+    }
+  },
+  {
+    "id": 14321,
+    "url": "http://youtu.be/ZLX7NZF2-KE?start=340&end=350",
+    "given_original_labels": [
+      "Dishes pots and pans",
+      "Cutlery silverware"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Dishes pots and pans": 3,
+      "Speech": 3,
+      "Cutlery silverware": 1
+    }
+  },
+  {
+    "id": 14570,
+    "url": "http://youtu.be/91Hrvw6gClQ?start=30&end=40",
+    "given_original_labels": [
+      "Music",
+      "Timpani"
+    ],
+    "our_guessed_labels": [
+      "Brass instrument",
+      "French horn",
+      "Trumpet",
+      "Trombone"
+    ],
+    "mturk": {
+      "Timpani": 0,
+      "Music": 0,
+      "Trombone": 2,
+      "French horn": 2,
+      "Trumpet": 1,
+      "Brass instrument": 5
+    }
+  },
+  {
+    "id": 14809,
+    "url": "http://youtu.be/kYdOJyYc5dA?start=60&end=70",
+    "given_original_labels": [
+      "Mains hum"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Mains hum": 3,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 14812,
+    "url": "http://youtu.be/d--yuVh_Wqc?start=290&end=300",
+    "given_original_labels": [
+      "Yell",
+      "Singing"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Rock music",
+      "Heavy metal",
+      "Punk rock",
+      "Grunge",
+      "Progressive rock",
+      "Psychedelic rock"
+    ],
+    "mturk": {
+      "Heavy metal": 1,
+      "Progressive rock": 1,
+      "Music": 4,
+      "Grunge": 1,
+      "Psychedelic rock": 0,
+      "Punk rock": 0,
+      "Yell": 1,
+      "Rock music": 4,
+      "Singing": 3
+    }
+  },
+  {
+    "id": 14861,
+    "url": "http://youtu.be/OlBxrpelaUE?start=40&end=50",
+    "given_original_labels": [
+      "Percussion",
+      "Tabla"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Marimba xylophone"
+    ],
+    "mturk": {
+      "Tabla": 4,
+      "Music": 4,
+      "Percussion": 3,
+      "Marimba xylophone": 2
+    }
+  },
+  {
+    "id": 14929,
+    "url": "http://youtu.be/WGuc_McKm_4?start=30&end=40",
+    "given_original_labels": [
+      "Baby laughter",
+      "Snicker",
+      "Belly laugh"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Belly laugh": 3,
+      "Speech": 0,
+      "Baby laughter": 4,
+      "Snicker": 0
+    }
+  },
+  {
+    "id": 14940,
+    "url": "http://youtu.be/dTlAkkMLPDg?start=30&end=40",
+    "given_original_labels": [
+      "Tubular bells",
+      "Mallet percussion",
+      "Marimba xylophone",
+      "Glockenspiel"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Glockenspiel": 1,
+      "Mallet percussion": 1,
+      "Music": 3,
+      "Tubular bells": 2,
+      "Marimba xylophone": 4
+    }
+  },
+  {
+    "id": 14973,
+    "url": "http://youtu.be/LxeK8Gvxvmo?start=30&end=40",
+    "given_original_labels": [
+      "Mechanisms",
+      "Gears",
+      "Creak"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Gears": 0,
+      "Speech": 4,
+      "Music": 4,
+      "Mechanisms": 3,
+      "Creak": 0
+    }
+  },
+  {
+    "id": 14976,
+    "url": "http://youtu.be/gCnOTL_Fzik?start=210&end=220",
+    "given_original_labels": [
+      "Emergency vehicle",
+      "Ambulance (siren)",
+      "Siren"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Ambulance (siren)": 1,
+      "Emergency vehicle": 2,
+      "Speech": 3,
+      "Siren": 1,
+      "Music": 3
+    }
+  },
+  {
+    "id": 15091,
+    "url": "http://youtu.be/bHCDa337kzI?start=60&end=70",
+    "given_original_labels": [
+      "Cowbell"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Cowbell": 2
+    }
+  },
+  {
+    "id": 15097,
+    "url": "http://youtu.be/VDaSC3LAZsY?start=30&end=40",
+    "given_original_labels": [
+      "Bellow"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Bellow": 3,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 15156,
+    "url": "http://youtu.be/NnlizeHSQWE?start=40&end=50",
+    "given_original_labels": [
+      "Throbbing"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Techno",
+      "Electronica",
+      "Trance music",
+      "Video game music"
+    ],
+    "mturk": {
+      "Throbbing": 1,
+      "Video game music": 1,
+      "Music": 4,
+      "Electronica": 3,
+      "Trance music": 3,
+      "Techno": 3
+    }
+  },
+  {
+    "id": 15159,
+    "url": "http://youtu.be/JTrAFA3xHR0?start=30&end=40",
+    "given_original_labels": [
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Speech": 3,
+      "Snake": 4
+    }
+  },
+  {
+    "id": 15170,
+    "url": "http://youtu.be/WeDNN18Ovog?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 1,
+      "Speech": 2,
+      "Snake": 5
+    }
+  },
+  {
+    "id": 15264,
+    "url": "http://youtu.be/cmGWkuYVHQg?start=70&end=80",
+    "given_original_labels": [
+      "Children shouting",
+      "Cheering",
+      "Crowd"
+    ],
+    "our_guessed_labels": [
+      "Yell",
+      "Singing",
+      "Music"
+    ],
+    "mturk": {
+      "Children shouting": 1,
+      "Yell": 3,
+      "Music": 2,
+      "Cheering": 2,
+      "Crowd": 2,
+      "Singing": 2
+    }
+  },
+  {
+    "id": 15343,
+    "url": "http://youtu.be/mSlE2F9N-8g?start=30&end=40",
+    "given_original_labels": [
+      "Singing bowl"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Musical instrument",
+      "Keyboard (musical)",
+      "Piano",
+      "Organ",
+      "Electronic organ",
+      "Hammond organ",
+      "Vibraphone"
+    ],
+    "mturk": {
+      "Electronic organ": 0,
+      "Organ": 0,
+      "Hammond organ": 0,
+      "Piano": 0,
+      "Keyboard (musical)": 0,
+      "Vibraphone": 1,
+      "Music": 3,
+      "Musical instrument": 1,
+      "Singing bowl": 2
+    }
+  },
+  {
+    "id": 15360,
+    "url": "http://youtu.be/HtnBcjEudhY?start=300&end=310",
+    "given_original_labels": [
+      "Fowl",
+      "Goose",
+      "Honk"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Squawk"
+    ],
+    "mturk": {
+      "Fowl": 0,
+      "Squawk": 2,
+      "Honk": 0,
+      "Speech": 4,
+      "Goose": 2
+    }
+  },
+  {
+    "id": 15582,
+    "url": "http://youtu.be/96Lg00mlALI?start=20&end=30",
+    "given_original_labels": [
+      "Jingle (music)"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Jingle (music)": 3
+    }
+  },
+  {
+    "id": 15612,
+    "url": "http://youtu.be/buJRhrg6l2E?start=30&end=40",
+    "given_original_labels": [
+      "Zither",
+      "Pizzicato"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Sitar",
+      "Percussion",
+      "Drum",
+      "Tabla",
+      "Folk music",
+      "Middle Eastern music",
+      "Carnatic music",
+      "Music of Bollywood",
+      "Traditional music"
+    ],
+    "mturk": {
+      "Tabla": 2,
+      "Percussion": 2,
+      "Middle Eastern music": 3,
+      "Carnatic music": 0,
+      "Folk music": 2,
+      "Traditional music": 1,
+      "Music": 3,
+      "Sitar": 2,
+      "Music of Bollywood": 1,
+      "Pizzicato": 1,
+      "Zither": 0,
+      "Drum": 3
+    }
+  },
+  {
+    "id": 15679,
+    "url": "http://youtu.be/F-Ly8CI7-Pc?start=20&end=30",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Artillery fire"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Steelpan"
+    ],
+    "mturk": {
+      "Gunshot gunfire": 5,
+      "Artillery fire": 3,
+      "Steelpan": 0,
+      "Music": 2
+    }
+  },
+  {
+    "id": 15704,
+    "url": "http://youtu.be/CNu647f9odg?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 0,
+      "Chopping (food)": 4,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 15710,
+    "url": "http://youtu.be/5YrFCAsnhJM?start=460&end=470",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Cap gun"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Typing"
+    ],
+    "mturk": {
+      "Cap gun": 2,
+      "Gunshot gunfire": 2,
+      "Typing": 1,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 15797,
+    "url": "http://youtu.be/5zHjto0ypKc?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Soul music",
+      "Song"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Soul music": 1,
+      "Song": 4,
+      "Jingle bell": 4
+    }
+  },
+  {
+    "id": 15892,
+    "url": "http://youtu.be/mJaX4ZpfULM?start=30&end=40",
+    "given_original_labels": [
+      "Brass instrument",
+      "Trombone"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Soul music",
+      "Swing music"
+    ],
+    "mturk": {
+      "Soul music": 2,
+      "Swing music": 2,
+      "Music": 3,
+      "Trombone": 4,
+      "Brass instrument": 3
+    }
+  },
+  {
+    "id": 15956,
+    "url": "http://youtu.be/ITYq5xoDGK0?start=30&end=40",
+    "given_original_labels": [
+      "Fowl",
+      "Chicken rooster",
+      "Cluck"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "House music",
+      "Techno",
+      "Electronic dance music",
+      "Dance music"
+    ],
+    "mturk": {
+      "Dance music": 3,
+      "Music": 1,
+      "Chicken rooster": 0,
+      "Cluck": 0,
+      "Techno": 1,
+      "House music": 0,
+      "Fowl": 0,
+      "Electronic dance music": 1
+    }
+  },
+  {
+    "id": 15976,
+    "url": "http://youtu.be/8AWiBbAtpCY?start=290&end=300",
+    "given_original_labels": [
+      "Hair dryer"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hair dryer": 1,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 16256,
+    "url": "http://youtu.be/h_JvhANENSQ?start=180&end=190",
+    "given_original_labels": [
+      "Tambourine"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music"
+    ],
+    "mturk": {
+      "Tambourine": 3,
+      "Music": 2,
+      "Singing": 5
+    }
+  },
+  {
+    "id": 16342,
+    "url": "http://youtu.be/BuLl5XD57zU?start=90&end=100",
+    "given_original_labels": [
+      "Jingle (music)"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Christian music",
+      "Independent music"
+    ],
+    "mturk": {
+      "Jingle (music)": 1,
+      "Music": 2,
+      "Singing": 2,
+      "Independent music": 1,
+      "Christian music": 0
+    }
+  },
+  {
+    "id": 16346,
+    "url": "http://youtu.be/bjvnTxWP7vo?start=90&end=100",
+    "given_original_labels": [
+      "Percussion",
+      "Drum kit",
+      "Drum",
+      "Snare drum",
+      "Rimshot",
+      "Bass drum",
+      "Cymbal",
+      "Hi-hat"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Rock music",
+      "Punk rock",
+      "Progressive rock"
+    ],
+    "mturk": {
+      "Percussion": 1,
+      "Drum kit": 1,
+      "Rimshot": 2,
+      "Progressive rock": 2,
+      "Music": 2,
+      "Cymbal": 2,
+      "Snare drum": 1,
+      "Bass drum": 0,
+      "Hi-hat": 2,
+      "Punk rock": 1,
+      "Rock music": 4,
+      "Drum": 2
+    }
+  },
+  {
+    "id": 16426,
+    "url": "http://youtu.be/tUrlSBYq_0o?start=30&end=40",
+    "given_original_labels": [
+      "Accordion"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Folk music",
+      "Middle Eastern music",
+      "Traditional music",
+      "Song"
+    ],
+    "mturk": {
+      "Accordion": 3,
+      "Middle Eastern music": 1,
+      "Folk music": 2,
+      "Song": 2,
+      "Traditional music": 2,
+      "Music": 3
+    }
+  },
+  {
+    "id": 16457,
+    "url": "http://youtu.be/ZcTI8fQgEZE?start=240&end=250",
+    "given_original_labels": [
+      "Rail transport",
+      "Train",
+      "Train horn",
+      "Railroad car train wagon"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Train": 2,
+      "Railroad car train wagon": 3,
+      "Train horn": 3,
+      "Music": 3,
+      "Rail transport": 2
+    }
+  },
+  {
+    "id": 16550,
+    "url": "http://youtu.be/yJk5jMX4WAQ?start=50&end=60",
+    "given_original_labels": [
+      "Smash crash"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Smash crash": 5,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 16643,
+    "url": "http://youtu.be/hIQhby-OLk4?start=30&end=40",
+    "given_original_labels": [
+      "Whistle"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Pop music",
+      "Rhythm and blues",
+      "Zing"
+    ],
+    "mturk": {
+      "Rhythm and blues": 0,
+      "Whistle": 1,
+      "Pop music": 2,
+      "Music": 2,
+      "Zing": 1
+    }
+  },
+  {
+    "id": 16666,
+    "url": "http://youtu.be/9nL1XhKm9q8?start=30&end=40",
+    "given_original_labels": [
+      "Water",
+      "Pump (liquid)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Water": 0,
+      "Pump (liquid)": 3,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 16733,
+    "url": "http://youtu.be/QPyeU5c5s-g?start=110&end=120",
+    "given_original_labels": [
+      "Tubular bells"
+    ],
+    "our_guessed_labels": [
+      "Bell",
+      "Church bell",
+      "Change ringing (campanology)"
+    ],
+    "mturk": {
+      "Bell": 2,
+      "Church bell": 4,
+      "Change ringing (campanology)": 1,
+      "Tubular bells": 2
+    }
+  },
+  {
+    "id": 16870,
+    "url": "http://youtu.be/ovgelLpt148?start=30&end=40",
+    "given_original_labels": [
+      "Gunshot gunfire",
+      "Artillery fire"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Gunshot gunfire": 1,
+      "Artillery fire": 5,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 17084,
+    "url": "http://youtu.be/5RnD-0cA3PU?start=330&end=340",
+    "given_original_labels": [
+      "Raindrop"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Raindrop": 4,
+      "Speech": 2
+    }
+  },
+  {
+    "id": 17178,
+    "url": "http://youtu.be/E38KmrsatOw?start=200&end=210",
+    "given_original_labels": [
+      "Beatboxing"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Speech": 0,
+      "Beatboxing": 2
+    }
+  },
+  {
+    "id": 17260,
+    "url": "http://youtu.be/miFnurgzumk?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 2,
+      "Speech": 3,
+      "Snake": 4
+    }
+  },
+  {
+    "id": 17433,
+    "url": "http://youtu.be/sS4SfCOFWxw?start=30&end=40",
+    "given_original_labels": [
+      "Grunt",
+      "Burping eructation"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Grunt": 2,
+      "Speech": 1,
+      "Burping eructation": 4
+    }
+  },
+  {
+    "id": 17450,
+    "url": "http://youtu.be/NQ2Ana9K7m0?start=340&end=350",
+    "given_original_labels": [
+      "Radio"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Speech": 5,
+      "Radio": 1
+    }
+  },
+  {
+    "id": 17534,
+    "url": "http://youtu.be/IG5-s_G2csM?start=30&end=40",
+    "given_original_labels": [
+      "Organ",
+      "Electronic organ"
+    ],
+    "our_guessed_labels": [
+      "Yell",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Electronic organ": 4,
+      "Organ": 2,
+      "Yell": 1
+    }
+  },
+  {
+    "id": 17772,
+    "url": "http://youtu.be/Ob9WB6eg1H0?start=30&end=40",
+    "given_original_labels": [
+      "Slap smack",
+      "Whack thwack"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Whack thwack": 3,
+      "Music": 3,
+      "Slap smack": 0,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 17883,
+    "url": "http://youtu.be/SBwyfAg28OE?start=60&end=70",
+    "given_original_labels": [
+      "Percussion",
+      "Drum",
+      "Tabla"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Tambourine",
+      "Rattle (instrument)",
+      "Maraca",
+      "Music of Latin America",
+      "Salsa music"
+    ],
+    "mturk": {
+      "Tabla": 0,
+      "Tambourine": 0,
+      "Percussion": 0,
+      "Music of Latin America": 2,
+      "Music": 0,
+      "Rattle (instrument)": 1,
+      "Salsa music": 2,
+      "Maraca": 0,
+      "Drum": 0
+    }
+  },
+  {
+    "id": 18044,
+    "url": "http://youtu.be/d2UN1eOJf74?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Soul music",
+      "Funk",
+      "Independent music"
+    ],
+    "mturk": {
+      "Soul music": 4,
+      "Music": 2,
+      "Funk": 0,
+      "Independent music": 0,
+      "Jingle bell": 1
+    }
+  },
+  {
+    "id": 18077,
+    "url": "http://youtu.be/-Am9MfJ6Z2o?start=60&end=70",
+    "given_original_labels": [
+      "Cutlery silverware"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Child speech kid speaking"
+    ],
+    "mturk": {
+      "Child speech kid speaking": 3,
+      "Speech": 3,
+      "Cutlery silverware": 5
+    }
+  },
+  {
+    "id": 18124,
+    "url": "http://youtu.be/qRFOxwdG0Zs?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 3,
+      "Speech": 5,
+      "Snake": 3
+    }
+  },
+  {
+    "id": 18262,
+    "url": "http://youtu.be/h81UOjlFmMs?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Singing": 3,
+      "Jingle bell": 3
+    }
+  },
+  {
+    "id": 18298,
+    "url": "http://youtu.be/2t4CkOvERAI?start=510&end=520",
+    "given_original_labels": [
+      "Electric toothbrush"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 1,
+      "Electric toothbrush": 0,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 18339,
+    "url": "http://youtu.be/6UY-HKyolKk?start=30&end=40",
+    "given_original_labels": [
+      "Animal",
+      "Domestic animals pets",
+      "Cat",
+      "Meow",
+      "Caterwaul"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Meow": 4,
+      "Animal": 1,
+      "Music": 2,
+      "Caterwaul": 1,
+      "Cat": 3,
+      "Domestic animals pets": 1
+    }
+  },
+  {
+    "id": 18534,
+    "url": "http://youtu.be/yykVlrRohkA?start=30&end=40",
+    "given_original_labels": [
+      "Hiss",
+      "Snake"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Hiss": 3,
+      "Speech": 4,
+      "Snake": 4
+    }
+  },
+  {
+    "id": 18613,
+    "url": "http://youtu.be/746bzLi-9I0?start=30&end=40",
+    "given_original_labels": [
+      "Chopping (food)"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Chopping (food)": 3,
+      "Speech": 5
+    }
+  },
+  {
+    "id": 18689,
+    "url": "http://youtu.be/OLtb9xWTDj8?start=30&end=40",
+    "given_original_labels": [
+      "Whoosh swoosh swish"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Cacophony"
+    ],
+    "mturk": {
+      "Cacophony": 2,
+      "Music": 2,
+      "Whoosh swoosh swish": 4
+    }
+  },
+  {
+    "id": 18721,
+    "url": "http://youtu.be/SU8UMAPvIM0?start=510&end=520",
+    "given_original_labels": [
+      "White noise"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "White noise": 4,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 18842,
+    "url": "http://youtu.be/uWqHOLAwaoY?start=60&end=70",
+    "given_original_labels": [
+      "Wedding music"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Christian music",
+      "Gospel music",
+      "Song",
+      "Christmas music"
+    ],
+    "mturk": {
+      "Song": 3,
+      "Gospel music": 1,
+      "Wedding music": 0,
+      "Music": 1,
+      "Christmas music": 0,
+      "Christian music": 2,
+      "Singing": 1
+    }
+  },
+  {
+    "id": 18844,
+    "url": "http://youtu.be/uWEp_4fHX4Y?start=30&end=40",
+    "given_original_labels": [
+      "Wind",
+      "Fire"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Air conditioning"
+    ],
+    "mturk": {
+      "Fire": 3,
+      "Speech": 3,
+      "Wind": 1,
+      "Air conditioning": 0
+    }
+  },
+  {
+    "id": 18944,
+    "url": "http://youtu.be/amKDjVcs1Vg?start=30&end=40",
+    "given_original_labels": [
+      "Vehicle",
+      "Bicycle"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Vehicle": 0,
+      "Speech": 1,
+      "Bicycle": 4
+    }
+  },
+  {
+    "id": 18948,
+    "url": "http://youtu.be/EktnWQuAjdI?start=30&end=40",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Flute"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Percussion",
+      "Tabla"
+    ],
+    "mturk": {
+      "Tabla": 5,
+      "Percussion": 1,
+      "Music": 2,
+      "Flute": 2,
+      "Wind instrument woodwind instrument": 1
+    }
+  },
+  {
+    "id": 18965,
+    "url": "http://youtu.be/yOzH71sZ7JE?start=30&end=40",
+    "given_original_labels": [
+      "Static"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Static": 3,
+      "Speech": 4
+    }
+  },
+  {
+    "id": 19002,
+    "url": "http://youtu.be/tQT1hcq3Ycc?start=30&end=40",
+    "given_original_labels": [
+      "Wind instrument woodwind instrument",
+      "Shofar"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Yodeling",
+      "Music"
+    ],
+    "mturk": {
+      "Yodeling": 1,
+      "Singing": 3,
+      "Wind instrument woodwind instrument": 4,
+      "Shofar": 5,
+      "Music": 3
+    }
+  },
+  {
+    "id": 19035,
+    "url": "http://youtu.be/U19MDXMg_BI?start=150&end=160",
+    "given_original_labels": [
+      "Sitar"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Sitar": 4
+    }
+  },
+  {
+    "id": 19062,
+    "url": "http://youtu.be/izSRjdYln8E?start=260&end=270",
+    "given_original_labels": [
+      "Brass instrument",
+      "Trombone"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Trombone": 2,
+      "Brass instrument": 2
+    }
+  },
+  {
+    "id": 19081,
+    "url": "http://youtu.be/Dcg9ssRwpfE?start=220&end=230",
+    "given_original_labels": [
+      "Ding-dong"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Speech": 4,
+      "Ding-dong": 2
+    }
+  },
+  {
+    "id": 19088,
+    "url": "http://youtu.be/8bPbdrToU_k?start=30&end=40",
+    "given_original_labels": [
+      "Funny music"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Funny music": 3
+    }
+  },
+  {
+    "id": 19101,
+    "url": "http://youtu.be/3rrTwja7w_o?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Singing",
+      "Music",
+      "Pop music",
+      "Music of Asia"
+    ],
+    "mturk": {
+      "Pop music": 4,
+      "Music": 4,
+      "Music of Asia": 3,
+      "Singing": 5,
+      "Jingle bell": 0
+    }
+  },
+  {
+    "id": 19102,
+    "url": "http://youtu.be/3r5wKJm2uBs?start=90&end=100",
+    "given_original_labels": [
+      "Arrow"
+    ],
+    "our_guessed_labels": [
+      "Speech"
+    ],
+    "mturk": {
+      "Arrow": 4,
+      "Speech": 3
+    }
+  },
+  {
+    "id": 19160,
+    "url": "http://youtu.be/9NUBwDtWAmk?start=30&end=40",
+    "given_original_labels": [
+      "Bowed string instrument",
+      "Violin fiddle"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Violin fiddle": 5,
+      "Music": 2,
+      "Bowed string instrument": 1
+    }
+  },
+  {
+    "id": 19293,
+    "url": "http://youtu.be/-jA7nRwQp_E?start=30&end=40",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "New-age music",
+      "Background music",
+      "Theme music",
+      "Soundtrack music",
+      "Video game music"
+    ],
+    "mturk": {
+      "Soundtrack music": 1,
+      "Orchestra": 4,
+      "New-age music": 1,
+      "Video game music": 0,
+      "Music": 2,
+      "Background music": 2,
+      "Theme music": 0
+    }
+  },
+  {
+    "id": 19301,
+    "url": "http://youtu.be/My0Bq_o9tSA?start=30&end=40",
+    "given_original_labels": [
+      "Jingle bell"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Folk music",
+      "Middle Eastern music",
+      "Music of Bollywood"
+    ],
+    "mturk": {
+      "Music of Bollywood": 0,
+      "Middle Eastern music": 0,
+      "Folk music": 1,
+      "Music": 3,
+      "Jingle bell": 3
+    }
+  },
+  {
+    "id": 19399,
+    "url": "http://youtu.be/SbxXyYKovQw?start=510&end=520",
+    "given_original_labels": [
+      "Whack thwack"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 4,
+      "Whack thwack": 2,
+      "Speech": 1
+    }
+  },
+  {
+    "id": 19540,
+    "url": "http://youtu.be/YaZx80MEyKs?start=60&end=70",
+    "given_original_labels": [
+      "Whistling"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Music": 2,
+      "Speech": 3,
+      "Whistling": 5
+    }
+  },
+  {
+    "id": 19550,
+    "url": "http://youtu.be/jEeboSs9DTs?start=25&end=35",
+    "given_original_labels": [
+      "Children shouting",
+      "Cheering",
+      "Crowd"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Music"
+    ],
+    "mturk": {
+      "Speech": 2,
+      "Children shouting": 2,
+      "Music": 1,
+      "Cheering": 2,
+      "Crowd": 3
+    }
+  },
+  {
+    "id": 19679,
+    "url": "http://youtu.be/dixkFlwzSZs?start=30&end=40",
+    "given_original_labels": [
+      "Jingle tinkle"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Zing"
+    ],
+    "mturk": {
+      "Music": 3,
+      "Jingle tinkle": 3,
+      "Zing": 0
+    }
+  },
+  {
+    "id": 19693,
+    "url": "http://youtu.be/JQ4RalNSjJk?start=150&end=160",
+    "given_original_labels": [
+      "Orchestra"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Orchestra": 3
+    }
+  },
+  {
+    "id": 20077,
+    "url": "http://youtu.be/5sqCl5xhlKk?start=0&end=10",
+    "given_original_labels": [
+      "Steelpan"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Tambourine",
+      "Rattle (instrument)",
+      "Music of Latin America"
+    ],
+    "mturk": {
+      "Tambourine": 2,
+      "Music of Latin America": 4,
+      "Music": 4,
+      "Steelpan": 2,
+      "Rattle (instrument)": 2
+    }
+  },
+  {
+    "id": 20122,
+    "url": "http://youtu.be/_95B775_yVY?start=30&end=40",
+    "given_original_labels": [
+      "Children shouting",
+      "Cheering",
+      "Crowd"
+    ],
+    "our_guessed_labels": [
+      "Speech",
+      "Trickle dribble",
+      "Basketball bounce"
+    ],
+    "mturk": {
+      "Basketball bounce": 3,
+      "Speech": 0,
+      "Children shouting": 0,
+      "Cheering": 1,
+      "Crowd": 1,
+      "Trickle dribble": 0
+    }
+  },
+  {
+    "id": 20130,
+    "url": "http://youtu.be/1Q1pDQzTW6c?start=20&end=30",
+    "given_original_labels": [
+      "Christian music"
+    ],
+    "our_guessed_labels": [
+      "Music"
+    ],
+    "mturk": {
+      "Music": 5,
+      "Christian music": 1
+    }
+  },
+  {
+    "id": 20221,
+    "url": "http://youtu.be/kLaWsnhh78I?start=20&end=30",
+    "given_original_labels": [
+      "Musical instrument",
+      "Grunge"
+    ],
+    "our_guessed_labels": [
+      "Music",
+      "Angry music"
+    ],
+    "mturk": {
+      "Grunge": 3,
+      "Musical instrument": 5,
+      "Music": 4,
+      "Angry music": 3
+    }
+  },
+  {
+    "id": 20328,
+    "url": "http://youtu.be/AzhAMscTxyc?start=30&end=40",
+    "given_original_labels": [
+      "Boat Water vehicle",
+      "Motorboat speedboat"
+    ],
+    "our_guessed_labels": [
+      "Yell",
+      "Music",
+      "Heavy metal",
+      "Punk rock",
+      "Grunge"
+    ],
+    "mturk": {
+      "Heavy metal": 1,
+      "Punk rock": 1,
+      "Motorboat speedboat": 3,
+      "Yell": 1,
+      "Music": 3,
+      "Grunge": 1,
+      "Boat Water vehicle": 2
+    }
+  }
+]
