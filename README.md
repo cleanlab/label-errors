@@ -6,25 +6,6 @@ Corrections are better than the datasets' given test labels, but they are **NOT*
 
 Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cgnorthcutt/cleanlab) package. 
 
-## Citation
-
-If you use this for your work, please cite this paper:
-
-```
-@misc{northcutt2021labelerrors,
-      title={Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks}, 
-      author={Curtis G. Northcutt and Anish Athalye and Jonas Mueller},
-      year={2021},
-      eprint={2103.14749},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
-}
-```
-
-View the paper on arXiv: https://arxiv.org/pdf/2103.14749.pdf
-
-We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-050) of this work at the [ICLR 2021 RobustML Workshop](https://sites.google.com/connect.hku.hk/robustml-2021/home). Preliminary versions of this work were published in the [NeurIPS 2020 Security and Dataset Curation Workshop](http://securedata.lol/camera_ready/28.pdf) and the [ICLR 2021 Weakly Supervised Learning Workshop](https://weasul.github.io/papers/27.pdf).
-
 
 ## Contents
 
@@ -465,6 +446,23 @@ Specific examples covered in the drop-down ▶ datasets above ⬆️:
 * For **AudioSet**
   - released an easy-to-use [Numpy version of the AudioSet Dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) with a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/examples/audioset_example_how_to_index_data_and_labels.py) to index the dataset and view label errors / correct examples from a list of indices.
 
+
+## Citation
+
+If you use this for your work, please cite [this paper](https://arxiv.org/pdf/2103.14749.pdf):
+
+```
+@misc{northcutt2021labelerrors,
+      title={Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks}, 
+      author={Curtis G. Northcutt and Anish Athalye and Jonas Mueller},
+      year={2021},
+      eprint={2103.14749},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+```
+
+We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-2021/accepted-papers/paper-050) of this work at the [ICLR 2021 RobustML Workshop](https://sites.google.com/connect.hku.hk/robustml-2021/home). Preliminary versions of this work were published in the [NeurIPS 2020 Security and Dataset Curation Workshop](http://securedata.lol/camera_ready/28.pdf) and the [ICLR 2021 Weakly Supervised Learning Workshop](https://weasul.github.io/papers/27.pdf).
 
 
 ## Selected News Coverage
