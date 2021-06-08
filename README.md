@@ -18,9 +18,15 @@ In this repo, we provide the following for each of the ten datasets:
   - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
 * [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk)
   - type: JSON (varying schemas)
+  - Contains the mTurk human-validated corrected labels for each test set.
+* [label-errors/dataset_indexing/](https://github.com/cgnorthcutt/label-errors/tree/main/dataset_indexing)
+  - type: JSON (varying schemas)
+  - Indexes files in datasets which lack a global index to map the corrected labels to the original test set examples.
 * For a tutorial which uses these files to find label errors for each dataset, start [[here](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)].
 
-The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these three folders all **share the same index/order of examples** for each test set. We provide labels/probabilities for the entire dataset when the dataset does not have a pre-defined test set. To minimize file size, all labels are quantized and stored as `np.uint16` and all probabilities are quantized and stored as `np.float16`. Note this quantization can (very slightly) affect error identification (e.g. on CIFAR-10, quantization changes the number of label errors found by 1).
+The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these folders all **share the same index/order of examples** for each test set. Their indices match the mechanical turk corrected labels in [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk). These four folders arereconstruct the corrected test sets. We provide labels/probabilities for the entire dataset when the dataset does not have a pre-defined test set. To minimize file size, all labels are quantized and stored as `np.uint16` and all probabilities are quantized and stored as `np.float16`. Note this quantization can (very slightly) affect error identification (e.g. on CIFAR-10, quantization changes the number of label errors found by 1).
+
+**Why we provide the components to construct corrected test sets (instead of releasing a single corrected test set for each dataset)?** ML practioners may need to make different decisions when correcting a test set. You may need to include multi-label examples in the corrected test set whereas we removed these examples in [our analysis](https://arxiv.org/abs/2103.14749). You may want to only correct examples where all (5 of the 5) mTurk workers agree on a new label, or you may want to correct the label as long as a consensus (3 out of 5) is reached. The [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk) files support both options. For the large Amazon Reviews and QuickDraw datasets which had too many label errors to correct, we provide [the tools](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb) to find the label errors.
 
 ## Step-by-step Tutorial: Find Label Errors in each Dataset
 
