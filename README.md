@@ -46,7 +46,7 @@ The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these 
 Get started here: [`Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)
 
 
-## How to Download, Prepare, and Index Ten of the Most Commonly Used Datasets in ML
+## How to Download, Prepare, and Index the Datasets
 
 For each dataset, I've shared code (or step-by-step instructions) to obtain the train set and test set (if a separate test set exists). Click the drop-down for each dataset to see how to download, prepare, and index/access each example in the dataset uniquely.
 
