@@ -492,7 +492,7 @@ Specific examples covered in the drop-down ▶ datasets above ⬆️:
 
 ## License
 
-Copyright (c) 2021-2060 Curtis G. Northcutt
+Copyright (c) 2021-2060 Curtis G. Northcutt, Anish Athalye, Jonas W. Mueller
 
 label-errors is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
