@@ -85,13 +85,14 @@ datasets = [
 
 
 # Load the filename mappings for various datasets
-with open("../resources/audioset_eval_set_index_to_youtube_id.json", 'r') as rf:
+root_dir = "../dataset_indexing"
+with open(root_dir + "/audioset_eval_set_index_to_youtube_id.json", 'r') as rf:
     AUDIOSET_INDEX_TO_YOUTUBE = json.load(rf)
-with open("../resources/imdb_test_set_index_to_filename.json", 'r') as rf:
+with open(root_dir + "/imdb_test_set_index_to_filename.json", 'r') as rf:
     IMDB_INDEX_TO_FILENAME = json.load(rf)
-with open("../resources/imagenet_val_set_index_to_filepath.json", 'r') as rf:
+with open(root_dir + "/imagenet_val_set_index_to_filepath.json", 'r') as rf:
     IMAGENET_INDEX_TO_FILEPATH = json.load(rf)
-with open("/home/cgn/cgn/labsix/label-errors/caltech256/caltech256_index_to_filename.json", "r") as rf:
+with open(root_dir + "/caltech256_index_to_filename.json", "r") as rf:
     CALTECH256_INDEX_TO_FILENAME = json.load(rf)    
 
 
