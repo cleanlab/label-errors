@@ -2,7 +2,9 @@
 
 This repo provides the tools to clean and correct the test sets for ten of the most common ML benchmark test sets: ImageNet, MNIST, CIFAR-10, CIFAR-100, Caltech-256, QuickDraw, IMDB, Amazon Reviews, 20News, and AudioSet. 
 
-Browse the label errors at https://labelerrors.com. **Reproduce the label errors in each dataset via [`label-errors/examples/Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb).**
+Browse the label errors at https://labelerrors.com.
+
+**Reproduce the label errors in each dataset via [`label-errors/examples/Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb).**
 
 Corrections are better than the datasets' given test labels, but they are **NOT** 100% perfect, nor are they intended to be. Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cgnorthcutt/label-errors/discussions/4)].**
 
