@@ -304,7 +304,7 @@ walk_order = {}
 walk_order['train'] = [d + z for d in ["neg/", "pos/"] \
                        for z in os.listdir(data_dir + 'train/' + d)]
 # Test set walk order needs to match our order to map errors correctly.
-with open("../resources/imdb_test_set_index_to_filename.json", 'r') as rf:
+with open("../dataset_indexing/imdb_test_set_index_to_filename.json", 'r') as rf:
     walk_order['test'] = json.load(rf)
 
 # This text dict stores the text data with keys ['train', 'test']
