@@ -22,6 +22,6 @@ imagenet_pyx = np.vstack(parts)
 `amazon_pyx` works similarly.
 
 ## Quickdraw Predicted Probabilities
-`quickdraw_pyx.npy` is not included here because it is enormous (33GB) (the dataset has over 50 million examples). We provide `quickdraw_pyx.npy` as its own release here: https://github.com/cgnorthcutt/label-errors/releases/tag/quickdraw-pyx-v1 
+`quickdraw_pyx.npy` is not included here because it is enormous (33GB) (the dataset has over 50 million examples). We provide `quickdraw_pyx.npy` as its own release here: https://github.com/cleanlab/label-errors/releases/tag/quickdraw-pyx-v1 
 
 Although it affects confident learning's ability to rank, we quantize the `quickdraw_pyx.npy` to `np.float16` to make the size more manageable.

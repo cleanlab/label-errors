@@ -5,14 +5,14 @@
 
 
 # Copyright (c) 2021-2060 Curtis G. Northcutt
-# This file is part of cgnorthcutt/label-errors.
+# This file is part of cleanlab/label-errors.
 #
 # label-errors is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# cgnorthcutt/label-errors is distributed in the hope that it will be useful,
+# cleanlab/label-errors is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
@@ -20,7 +20,7 @@
 # You should have received a copy of the GNU General Public License
 
 # This agreement applies to this version and all previous versions of
-# cgnorthcutt/label-errors.
+# cleanlab/label-errors.
 
 """
 This tutorial provides reproducible code to find the label errors for datasets:
@@ -29,12 +29,12 @@ MNIST, CIFAR-10, CIFAR-100, ImageNet, Caltech-256, Amazon Reviews, IMDB,
 https://labelerrors.com .
 
 Label errors are found using the pyx (predicted probs), pred (predicted labels),
-and test label files, provided in this repo: (cgnorthcutt/label-errors)
+and test label files, provided in this repo: (cleanlab/label-errors)
 
 The QuickDraw dataset is excluded because the pyx file is 33GB and might
 cause trouble on some machines. To find label errors in the QuickDraw dataset,
 you can download the pyx file here:
-https://github.com/cgnorthcutt/label-errors/releases/tag/quickdraw-pyx-v1
+https://github.com/cleanlab/label-errors/releases/tag/quickdraw-pyx-v1
 
 This tutorial reproduces how we find the label errors on https://labelerrors.com
 (prior to human validation on mTurk).

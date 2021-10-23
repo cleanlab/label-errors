@@ -4,43 +4,43 @@ This repo provides the tools to clean and correct the test sets for ten of the m
 
 <p align="center">
 <a href="https://labelerrors.com">
-<img src="https://raw.githubusercontent.com/cgnorthcutt/label-errors/master/demo.png" width="600" alt="labelerrors.com">
+<img src="https://raw.githubusercontent.com/cleanlab/label-errors/master/demo.png" width="600" alt="labelerrors.com">
 </a>
 <br>
 Browse the label errors at <a href="https://labelerrors.com">https://labelerrors.com</a>
 </p>
 
-**Reproduce the label errors in each dataset via [`label-errors/examples/Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb).**
+**Reproduce the label errors in each dataset via [`label-errors/examples/Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cleanlab/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb).**
 
-Corrections are better than the datasets' given test labels, but they are **NOT** 100% perfect, nor are they intended to be. Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cgnorthcutt/label-errors/discussions/4)].**
+Corrections are better than the datasets' given test labels, but they are **NOT** 100% perfect, nor are they intended to be. Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cleanlab/label-errors/discussions/4)].**
 
-Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cgnorthcutt/cleanlab) package. 
+Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cleanlab/cleanlab) package. 
 
 
 ## Contents
 
 In this repo, we provide the following for each of the ten datasets:
-* [label-errors/cross_validated_predicted_labels/](https://github.com/cgnorthcutt/label-errors/tree/main/cross_validated_predicted_labels)
+* [label-errors/cross_validated_predicted_labels/](https://github.com/cleanlab/label-errors/tree/main/cross_validated_predicted_labels)
   - type: `np.array<np.float16>` of shape `num_examples x num_classes`
-* [label-errors/cross_validated_predicted_probabilities/](https://github.com/cgnorthcutt/label-errors/tree/main/cross_validated_predicted_probabilities)
+* [label-errors/cross_validated_predicted_probabilities/](https://github.com/cleanlab/label-errors/tree/main/cross_validated_predicted_probabilities)
   - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
-* [label-errors/original_test_labels/](https://github.com/cgnorthcutt/label-errors/tree/main/original_test_labels)
+* [label-errors/original_test_labels/](https://github.com/cleanlab/label-errors/tree/main/original_test_labels)
   - type: `np.array<np.uint16>` of length `num_examples` (`np.array` of `np.arrays` for AudioSet because it is multi-label)
-* [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk)
+* [label-errors/mturk/](https://github.com/cleanlab/label-errors/tree/main/mturk)
   - type: JSON (varying schemas)
   - Contains the mTurk human-validated corrected labels for each test set.
-* [label-errors/dataset_indexing/](https://github.com/cgnorthcutt/label-errors/tree/main/dataset_indexing)
+* [label-errors/dataset_indexing/](https://github.com/cleanlab/label-errors/tree/main/dataset_indexing)
   - type: JSON (varying schemas)
   - Indexes files in datasets which lack a global index to map the corrected labels to the original test set examples.
-* For a tutorial which uses these files to find label errors for each dataset, start [[here](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)].
+* For a tutorial which uses these files to find label errors for each dataset, start [[here](https://github.com/cleanlab/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)].
 
-The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these folders all **share the same index/order of examples** for each test set. Their indices match the mechanical turk corrected labels in [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk). These four folders arereconstruct the corrected test sets. We provide labels/probabilities for the entire dataset when the dataset does not have a pre-defined test set. To minimize file size, all labels are quantized and stored as `np.uint16` and all probabilities are quantized and stored as `np.float16`. Note this quantization can (very slightly) affect error identification (e.g. on CIFAR-10, quantization changes the number of label errors found by 1).
+The `pyx.npy`, `original_labels.npy`, and `predicted_labels.npy` files in these folders all **share the same index/order of examples** for each test set. Their indices match the mechanical turk corrected labels in [label-errors/mturk/](https://github.com/cleanlab/label-errors/tree/main/mturk). These four folders arereconstruct the corrected test sets. We provide labels/probabilities for the entire dataset when the dataset does not have a pre-defined test set. To minimize file size, all labels are quantized and stored as `np.uint16` and all probabilities are quantized and stored as `np.float16`. Note this quantization can (very slightly) affect error identification (e.g. on CIFAR-10, quantization changes the number of label errors found by 1).
 
-**Why do we provide the components to construct corrected test sets (instead of releasing a single corrected test set for each dataset)?** ML practioners may need to make different decisions when correcting a test set. You may need to include multi-label examples in the corrected test set whereas we removed these examples in [our analysis](https://arxiv.org/abs/2103.14749). You may want to only correct examples where all (5 of the 5) mTurk workers agree on a new label, or you may want to correct the label as long as a consensus (3 out of 5) is reached. The [label-errors/mturk/](https://github.com/cgnorthcutt/label-errors/tree/main/mturk) files support both options. For the large Amazon Reviews and QuickDraw datasets which had too many label errors to correct, we provide [the tools](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb) to find the label errors.
+**Why do we provide the components to construct corrected test sets (instead of releasing a single corrected test set for each dataset)?** ML practioners may need to make different decisions when correcting a test set. You may need to include multi-label examples in the corrected test set whereas we removed these examples in [our analysis](https://arxiv.org/abs/2103.14749). You may want to only correct examples where all (5 of the 5) mTurk workers agree on a new label, or you may want to correct the label as long as a consensus (3 out of 5) is reached. The [label-errors/mturk/](https://github.com/cleanlab/label-errors/tree/main/mturk) files support both options. For the large Amazon Reviews and QuickDraw datasets which had too many label errors to correct, we provide [the tools](https://github.com/cleanlab/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb) to find the label errors.
 
 ## Step-by-step Tutorial: Find Label Errors in each Dataset
 
-Get started here: [`Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cgnorthcutt/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)
+Get started here: [`Tutorial - How To Find Label Errors With CleanLab.ipynb`](https://github.com/cleanlab/label-errors/blob/main/examples/Tutorial%20-%20How%20To%20Find%20Label%20Errors%20With%20CleanLab.ipynb)
 
 
 ## How to Download, Prepare, and Index the Datasets
@@ -194,7 +194,7 @@ import numpy as np
 # !!!CHANGE THIS TO YOUR DIRECTORY WHERE YOU DOWNLOADED THE NUMPY BITMAPS
 QUICKDRAW_NUMPY_BITMAP_DIR = '/datasets/datasets/quickdraw/numpy_bitmap/'
 
-# !!!CHANGE THESE TO WHERE YOU CLONE https://github.com/cgnorthcutt/label-errors
+# !!!CHANGE THESE TO WHERE YOU CLONE https://github.com/cleanlab/label-errors
 # Load predictions and indices of label errors
 pred = np.load('/datasets/cgn/pyx/quickdraw/pred__epochs_20.npy')
 le_idx = np.load('/datasets/cgn/pyx/quickdraw/label_errors_idx__epochs_20.npy')
@@ -269,7 +269,7 @@ plt.imshow(
 plt.show()
 print('^ should match https://labelerrors.com/static/quickdraw/44601012.png')
 ```
-If this example does not work for you, please let us know [[here](https://github.com/cgnorthcutt/label-errors/issues)].
+If this example does not work for you, please let us know [[here](https://github.com/cleanlab/label-errors/issues)].
 
 </p>
 </details>
@@ -278,7 +278,7 @@ If this example does not work for you, please let us know [[here](https://github
 
 ### How to obtain/prepare the dataset
 
-Download [[this pre-prepared release of the Amazon5core Reviews dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/amazon-reviews-dataset)].
+Download [[this pre-prepared release of the Amazon5core Reviews dataset](https://github.com/cleanlab/label-errors/releases/tag/amazon-reviews-dataset)].
 
 This dataset has been prepared for you already so that the indices of the label errors will match the dataset.
 
@@ -291,7 +291,7 @@ cat amazon5core.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lowe
 
 ### Examples finding label errors.
 
-Examples are available in the [[`cleanlab/examples/amazon_reviews_dataset`](https://github.com/cgnorthcutt/cleanlab/tree/master/examples/amazon_reviews_dataset)] module.
+Examples are available in the [[`cleanlab/examples/amazon_reviews_dataset`](https://github.com/cleanlab/cleanlab/tree/master/examples/amazon_reviews_dataset)] module.
 
 </p>
 </details>
@@ -365,9 +365,9 @@ The indices of `test_data['data']` and `test_data['target']` should match the in
 
 ### How to obtain/prepare the dataset
 
-AudioSet provides an `eval` test set and pre-computed training features (128-length 8-bit quantized embeddings for every 1 second of audio, and each audio clip is 10 seconds, resulting in a 128x10 matrix representation). The original dataset embeddings are available [here](https://research.google.com/audioset/download.html), but they are formatted as tfrecords. For your convenience, we preprocessed and released a Numpy version of the AudioSet Dataset formatted using only numpy matrices and python lists. **Download the dataset here**: https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset. 
+AudioSet provides an `eval` test set and pre-computed training features (128-length 8-bit quantized embeddings for every 1 second of audio, and each audio clip is 10 seconds, resulting in a 128x10 matrix representation). The original dataset embeddings are available [here](https://research.google.com/audioset/download.html), but they are formatted as tfrecords. For your convenience, we preprocessed and released a Numpy version of the AudioSet Dataset formatted using only numpy matrices and python lists. **Download the dataset here**: https://github.com/cleanlab/label-errors/releases/tag/numpy-audioset-dataset. 
 
-Details about the [Numpy AudioSet dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) (how we processed the original AudioSet dataset and what files are contained in the dataset) are available in the release.
+Details about the [Numpy AudioSet dataset](https://github.com/cleanlab/label-errors/releases/tag/numpy-audioset-dataset) (how we processed the original AudioSet dataset and what files are contained in the dataset) are available in the release.
 
 Your AudioSet file structure should look like this *(**click the files you're missing to download them**)*:
 
@@ -380,7 +380,7 @@ audioset/
 │   │── [unbalanced_train_segments.csv](http://storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/unbalanced_train_segments.csv)  
 │   '── unbal_train  *(optional - tfrecords version of embeddings)*  
 │── [class_labels_indices.csv](http://storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/class_labels_indices.csv)  
-│──  preprocessed/ ---> *Download here: https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset.*  
+│──  preprocessed/ ---> *Download here: https://github.com/cleanlab/label-errors/releases/tag/numpy-audioset-dataset.*  
 │   │── bal_train_features.p  
 │   │── bal_train_labels.p  
 │   │── bal_train_video_ids.p  
@@ -456,11 +456,11 @@ Specific examples covered in the drop-down ▶ datasets above ⬆️:
 * For **ImageNet**
   - how to download the dataset and prepare it for training with PyTorch
 * For **QuickDraw**
-  - a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/examples/quickdraw_example_index_the_dataset_files.py) that maps the global indices of label errors from https://labelerrors.com to specific rows of examples in each dataset file
+  - a [working code example](https://github.com/cleanlab/label-errors/blob/main/examples/quickdraw_example_index_the_dataset_files.py) that maps the global indices of label errors from https://labelerrors.com to specific rows of examples in each dataset file
 * For **Amazon Reviews**
-  - released a [pre-processed Amazon Reviews dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/amazon-reviews-dataset) that matches the index of the corrected test sets and label errors on https://labelerrors.com.
+  - released a [pre-processed Amazon Reviews dataset](https://github.com/cleanlab/label-errors/releases/tag/amazon-reviews-dataset) that matches the index of the corrected test sets and label errors on https://labelerrors.com.
 * For **AudioSet**
-  - released an easy-to-use [Numpy version of the AudioSet Dataset](https://github.com/cgnorthcutt/label-errors/releases/tag/numpy-audioset-dataset) with a [working code example](https://github.com/cgnorthcutt/label-errors/blob/main/examples/audioset_example_how_to_index_data_and_labels.py) to index the dataset and view label errors / correct examples from a list of indices.
+  - released an easy-to-use [Numpy version of the AudioSet Dataset](https://github.com/cleanlab/label-errors/releases/tag/numpy-audioset-dataset) with a [working code example](https://github.com/cleanlab/label-errors/blob/main/examples/audioset_example_how_to_index_data_and_labels.py) to index the dataset and view label errors / correct examples from a list of indices.
 
 
 ## Citation
@@ -512,7 +512,7 @@ label-errors is free software: you can redistribute it and/or modify it under th
 
 label-errors is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 
-See `GNU General Public LICENSE <https://github.com/cgnorthcutt/label-errors/blob/master/LICENSE>`__ for details.
+See `GNU General Public LICENSE <https://github.com/cleanlab/label-errors/blob/master/LICENSE>`__ for details.
 
 THIS LICENSE APPLIES TO THIS VERSION AND ALL PREVIOUS VERSIONS OF label-errors.
 
