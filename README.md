@@ -465,16 +465,14 @@ Specific examples covered in the drop-down ▶ datasets above ⬆️:
 
 ## Citation
 
-If you use this for your work, please cite [this paper](https://arxiv.org/pdf/2103.14749.pdf):
+If you use this package for research, please cite [the paper](https://arxiv.org/abs/2103.14749):
 
 ```
-@misc{northcutt2021labelerrors,
+@inproceedings{northcutt2021labelerrors,
       title={Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks}, 
       author={Curtis G. Northcutt and Anish Athalye and Jonas Mueller},
       year={2021},
-      eprint={2103.14749},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
+      booktitle={Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks}
 }
 ```
 
