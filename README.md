@@ -471,8 +471,9 @@ If you use this package for research, please cite [the paper](https://arxiv.org/
 @inproceedings{northcutt2021labelerrors,
       title={Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks}, 
       author={Curtis G. Northcutt and Anish Athalye and Jonas Mueller},
+      month={December},
       year={2021},
-      booktitle={Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks}
+      booktitle={Proceedings of the 35th Conference on Neural Information Processing Systems Track on Datasets and Benchmarks}
 }
 ```
 
