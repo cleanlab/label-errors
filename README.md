@@ -14,7 +14,7 @@ Browse the label errors at <a href="https://labelerrors.com">https://labelerrors
 
 Corrections are better than the datasets' given test labels, but they are **NOT** 100% perfect, nor are they intended to be. Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cleanlab/label-errors/discussions/4)].**
 
-Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cleanlab/cleanlab) package. 
+Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cleanlab/cleanlab) package (specifically, [cleanlab v1.0](https://pypi.org/project/cleanlab/1.0/) was used).
 
 
 ## Contents
@@ -511,7 +511,7 @@ label-errors is free software: you can redistribute it and/or modify it under th
 
 label-errors is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 
-See `GNU General Public LICENSE <https://github.com/cleanlab/label-errors/blob/master/LICENSE>`__ for details.
+See [GNU General Public LICENSE](https://github.com/cleanlab/label-errors/blob/master/LICENSE) for details.
 
 THIS LICENSE APPLIES TO THIS VERSION AND ALL PREVIOUS VERSIONS OF label-errors.
 
