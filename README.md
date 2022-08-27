@@ -57,11 +57,11 @@ For each dataset, I've shared code (or step-by-step instructions) to obtain the 
 from torchvision import datasets
 data_dir = PATH_TO_STORE_THE_DATASET
 # Obtain the test set (what we correct in this repo)
-test_data = datasets.MNIST(data_dir, train=False, download=True).test_labels.numpy()
-test_labels = datasets.MNIST(data_dir, train=False, download=True).test_labels.numpy()
+test_data = datasets.MNIST(data_dir, train=False, download=True).data.numpy()
+test_labels = datasets.MNIST(data_dir, train=False, download=True).targets.numpy()
 # We don't provide corrected train sets, but if interested, here is how to obtain the train set.
-train_data = datasets.MNIST(data_dir, train=True, download=True).test_data.numpy()
-train_labels = datasets.MNIST(data_dir, train=True, download=True).test_data.numpy()
+train_data = datasets.MNIST(data_dir, train=True, download=True).data.numpy()
+train_labels = datasets.MNIST(data_dir, train=True, download=True).targets.numpy()
 ```
 
 
