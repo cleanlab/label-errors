@@ -14,7 +14,7 @@ Browse the label errors at <a href="https://labelerrors.com">https://labelerrors
 
 Corrections are better than the datasets' given test labels, but they are **NOT** 100% perfect, nor are they intended to be. Some mistakes still exist. **Please report errors (with corrections) [[here](https://github.com/cleanlab/label-errors/discussions/4)].**
 
-Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cleanlab/cleanlab) package (specifically, [cleanlab v1.0](https://pypi.org/project/cleanlab/1.0/) was used).
+Label errors are found based on [confident learning](https://l7.curtisnorthcutt.com/confident-learning) via the open-source [cleanlab](https://github.com/cleanlab/cleanlab) package. Specifically, [cleanlab v1.0](https://pypi.org/project/cleanlab/1.0/) was used, which you need to install to run any cleanlab code from this repo.
 
 
 ## Contents

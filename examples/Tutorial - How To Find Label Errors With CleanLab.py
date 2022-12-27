@@ -43,7 +43,7 @@ To more closely match the label errors on labelerrors.com and in the paper,
 set reproduce_labelerrors_dot_com = True
 """
 
-import cleanlab
+import cleanlab  # this script requires cleanlab v1.0: https://pypi.org/project/cleanlab/1.0/ 
 import numpy as np
 import json
 from util import ALL_CLASSES
