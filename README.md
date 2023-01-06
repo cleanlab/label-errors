@@ -507,7 +507,7 @@ We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-20
 
 ## License
 
-Copyright (c) 2021-2022 Cleanlab Inc.
+Copyright (c) 2021-2023 Cleanlab Inc.
 
 label-errors is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
