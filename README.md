@@ -503,18 +503,3 @@ We gave a [contributed talk](https://sites.google.com/connect.hku.hk/robustml-20
 * [Tech Xplore](https://techxplore.com/news/2021-03-major-machine-datasets-tens-thousands.html)
 * [News18](https://www.news18.com/news/tech/ai-is-getting-a-few-things-wrong-because-humans-may-have-incorrectly-labeled-a-bunch-of-images-3587147.html)
 * [Healthcare IT News](https://www.healthcareitnews.com/news/label-errors-abound-most-common-ai-test-sets) -->
-
-
-## License
-
-Copyright (c) 2021-2023 Cleanlab Inc.
-
-label-errors is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-label-errors is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
-
-See [GNU General Public LICENSE](https://github.com/cleanlab/label-errors/blob/master/LICENSE) for details.
-
-THIS LICENSE APPLIES TO THIS VERSION AND ALL PREVIOUS VERSIONS OF label-errors.
-
-Any data uploaded (e.g., dataset labels), which has previously been published elsewhere, adheres to the original license from which the data originated.
